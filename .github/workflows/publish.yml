@@ -27,6 +27,14 @@ jobs:
         run: |
           go test ./...
           go build -o publisher .
+      - name: Check required secret
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo 'Add the TELEGRAM_BOT_TOKEN repository Actions secret before running the publisher.'
+            exit 1
+          fi
       - name: Reserve next lesson and persist before sending
         env:
           TELEGRAM_CHANNEL: '@rza_school'
