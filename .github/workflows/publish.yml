@@ -1,0 +1,60 @@
+name: Publish RZA lesson
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rza-channel-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Verify and build
+        run: |
+          go test ./...
+          go build -o publisher .
+      - name: Reserve next lesson and persist before sending
+        env:
+          TELEGRAM_CHANNEL: '@rza_school'
+        run: |
+          ./publisher -reserve
+          git config user.name 'rza-publisher[bot]'
+          git config user.email 'rza-publisher@users.noreply.github.com'
+          if [ -f .publisher-state.json ]; then
+            git add .publisher-state.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Reserve next RZA lesson'
+              git push origin HEAD:${{ github.event.repository.default_branch }}
+            fi
+          fi
+      - name: Publish reserved lesson
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: '@rza_school'
+        run: ./publisher -deliver
+      - name: Save delivery result
+        if: ${{ always() }}
+        run: |
+          if [ -f .publisher-state.json ]; then
+            git config user.name 'rza-publisher[bot]'
+            git config user.email 'rza-publisher@users.noreply.github.com'
+            git add .publisher-state.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Save RZA publication result'
+              git push origin HEAD:${{ github.event.repository.default_branch }}
+            fi
+          fi
