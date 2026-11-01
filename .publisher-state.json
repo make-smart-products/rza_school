@@ -12,5 +12,11 @@
     "status": "sent",
     "message_id": 5,
     "channel": "@rza_school"
+  },
+  {
+    "file": "003-speed.txt",
+    "sha256": "37c310776c3acc5c0d79b195ffedf148ed283fa3d262a8e02be21a3c1de06ada",
+    "status": "pending",
+    "channel": "@rza_school"
   }
 ]
