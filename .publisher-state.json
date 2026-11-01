@@ -9,7 +9,8 @@
   {
     "file": "002-selectivity.txt",
     "sha256": "91a8b490f6d027fe5a1c6893024517f344e29b4302862e5e710a004e575559e4",
-    "status": "pending",
+    "status": "sent",
+    "message_id": 5,
     "channel": "@rza_school"
   }
 ]
