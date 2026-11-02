@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
+    inputs:
+      prepare_only:
+        description: 'Prepare and save lessons without publishing'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -35,21 +41,28 @@ jobs:
             echo 'Add the TELEGRAM_BOT_TOKEN repository Actions secret before running the publisher.'
             exit 1
           fi
+      - name: Prepare free course continuation
+        run: ./publisher -prepare -buffer 6
       - name: Reserve next lesson and persist before sending
         env:
           TELEGRAM_CHANNEL: '@rza_school'
+          PREPARE_ONLY: ${{ inputs.prepare_only || false }}
         run: |
-          ./publisher -reserve
+          if [ "$PREPARE_ONLY" != "true" ]; then
+            ./publisher -reserve
+          fi
           git config user.name 'rza-publisher[bot]'
           git config user.email 'rza-publisher@users.noreply.github.com'
+          git add posts/lessons
           if [ -f .publisher-state.json ]; then
             git add .publisher-state.json
-            if ! git diff --cached --quiet; then
-              git commit -m 'Reserve next RZA lesson'
-              git push origin HEAD:${{ github.event.repository.default_branch }}
-            fi
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Prepare course continuation and reserve next RZA lesson'
+            git push origin HEAD:${{ github.event.repository.default_branch }}
           fi
       - name: Publish reserved lesson
+        if: ${{ inputs.prepare_only != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: '@rza_school'

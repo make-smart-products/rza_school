@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"sort"
 	"strings"
 	"time"
 	"unicode/utf8"
@@ -88,7 +87,7 @@ func reserveNext(dir, statePath string) error {
 	if err != nil {
 		return err
 	}
-	sort.Strings(files)
+	sortLessonFiles(files)
 	for _, file := range files {
 		name := filepath.Base(file)
 		if known[name] {
