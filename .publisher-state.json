@@ -19,5 +19,11 @@
     "status": "sent",
     "message_id": 6,
     "channel": "@rza_school"
+  },
+  {
+    "file": "004-sensitivity.txt",
+    "sha256": "d4f440da4158092524b51300d980fb75423d09a9bf5ee5acf74e9ed70b511076",
+    "status": "pending",
+    "channel": "@rza_school"
   }
 ]
