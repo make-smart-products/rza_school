@@ -30,7 +30,8 @@
   {
     "file": "005-reliability.txt",
     "sha256": "b83e18e1bdfc6b05d7e59f0e19e5b0605e813a091fab04f4fc34a4caa6fe1cd9",
-    "status": "pending",
+    "status": "sent",
+    "message_id": 8,
     "channel": "@rza_school"
   }
 ]
