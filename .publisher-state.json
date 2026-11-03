@@ -40,5 +40,11 @@
     "status": "sent",
     "message_id": 9,
     "channel": "@rza_school"
+  },
+  {
+    "file": "007-auto.txt",
+    "sha256": "ad1bbe017e3c2f70368da5a0d1169345d33286f626dc40c4f5fcc75950a3c536",
+    "status": "pending",
+    "channel": "@rza_school"
   }
 ]
