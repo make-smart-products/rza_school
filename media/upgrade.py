@@ -37,6 +37,7 @@ def edit(token,message_id,draft):
     for key,value in fields.items():
         chunks.append((f'--{boundary}\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n{value}\r\n').encode())
     mime='image/gif' if draft['kind']=='animation' else 'image/png'
+    if draft['kind']=='animation' and asset.suffix.lower()=='.mp4': mime='video/mp4'
     chunks.append((f'--{boundary}\r\nContent-Disposition: form-data; name="asset"; filename="{asset.name}"\r\nContent-Type: {mime}\r\n\r\n').encode()+asset.read_bytes()+b'\r\n')
     chunks.append((f'--{boundary}--\r\n').encode())
     payload=b''.join(chunks)

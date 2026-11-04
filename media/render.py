@@ -3,16 +3,13 @@ import argparse
 import hashlib
 import html
 import json
-import math
 import re
 from decimal import Decimal
 from pathlib import Path
-from functools import lru_cache
 
-from PIL import Image, ImageDraw, ImageFont
+from drawing_v3 import draw_frame, encode_animation, is_animated, W, H
 
-VERSION = 2
-W, H = 1200, 900
+VERSION = 3
 BG, PANEL, INK, MUTED, ACCENT, AMBER = '#081b2b', '#123047', '#f1f7fb', '#b5cbd8', '#31d7d0', '#ffca70'
 PLANS = [
     ('Измерительная цепочка', ['Силовая цепь', 'ТТ / ТН', 'Терминал', 'Команда'], 'Результат зависит от всей цепи измерения.'),
@@ -48,39 +45,6 @@ INTRO = [
     ('Надёжность', ['Нужное действие', 'Правильный момент', 'Отсутствие лишнего действия'], 'Рассматривают всю систему, а не только терминал.'),
     ('Защита и выключатель', ['Входные сигналы', 'Решение защиты', 'Отключение цепи'], 'Команда и её исполнение — разные этапы.'),
 ]
-
-
-@lru_cache(maxsize=32)
-def font(size, bold=False):
-    names = (['C:/Windows/Fonts/arialbd.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'] if bold else
-             ['C:/Windows/Fonts/arial.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'])
-    for name in names:
-        if Path(name).exists():
-            return ImageFont.truetype(name, size)
-    raise RuntimeError('A Cyrillic-capable Arial or DejaVu Sans font is required')
-
-
-def wrap(draw, text, face, width):
-    lines, line = [], ''
-    for word in text.split():
-        trial = (line + ' ' + word).strip()
-        if line and draw.textlength(trial, font=face) > width:
-            lines.append(line)
-            line = word
-        else:
-            line = trial
-    return lines + ([line] if line else [])
-
-
-def block(draw, text, xy, width, size=28, color=INK, bold=False, center=False):
-    text=text.translate(str.maketrans('₀₁₂₃₄₅₆₇₈₉','0123456789'))
-    face = font(size, bold)
-    x, y = xy
-    for line in wrap(draw, text, face, width):
-        dx = (width - draw.textlength(line, font=face)) / 2 if center else 0
-        draw.text((x + dx, y), line, font=face, fill=color)
-        y += int(size * 1.35)
-    return y
 
 
 def decimal(value):
@@ -146,83 +110,33 @@ def caption(data):
     return text,'\n\n'.join(formatted)
 
 
-def base(data):
-    im=Image.new('RGB',(W,H),BG); draw=ImageDraw.Draw(im)
-    block(draw,'РЗА  /  ШКОЛА РЕЛЕЙНОЙ ЗАЩИТЫ',(64,35),1070,20,MUTED)
-    block(draw,data['title'],(64,100),1070,44,INK,True)
-    draw.rounded_rectangle((64,240,1136,247),radius=3,fill=ACCENT)
-    draw.rounded_rectangle((45,285,1155,720),radius=24,fill=PANEL)
-    if data['kind'] in ['timing','events']:
-        block(draw,'Темп анимации условный; показана последовательность',(64,753),1070,21,MUTED)
-    block(draw,'Учебная схема • реальные алгоритмы зависят от проекта',(64,817),1070,20,MUTED)
-    return im,draw
-
-
-def arrow(draw,x1,y,x2,color=ACCENT):
-    draw.line((x1,y,x2,y),fill=color,width=5)
-    draw.polygon([(x2,y),(x2-13,y-8),(x2-13,y+8)],fill=color)
-
-
-def nodes(draw,labels,active=-1):
-    count=len(labels); gap=38; width=(1032-gap*(count-1))/count; x=84
-    for i,label in enumerate(labels):
-        rect=(x,385,x+width,580)
-        draw.rounded_rectangle(rect,radius=18,fill=BG,outline=AMBER if i==active else ACCENT,width=3)
-        block(draw,label,(x+15,432),width-30,27,AMBER if i==active else INK,True,True)
-        if i<count-1: arrow(draw,x+width+5,480,x+width+gap-5)
-        x+=width+gap
-
-
 def frame(data,progress=1):
-    im,draw=base(data); kind=data['kind']
-    if kind=='concept':
-        nodes(draw,data['nodes'])
-        block(draw,data['note'],(85,635),1030,24,MUTED,False,True)
-    elif kind=='ratio':
-        nodes(draw,[f"I₁ = {data['primary']} А",f"K = {data['k']}",f"I₂ = {data['secondary']} А"])
-        block(draw,'I₁ = K × I₂',(85,635),1030,31,AMBER,True,True)
-    elif kind=='timing':
-        values=data['values']; labels=['Защита','Команда','Выключатель']; total=data['total']; x=95
-        for value,label,color in zip(values,labels,[ACCENT,AMBER,'#94bafa']):
-            width=1010*value/total
-            draw.rectangle((x,465,x+width,520),fill=color)
-            x+=width
-        x=95+1010*progress
-        draw.line((x,435,x,550),fill=INK,width=4)
-        draw.ellipse((x-9,421,x+9,439),fill=INK)
-        for i,(value,label) in enumerate(zip(values,labels)):
-            block(draw,f'{label}: {value} мс',(95+i*345,350),325,25,INK,True)
-        block(draw,f"t = {' + '.join(map(str,values))} = {total} мс",(95,605),1010,34,INK,True,True)
-        block(draw,'Последовательная модель: этапы не перекрываются',(95,660),1010,22,MUTED,False,True)
-    elif kind=='events':
-        a,b=data['values']; arrow(draw,115,480,1085)
-        for x,label in [(190,f'Пуск: {a} мс'),(1000,f'Команда: {b} мс')]:
-            draw.line((x,450,x,510),fill=INK,width=4)
-            block(draw,label,(x-145,370),290,26,INK,True,True)
-        x=190+810*progress; draw.ellipse((x-14,466,x+14,494),fill=AMBER)
-        block(draw,f"Δt = {b} − {a} = {data['gap']} мс",(100,600),1000,36,INK,True,True)
-        block(draw,'Одна шкала времени; сравниваем отметки',(100,665),1000,23,MUTED,False,True)
-    elif kind=='balance':
-        a,b=data['values']; nodes(draw,[f'Iвх = {a} мА','Одна база и фаза',f'Iвых = {b} мА'])
-        block(draw,f"|Iвх − Iвых| = {data['difference']} мА",(85,635),1030,32,AMBER,True,True)
-    else:
-        nodes(draw,[f"{data['ms']} мс",'÷ 1000',f"{data['seconds']} с"])
-        block(draw,'1 с = 1000 мс',(85,635),1030,32,AMBER,True,True)
-    return im
+    return draw_frame(data,progress)
 
 
 def render(path,output):
     path=Path(path); output=Path(output); output.mkdir(parents=True,exist_ok=True)
     source=path.read_text(encoding='utf-8-sig').strip(); data=describe(path.name,source)
     plain,formatted=caption(data)
-    animation=data['kind'] in ['timing','events']
-    asset=output/(path.stem+('.gif' if animation else '.png'))
-    if animation:
-        frames=[frame(data,i/23).convert('P',palette=Image.Palette.ADAPTIVE,colors=96) for i in range(24)]
-        frames[0].save(asset,save_all=True,append_images=frames[1:],duration=[110]*23+[1500],loop=0,optimize=True,disposal=2)
-    else:
+    animation=is_animated(data)
+    asset=output/(path.stem+('.mp4' if animation else '.png'))
+    pipeline_hash=hashlib.sha256(Path(__file__).read_bytes()+(Path(__file__).parent/'drawing_v3.py').read_bytes()).hexdigest()
+    metadata_path=output/(path.stem+'.json')
+    source_hash=hashlib.sha256(source.encode()).hexdigest()
+    if metadata_path.exists() and asset.exists():
+        try:
+            cached=json.loads(metadata_path.read_text(encoding='utf-8'))
+            if cached.get('version')==VERSION and cached.get('source_sha256')==source_hash and cached.get('pipeline_sha256')==pipeline_hash and cached.get('render_sha256')==hashlib.sha256(asset.read_bytes()).hexdigest():
+                return cached
+        except (ValueError,OSError):
+            pass
+    duration=encode_animation(data,asset) if animation else 0
+    if not animation:
         frame(data).save(asset,optimize=True)
+    if not asset.exists() or asset.stat().st_size<100:
+        raise RuntimeError('Media encoder did not create a valid asset')
     result={'path':str(asset.resolve()),'kind':'animation' if animation else 'photo','caption':plain,'caption_html':formatted,'caption_sha256':hashlib.sha256(plain.encode()).hexdigest(),'source_sha256':hashlib.sha256(source.encode()).hexdigest(),'version':VERSION,'render_sha256':hashlib.sha256(asset.read_bytes()).hexdigest()}
+    result.update(pipeline_sha256=pipeline_hash,width=W,height=H,duration=duration,format='mp4' if animation else 'png')
     (output/(path.stem+'.json')).write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     return result
 

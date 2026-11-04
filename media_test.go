@@ -12,9 +12,10 @@ import (
 )
 
 func TestMediaUploadPreservesCaptionAndConfirmsFile(t *testing.T) {
-	for _, kind := range []string{"photo", "animation"} {
-		t.Run(kind, func(t *testing.T) {
-			path := filepath.Join(t.TempDir(), "asset.png")
+	for _, tc := range []struct{ kind, extension, mime string }{{"photo", ".png", "image/png"}, {"animation", ".gif", "image/gif"}, {"animation", ".mp4", "video/mp4"}} {
+		t.Run(tc.kind+tc.extension, func(t *testing.T) {
+			kind := tc.kind
+			path := filepath.Join(t.TempDir(), "asset"+tc.extension)
 			asset := []byte("test media bytes")
 			if err := os.WriteFile(path, asset, 0600); err != nil {
 				t.Fatal(err)
@@ -35,11 +36,14 @@ func TestMediaUploadPreservesCaptionAndConfirmsFile(t *testing.T) {
 				if r.FormValue("chat_id") != "@rza_school" || r.FormValue("caption") != "<b>Пример</b>" || r.FormValue("parse_mode") != "HTML" {
 					t.Fatal("lost channel or caption formatting")
 				}
-				file, _, err := r.FormFile(kind)
+				file, header, err := r.FormFile(kind)
 				if err != nil {
 					t.Fatal(err)
 				}
 				defer file.Close()
+				if header.Header.Get("Content-Type") != tc.mime {
+					t.Fatal("incorrect media content type")
+				}
 				data, _ := io.ReadAll(file)
 				if string(data) != string(asset) {
 					t.Fatal("asset changed during upload")

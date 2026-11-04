@@ -89,6 +89,9 @@ func sendMedia(client *http.Client, baseURL, token, channel string, draft mediaD
 	contentType, method := "image/png", "sendPhoto"
 	if draft.Kind == "animation" {
 		contentType, method = "image/gif", "sendAnimation"
+		if strings.EqualFold(filepath.Ext(draft.Path), ".mp4") {
+			contentType = "video/mp4"
+		}
 	}
 	header.Set("Content-Type", contentType)
 	part, err := writer.CreatePart(header)
