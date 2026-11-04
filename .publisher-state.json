@@ -142,7 +142,589 @@
   {
     "file": "021-auto.txt",
     "sha256": "0732de644c0f47b562350deea643881796e2c618ccc29aa602f044fad6e6cca0",
-    "status": "attempted",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "022-auto.txt",
+    "sha256": "ca35d0656d434f671f15b876f715a48f2e1ee42f371faa9694de827c576d99cf",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "023-auto.txt",
+    "sha256": "04f26da9502079039accfcf649b836d386e2785103780b74a819436649f44e11",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "024-auto.txt",
+    "sha256": "19ac45f5dea1eaceb8eaed719c7701d45950f69cfc437214eada930fa03b015c",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "025-auto.txt",
+    "sha256": "f32f57da522bd51b892f2c239dc692b329d398c19fc59e21b11ce643af1707df",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "026-auto.txt",
+    "sha256": "576be93805e67dd2cf709c39a58d4af7c25a5ebaf22c3922df94d645febba9f4",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "027-auto.txt",
+    "sha256": "31c21d4779e244606121a423888db988a4f7b9a1cc83932c7946b23d0f73726f",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "028-auto.txt",
+    "sha256": "9dd2d8d9abc6264d657a10240ea712a0d3520bb1566ed36f472ef6ae402d8174",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "029-auto.txt",
+    "sha256": "848b8576f75a8ecccc8595e1986c7c3315494e2a21911c3c25357b39538963ce",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "030-auto.txt",
+    "sha256": "d7766f7f033deda86e8f8083d3d5fc18d53d107aa88df466d74631b8b90b1699",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "031-auto.txt",
+    "sha256": "19c50aae55560a392f3ba0c4bf010f1a6f5754b0043ccb8c5e9cf1a50eaae3d3",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "032-auto.txt",
+    "sha256": "110d0797d2d3ec6adf17c7ae5e432e5768c9a87eb2bd565d2e0b681b2be0e901",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "033-auto.txt",
+    "sha256": "cbc80306732d4bf26e758787442b8a70271d86989c710628855bcb979abe5b6b",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "034-auto.txt",
+    "sha256": "c03d1f9d09f52bc2f993d6483782b49acf47a8ce0ffa011378d39a19186e6a44",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "035-auto.txt",
+    "sha256": "d642d7beabf7b85159b7469fb8cd0facfe316337cc71c6d7b7ea9c4146d31da8",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "036-auto.txt",
+    "sha256": "7d7620bad7fa5d67126815c4a30a18b9441c2ce592133cb1bf78154d99846d35",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "037-auto.txt",
+    "sha256": "5df7e5055e3352e492c25f18731d17b31fb186613c6eba182631e9f2b7967149",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "038-auto.txt",
+    "sha256": "dc29d6634d00fecfb4f01552f9446b86b1a6927f3b130f3fdc940086cc5f0267",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "039-auto.txt",
+    "sha256": "f57f6a89252bd2fc15503b93dc10f12c86cf82b8f6263dc9bfecdff485593f4a",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "040-auto.txt",
+    "sha256": "a70737aeae0b4eadfe2afc5109293de6aa26dfeaeec93319ce0d14a47694a612",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "041-auto.txt",
+    "sha256": "143b4f5828387c42a3545efd966f6b11522d89eeb835d12529105fd3d79e7b71",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "042-auto.txt",
+    "sha256": "ff87cb06e76847a5492e8b210ab53d7f9c78d8d0e112df5799ccecc3e4ddb3b4",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "043-auto.txt",
+    "sha256": "7eaff29ef1faac5d565aa4f9fb089156e9694e1af6dcc3843687858b71509d5d",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "044-auto.txt",
+    "sha256": "5f53e53e9870b14be84372dfd635ffafced1a669eb1f9de7f7a19585fda65e21",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "045-auto.txt",
+    "sha256": "df09d392aebfe19b1e0e5ec42fde1a856bd644e68b9a554f334aa067f093b910",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "046-auto.txt",
+    "sha256": "c177fabba4268822979243d8f47677706c3cb1e89ebae35994bc760228d83a8a",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "047-auto.txt",
+    "sha256": "a274f97613b3527a275e384bdfca97a68b10f39cb32b4a1e24e202371018568e",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "048-auto.txt",
+    "sha256": "71a9d9de5123ba035adc321afa68364f7c94361943a268995dbd025549328e79",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "049-auto.txt",
+    "sha256": "52bfb7f298c890de6d1059a336ea71b8fae169b62a74e54c0bb0f15a0d51644c",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "050-auto.txt",
+    "sha256": "04864833c59c2553f95dfad8ec99d0ca8e872ec78961480be089838612f4ed3e",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "051-auto.txt",
+    "sha256": "280f402a1391cc45ddd247d815553ebafa5569f400e1dd0987bdec75a4d8a70a",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "052-auto.txt",
+    "sha256": "bcbcc47843a4e04dc91f2bf1fbee6a090e0f7f89679bb7af03ab3e4dada44e8c",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "053-auto.txt",
+    "sha256": "864ca1ef66c359e4c78344f7e08fc984a8809c741f0dd617e72e845088ed8de3",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "054-auto.txt",
+    "sha256": "bd63ab7ae26fe0040127f959140014d5f6ee4eda45b1ad6afcd8c16ef370aea4",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "055-auto.txt",
+    "sha256": "6609e2768ac6728274c372aed96dccbd2fa855ebf476bd7c4ba02c97030c48b6",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "056-auto.txt",
+    "sha256": "bb6fc98476bf052a77f87fd9aaffb3e2fc97302318d69818d282817386f99059",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "057-auto.txt",
+    "sha256": "3b84ed9529cf1a857d631be010838be79a50c4023e7ad0ade2eb1bcffbee63e6",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "058-auto.txt",
+    "sha256": "e58470535996e4f436e07cb3f7726017a024dbe51502eec2185e083ce56363d5",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "059-auto.txt",
+    "sha256": "278743e2a0753fc0e5ddbf712d3d3b95f9ed2bd6ae6610c92a5ea78ba69d7083",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "060-auto.txt",
+    "sha256": "e1fb8d8220e4ec84312fb330ff03fca51b0290db554e4cb3a5ea107422563a72",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "061-auto.txt",
+    "sha256": "6bd69c37fa4003aba3dcf654653d2187cbb5d8b9cdabccccb00e70daa63c9c72",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "062-auto.txt",
+    "sha256": "efb81ecb853026b55d1f6a32b88742f7fb964310017804f62aae7a10d9e82cfc",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "063-auto.txt",
+    "sha256": "2f755d7eb8c189408e109fb62214421bcc20f534dcffa9530db09f7dc4f9d5c0",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "064-auto.txt",
+    "sha256": "895374fe45a4c0ccef5db08dfe267687b23657188a89ce57ee16d6f2f86a217d",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "065-auto.txt",
+    "sha256": "8f3dec99787ddd71f8c3b373850b857b61bbc5dce7890c35cb66a77a5374df43",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "066-auto.txt",
+    "sha256": "4580e50e7df5628c132ec9d00a9376f2a0a90fde92d12fcd3130b59c68544ce5",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "067-auto.txt",
+    "sha256": "986527e1cca3e856e57a8135bd59ec8503699d57bc59446953e5155209cf4bb8",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "068-auto.txt",
+    "sha256": "687811748054252d52733cf877d24e804ad9d47e193c476ed7ddd556cd76d06a",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "069-auto.txt",
+    "sha256": "be20f9791d3db55a36349d3953aa28bab207cf744f7db41620620a942c61fa45",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "070-auto.txt",
+    "sha256": "4acea3e90fffadc1c6e345be53b777a6d1da41c713f4f78924e66aab235fb5c5",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "071-auto.txt",
+    "sha256": "61686435a734e5f91cc755280a630358992854772f281da9a31bacd71ef6eaa8",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "072-auto.txt",
+    "sha256": "ed29111f2e244e0441c4f7f3988515e4725e7e56f8b6cc31e6b820f6880e64c3",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "073-auto.txt",
+    "sha256": "6af235fb246075da44f86780c94df028f9e0acd691b14782e4003fbdb55013c2",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "074-auto.txt",
+    "sha256": "532d1929f9f6f00719da2324afd01a418afcde1cd9188f061eb838b2c9eb2343",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "075-auto.txt",
+    "sha256": "b541c77285b7987cdb8ef702ba91d8c5fd2fa63144c6216de7d65580a26c728f",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "076-auto.txt",
+    "sha256": "7d196a52096be732ddce0c51200a1517038c46b203bc2de6f77ca93a66cce325",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "077-auto.txt",
+    "sha256": "79e55a3e9d1ce8cbd124759c714abe25f3a0439a9c6012b390b7ab9cbe616b41",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "078-auto.txt",
+    "sha256": "b6498d229f066e57f450d5b762e4fbcb0f698b7adb94000c4026f790e7837e73",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "079-auto.txt",
+    "sha256": "3b45c351705ff41452bd0b549228d8e22d45a470f017bd32bcc014609ff21b8e",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "080-auto.txt",
+    "sha256": "83146cecb8708571310af4e005459f21521eb4e4928a7e4b4defe5573c000618",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "081-auto.txt",
+    "sha256": "881094e78099a205b1af3b316c89c13c3c2ea973b8e2dfeb21e7a386bf76edcf",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "082-auto.txt",
+    "sha256": "fe1ac540e253692726a1a791c918cf690b725d4c3e0da4c435127144db1869cd",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "083-auto.txt",
+    "sha256": "b79bed921d2351fb2105f4ba3eecc52f3b4b31174125ea220c6deb1e0f07a15e",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "084-auto.txt",
+    "sha256": "d21086efff3b42517938622dbd38b98767b04773abc11bf70f30498d372e012d",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "085-auto.txt",
+    "sha256": "402ed744a74420d76ed951e61d5e2197090fe16a31a95f2ff6a46d32571dfca1",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "086-auto.txt",
+    "sha256": "55a57bde82b0c44f8d3ffd89dec9820fb570d79e28a8aaf04623b7be8d21ec56",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "087-auto.txt",
+    "sha256": "68a450d2e38f684b2c37841aa7fe7ffa186eb22d431e36231ceb0f07b5038176",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "088-auto.txt",
+    "sha256": "2550fd06516d7f532dbc54b5535bc03d45582296f8f05d6de9f9e7822f1267b9",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "089-auto.txt",
+    "sha256": "076b87fcf8b9b91d1dca7326e1558ce3df476b0b893dec29363b5ca2ef9160e6",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "090-auto.txt",
+    "sha256": "419ad50ab8bafe934010207d02a0f0ffe7c5271933218e27b1849845c96ecf94",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "091-auto.txt",
+    "sha256": "57323b633a6ae0260626aa5fc3ade50c286d0372d5c5d02d9107a01b2507eb79",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "092-auto.txt",
+    "sha256": "4eae284db83f74fbc70f3cd661fc6710cf8411ed9234a6791eaefaabed7a632a",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "093-auto.txt",
+    "sha256": "892ea3af4d87d600b9f1f0a1941f7e94d339045cc329469d0d941efb10ef6c03",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "094-auto.txt",
+    "sha256": "ee7832436f880463289c25cb826a95f63af77d1a232a64ae094620c499880675",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "095-auto.txt",
+    "sha256": "4d909c45253e75aa5cc7fc6216166ba603e71e0941ab6034da425b2897168e63",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "096-auto.txt",
+    "sha256": "654310371fe496456e32973cc51aded46ac1cea73909aee0e8e383dc172635e2",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "097-auto.txt",
+    "sha256": "7c7c27a20031fa49cfa8c346fba017a47c5de0814781baf744377cbdcff84eed",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "098-auto.txt",
+    "sha256": "413c32c3daceb5e118f993ae063bbb14dae0ae1eacfb6d84dba1c2af875fdd84",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "099-auto.txt",
+    "sha256": "2cb35cccb98588c64c06a071ad4752f16da5c00201e3e02eefea340d92907821",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "100-auto.txt",
+    "sha256": "9ceba686fdc1a83673ddca5a798783f8dd62851b1f9df3dd9cdc32afb76b7618",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "101-auto.txt",
+    "sha256": "ae85f67fe9749cd11b755003e1f73c7795b2a77ba5b5240755e508c68376cf39",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "102-auto.txt",
+    "sha256": "2a5ab3a9fc31486bab5023254053c4dd07fbc6aedd87d55682e27a5ad6e959e4",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "103-auto.txt",
+    "sha256": "0d09095c016da23e9230dd4baa4f33418ec35619e210c4652483138e830ff9cb",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "104-auto.txt",
+    "sha256": "1a323681779dd7336de3cc83c75ab0c6867abda90929b67182ced75094fda1df",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "105-auto.txt",
+    "sha256": "9bbb86fd0640c6adfeaed89373499120281cffb39e42ba6e2b127f8b69ab9daa",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "106-auto.txt",
+    "sha256": "319ca435e1e71721fcfe49e57d415d796f437ffadcee2d1246ab9884f3e8ee75",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "107-auto.txt",
+    "sha256": "e541417841d5800faf6c9219f4e632c9cf775d7ca623da72a88e472daf8a2ad5",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "108-auto.txt",
+    "sha256": "c6412b56560cc6c143f107ef92c650b740b9b078fe440a9962e48abd635b40ec",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "109-auto.txt",
+    "sha256": "9aa9efbbb50edf6b356f97b15eb2db7a04c9f1443e046c13f423648dedbc79bd",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "110-auto.txt",
+    "sha256": "c2030bef8a845987bfd09669a9ee7a10f0c262e727bd944eb3ff37ba169f9d14",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "111-auto.txt",
+    "sha256": "ed3beafbfba90907aa2cd6cab8796a6d88c131dc50f6872f1d7c195a8deaa770",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "112-auto.txt",
+    "sha256": "58d73d74ec94dccdd98276e5ca587e1289f8e9bd61705c890cca619eda4b5ece",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "113-auto.txt",
+    "sha256": "3739efaccb34b23b728466ea5f614cd4c7c67edd5ce3a66b440fe81996c7ed9b",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "114-auto.txt",
+    "sha256": "c7ccba9cd3ff358993f2c20183fb0a77688d097566dcb2820ce9adbeb6d87e39",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "115-auto.txt",
+    "sha256": "3d1210ccc57f200347fbf4dd5af8f0a1fc514e2e0b8e1ba3b202e046bef8c8f5",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "116-auto.txt",
+    "sha256": "de36796e885ddf77239a57b839263288b20f424b8a12d0a4887259f11219c1d7",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "117-auto.txt",
+    "sha256": "0fa8ac9c1c0c62a9319d65cd2e358ae404888ad5a288e8fac560b0c8d8265b28",
+    "status": "pending",
+    "channel": "@rza_school"
+  },
+  {
+    "file": "118-auto.txt",
+    "sha256": "5195068eb67193b1305d15d5338d8cb0deb5686fe8b864e096f9065b261a2799",
+    "status": "pending",
     "channel": "@rza_school"
   }
 ]
