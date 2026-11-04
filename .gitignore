@@ -6,3 +6,4 @@ publisher
 .publisher-state.json.tmp
 queue-preview.json
 preview/
+output/

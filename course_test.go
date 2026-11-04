@@ -114,3 +114,39 @@ func TestPrepareRejectsMissingPublishedSource(t *testing.T) {
 		t.Fatal("must not restart course after deleting its history")
 	}
 }
+
+func TestThousandReadyPostsExcludePublishedHistory(t *testing.T) {
+	dir := t.TempDir()
+	path := filepath.Join(dir, "state.json")
+	if err := os.WriteFile(filepath.Join(dir, "001-original.txt"), []byte("Уже опубликовано"), 0644); err != nil {
+		t.Fatal(err)
+	}
+	if err := saveState(path, []publication{{File: "001-original.txt", Status: "sent"}}); err != nil {
+		t.Fatal(err)
+	}
+	if err := prepareQueue(dir, path, 1000); err != nil {
+		t.Fatal(err)
+	}
+	files, err := filepath.Glob(filepath.Join(dir, "*-auto.txt"))
+	if err != nil || len(files) != 1000 {
+		t.Fatalf("ready=%d err=%v", len(files), err)
+	}
+	seen := map[string]bool{}
+	for _, file := range files {
+		_, hash, err := queueText(dir, filepath.Base(file))
+		if err != nil {
+			t.Fatal(err)
+		}
+		if seen[hash] {
+			t.Fatal("duplicate ready post")
+		}
+		seen[hash] = true
+	}
+	if err := prepareQueue(dir, path, 1000); err != nil {
+		t.Fatal(err)
+	}
+	files, _ = filepath.Glob(filepath.Join(dir, "*.txt"))
+	if len(files) != 1001 {
+		t.Fatalf("top-up repeated or counted history: %d", len(files))
+	}
+}

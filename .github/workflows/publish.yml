@@ -43,7 +43,7 @@ jobs:
             exit 1
           fi
       - name: Prepare free course continuation
-        run: ./publisher -prepare -buffer 10
+        run: ./publisher -prepare -buffer 1000
       - name: Save prepared lessons
         run: |
           git config user.name 'rza-publisher[bot]'

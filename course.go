@@ -113,8 +113,8 @@ func practiceLesson(index int) string {
 }
 
 func prepareQueue(dir, statePath string, buffer int) error {
-	if buffer < 1 || buffer > 24 {
-		return errors.New("запас очереди должен быть от 1 до 24 постов")
+	if buffer < 1 || buffer > 1000 {
+		return errors.New("запас очереди должен быть от 1 до 1000 постов")
 	}
 	state, err := readState(statePath)
 	if err != nil {
