@@ -2,7 +2,7 @@
 set -euo pipefail
 
 publisher="${PUBLISHER:-./publisher}"
-count="${POSTS_PER_RUN:-5}"
+count="${POSTS_PER_RUN:-10}"
 branch="${DEFAULT_BRANCH:?DEFAULT_BRANCH is required}"
 if [[ ! "$count" =~ ^[1-9][0-9]*$ ]] || (( count > 24 )); then
   echo 'POSTS_PER_RUN must be between 1 and 24.' >&2
