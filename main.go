@@ -2,6 +2,8 @@ package main
 
 import (
 	"bytes"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"flag"
@@ -72,12 +74,17 @@ func run() error {
 	if token == "" {
 		return errors.New("задайте TELEGRAM_BOT_TOKEN локально или запустите publish.ps1")
 	}
-	client := &http.Client{Timeout: 30 * time.Second, CheckRedirect: func(req *http.Request, via []*http.Request) error { return http.ErrUseLastResponse }}
-	id, err := sendMessage(client, "https://api.telegram.org", token, channel, body)
+	hash := sha256.Sum256([]byte(body))
+	draft, err := preparePostMedia(*file, hex.EncodeToString(hash[:]))
 	if err != nil {
 		return err
 	}
-	fmt.Printf("Опубликовано в %s. ID сообщения: %d\n", channel, id)
+	client := &http.Client{Timeout: 90 * time.Second, CheckRedirect: func(req *http.Request, via []*http.Request) error { return http.ErrUseLastResponse }}
+	receipt, err := sendMedia(client, "https://api.telegram.org", token, channel, draft)
+	if err != nil {
+		return err
+	}
+	fmt.Printf("Опубликовано в %s с %s. ID сообщения: %d\n", channel, draft.Kind, receipt.MessageID)
 	return nil
 }
 

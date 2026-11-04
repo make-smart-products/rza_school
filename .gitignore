@@ -8,3 +8,4 @@ queue-preview.json
 preview/
 output/
 __pycache__/
+media/generated/

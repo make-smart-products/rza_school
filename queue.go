@@ -15,11 +15,15 @@ import (
 )
 
 type publication struct {
-	File      string `json:"file"`
-	SHA256    string `json:"sha256"`
-	Status    string `json:"status"`
-	MessageID int64  `json:"message_id,omitempty"`
-	Channel   string `json:"channel"`
+	File          string `json:"file"`
+	SHA256        string `json:"sha256"`
+	Status        string `json:"status"`
+	MessageID     int64  `json:"message_id,omitempty"`
+	Channel       string `json:"channel"`
+	MediaType     string `json:"media_type,omitempty"`
+	MediaFileID   string `json:"media_file_id,omitempty"`
+	MediaVersion  int    `json:"media_version,omitempty"`
+	CaptionSHA256 string `json:"caption_sha256,omitempty"`
 }
 
 func readState(path string) ([]publication, error) {
@@ -128,28 +132,33 @@ func deliverNext(dir, statePath string) error {
 		if post.Channel != channelName() {
 			return errors.New("канал изменился после резервирования")
 		}
-		body, hash, err := queueText(dir, post.File)
+		_, hash, err := queueText(dir, post.File)
 		if err != nil {
 			return err
 		}
 		if hash != post.SHA256 {
 			return errors.New("пост изменился после резервирования")
 		}
+		draft, err := preparePostMedia(filepath.Join(dir, post.File), hash)
+		if err != nil {
+			return err
+		}
 		// Persist an attempt before the network call. Ambiguous failures require manual review.
 		post.Status = "attempted"
 		if err := saveState(statePath, state); err != nil {
 			return err
 		}
-		client := &http.Client{Timeout: 30 * time.Second, CheckRedirect: func(*http.Request, []*http.Request) error { return http.ErrUseLastResponse }}
-		id, err := sendMessage(client, "https://api.telegram.org", token, post.Channel, body)
+		client := &http.Client{Timeout: 90 * time.Second, CheckRedirect: func(*http.Request, []*http.Request) error { return http.ErrUseLastResponse }}
+		receipt, err := sendMedia(client, "https://api.telegram.org", token, post.Channel, draft)
 		if err != nil {
 			return err
 		}
-		post.Status, post.MessageID = "sent", id
+		post.Status, post.MessageID = "sent", receipt.MessageID
+		post.MediaType, post.MediaFileID, post.MediaVersion, post.CaptionSHA256 = draft.Kind, receipt.FileID, draft.Version, draft.CaptionSHA256
 		if err := saveState(statePath, state); err != nil {
-			return fmt.Errorf("сообщение %d отправлено, но состояние не сохранено: %w", id, err)
+			return fmt.Errorf("сообщение %d отправлено, но состояние не сохранено: %w", receipt.MessageID, err)
 		}
-		fmt.Printf("Опубликован %s, ID: %d\n", post.File, id)
+		fmt.Printf("Опубликован %s с %s, ID: %d\n", post.File, draft.Kind, receipt.MessageID)
 		return nil
 	}
 	fmt.Println("Нет зарезервированных постов.")

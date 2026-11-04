@@ -34,12 +34,25 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install media renderer
+        run: |
+          python3 -m pip install -r media/requirements.txt
+          if [ ! -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf ]; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends fonts-dejavu-core
+          fi
       - name: Verify and build
         run: |
           go test ./...
           go build -o publisher .
           bash .github/scripts/test-publish-batch.sh
           python3 .github/scripts/test_resolve_batch.py
+          python3 media/test_render.py
+          python3 media/render.py --file posts/lessons/001-purpose.txt --output-dir media/generated > /dev/null
+          python3 media/render.py --file posts/lessons/080-auto.txt --output-dir media/generated > /dev/null
       - name: Check required secret
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
