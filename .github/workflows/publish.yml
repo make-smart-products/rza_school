@@ -56,12 +56,12 @@ jobs:
             git commit -m 'Save prepared RZA lessons'
             git push origin HEAD:${{ github.event.repository.default_branch }}
           fi
-      - name: Publish five lessons
+      - name: Publish ten lessons
         if: ${{ inputs.prepare_only != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: '@rza_school'
-          POSTS_PER_RUN: '5'
+          POSTS_PER_RUN: '10'
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: bash .github/scripts/publish-batch.sh
       - name: Save delivery result
