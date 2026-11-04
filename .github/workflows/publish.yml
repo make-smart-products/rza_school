@@ -10,6 +10,11 @@ on:
         required: false
         default: false
         type: boolean
+      target_total:
+        description: 'Catch up to this total number of published lessons (0 = normal batch)'
+        required: false
+        default: 0
+        type: number
 
 permissions:
   contents: write
@@ -21,7 +26,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,6 +39,7 @@ jobs:
           go test ./...
           go build -o publisher .
           bash .github/scripts/test-publish-batch.sh
+          python3 .github/scripts/test_resolve_batch.py
       - name: Check required secret
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -56,12 +62,19 @@ jobs:
             git commit -m 'Save prepared RZA lessons'
             git push origin HEAD:${{ github.event.repository.default_branch }}
           fi
-      - name: Publish ten lessons
+      - name: Resolve publication count
+        id: batch
+        env:
+          TARGET_TOTAL: ${{ inputs.target_total || 0 }}
+        run: |
+          count=$(python3 .github/scripts/resolve_batch.py)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+      - name: Publish lessons
         if: ${{ inputs.prepare_only != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: '@rza_school'
-          POSTS_PER_RUN: '10'
+          POSTS_PER_RUN: ${{ steps.batch.outputs.count }}
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: bash .github/scripts/publish-batch.sh
       - name: Save delivery result

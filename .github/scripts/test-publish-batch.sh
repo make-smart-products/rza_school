@@ -4,7 +4,7 @@ set -euo pipefail
 export RUN_LOG="$(mktemp)"
 export PUSH_COUNT="$(mktemp)"
 trap 'rm -f -- "$RUN_LOG" "$PUSH_COUNT"' EXIT
-export DEFAULT_BRANCH=main POSTS_PER_RUN=10 PUBLISHER=mock_publisher
+export DEFAULT_BRANCH=main POSTS_PER_RUN=10 PUBLISHER=mock_publisher PUBLISH_DELAY_SECONDS=0
 
 mock_publisher() {
   local action="${1#-}"
