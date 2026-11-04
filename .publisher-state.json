@@ -142,7 +142,7 @@
   {
     "file": "021-auto.txt",
     "sha256": "0732de644c0f47b562350deea643881796e2c618ccc29aa602f044fad6e6cca0",
-    "status": "pending",
+    "status": "attempted",
     "channel": "@rza_school"
   }
 ]
