@@ -429,181 +429,210 @@
   {
     "file": "062-auto.txt",
     "sha256": "efb81ecb853026b55d1f6a32b88742f7fb964310017804f62aae7a10d9e82cfc",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 65
   },
   {
     "file": "063-auto.txt",
     "sha256": "2f755d7eb8c189408e109fb62214421bcc20f534dcffa9530db09f7dc4f9d5c0",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 66
   },
   {
     "file": "064-auto.txt",
     "sha256": "895374fe45a4c0ccef5db08dfe267687b23657188a89ce57ee16d6f2f86a217d",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 67
   },
   {
     "file": "065-auto.txt",
     "sha256": "8f3dec99787ddd71f8c3b373850b857b61bbc5dce7890c35cb66a77a5374df43",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 68
   },
   {
     "file": "066-auto.txt",
     "sha256": "4580e50e7df5628c132ec9d00a9376f2a0a90fde92d12fcd3130b59c68544ce5",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 69
   },
   {
     "file": "067-auto.txt",
     "sha256": "986527e1cca3e856e57a8135bd59ec8503699d57bc59446953e5155209cf4bb8",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 70
   },
   {
     "file": "068-auto.txt",
     "sha256": "687811748054252d52733cf877d24e804ad9d47e193c476ed7ddd556cd76d06a",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 71
   },
   {
     "file": "069-auto.txt",
     "sha256": "be20f9791d3db55a36349d3953aa28bab207cf744f7db41620620a942c61fa45",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 72
   },
   {
     "file": "070-auto.txt",
     "sha256": "4acea3e90fffadc1c6e345be53b777a6d1da41c713f4f78924e66aab235fb5c5",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 73
   },
   {
     "file": "071-auto.txt",
     "sha256": "61686435a734e5f91cc755280a630358992854772f281da9a31bacd71ef6eaa8",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 74
   },
   {
     "file": "072-auto.txt",
     "sha256": "ed29111f2e244e0441c4f7f3988515e4725e7e56f8b6cc31e6b820f6880e64c3",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 75
   },
   {
     "file": "073-auto.txt",
     "sha256": "6af235fb246075da44f86780c94df028f9e0acd691b14782e4003fbdb55013c2",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 76
   },
   {
     "file": "074-auto.txt",
     "sha256": "532d1929f9f6f00719da2324afd01a418afcde1cd9188f061eb838b2c9eb2343",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 77
   },
   {
     "file": "075-auto.txt",
     "sha256": "b541c77285b7987cdb8ef702ba91d8c5fd2fa63144c6216de7d65580a26c728f",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 78
   },
   {
     "file": "076-auto.txt",
     "sha256": "7d196a52096be732ddce0c51200a1517038c46b203bc2de6f77ca93a66cce325",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 79
   },
   {
     "file": "077-auto.txt",
     "sha256": "79e55a3e9d1ce8cbd124759c714abe25f3a0439a9c6012b390b7ab9cbe616b41",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 80
   },
   {
     "file": "078-auto.txt",
     "sha256": "b6498d229f066e57f450d5b762e4fbcb0f698b7adb94000c4026f790e7837e73",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 81
   },
   {
     "file": "079-auto.txt",
     "sha256": "3b45c351705ff41452bd0b549228d8e22d45a470f017bd32bcc014609ff21b8e",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 82
   },
   {
     "file": "080-auto.txt",
     "sha256": "83146cecb8708571310af4e005459f21521eb4e4928a7e4b4defe5573c000618",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 83
   },
   {
     "file": "081-auto.txt",
     "sha256": "881094e78099a205b1af3b316c89c13c3c2ea973b8e2dfeb21e7a386bf76edcf",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 84
   },
   {
     "file": "082-auto.txt",
     "sha256": "fe1ac540e253692726a1a791c918cf690b725d4c3e0da4c435127144db1869cd",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 85
   },
   {
     "file": "083-auto.txt",
     "sha256": "b79bed921d2351fb2105f4ba3eecc52f3b4b31174125ea220c6deb1e0f07a15e",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 86
   },
   {
     "file": "084-auto.txt",
     "sha256": "d21086efff3b42517938622dbd38b98767b04773abc11bf70f30498d372e012d",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 87
   },
   {
     "file": "085-auto.txt",
     "sha256": "402ed744a74420d76ed951e61d5e2197090fe16a31a95f2ff6a46d32571dfca1",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 88
   },
   {
     "file": "086-auto.txt",
     "sha256": "55a57bde82b0c44f8d3ffd89dec9820fb570d79e28a8aaf04623b7be8d21ec56",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 89
   },
   {
     "file": "087-auto.txt",
     "sha256": "68a450d2e38f684b2c37841aa7fe7ffa186eb22d431e36231ceb0f07b5038176",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 90
   },
   {
     "file": "088-auto.txt",
     "sha256": "2550fd06516d7f532dbc54b5535bc03d45582296f8f05d6de9f9e7822f1267b9",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 91
   },
   {
     "file": "089-auto.txt",
     "sha256": "076b87fcf8b9b91d1dca7326e1558ce3df476b0b893dec29363b5ca2ef9160e6",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 92
   },
   {
     "file": "090-auto.txt",
     "sha256": "419ad50ab8bafe934010207d02a0f0ffe7c5271933218e27b1849845c96ecf94",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 93
   },
   {
     "file": "091-auto.txt",
     "sha256": "57323b633a6ae0260626aa5fc3ade50c286d0372d5c5d02d9107a01b2507eb79",
-    "status": "pending",
+    "status": "attempted",
     "channel": "@rza_school"
   },
   {
