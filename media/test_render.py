@@ -7,6 +7,24 @@ from drawing_v3 import draw_frame, phase_time, W, H
 
 
 class RenderTests(unittest.TestCase):
+    def test_editorial_posts_keep_their_own_topic_and_fit(self):
+        import json
+        from drawing_v3 import family
+        root=Path(__file__).resolve().parents[1]
+        lessons=json.loads((root/'content/advanced.json').read_text(encoding='utf-8'))
+        self.assertEqual(len(lessons),40)
+        for lesson in lessons:
+            data=describe(lesson['file'],lesson['body'])
+            self.assertEqual(data['title'],lesson['title'])
+            self.assertEqual(data['nodes'],lesson['nodes'])
+            self.assertEqual(family(data),'steps')
+            plain,formatted=caption(data)
+            self.assertIn(lesson['body'],plain)
+            self.assertIn('ADVANCED_SOURCES.md',formatted)
+            self.assertLessEqual(len(plain.encode('utf-16-le'))//2,1024)
+            draw_frame(data)
+        with self.assertRaises(ValueError):
+            describe(lessons[0]['file'],'Changed source')
     def test_all_prepared_posts_fit_captions_and_have_a_visual_spec(self):
         root=Path(sys.argv[0]).resolve().parents[1]
         files=list((root/'posts/lessons').glob('*.txt'))

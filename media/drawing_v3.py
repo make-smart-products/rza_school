@@ -88,6 +88,7 @@ def takeaway(draw, value, animated=False):
 
 
 def family(data):
+    if data['kind']=='editorial': return 'steps'
     if data['kind']!='concept': return data['kind']
     n=data['number']
     if n<=6:
@@ -98,6 +99,7 @@ def family(data):
 
 
 def is_animated(data):
+    if data['kind']=='editorial': return False
     f=family(data)
     if f in ['timing','events','relay','phasor_zero']: return True
     return f=='steps' and data['number']>6 and (data['number']-7)%24 in [6,16,17,18,20,21]

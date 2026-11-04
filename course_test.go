@@ -1,152 +1,90 @@
 package main
 
 import (
-	"crypto/sha256"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
-	"unicode/utf8"
 )
 
-func TestFreeCourseAndPracticeRemainValidAndDistinct(t *testing.T) {
-	topics, err := loadCourse()
-	if err != nil {
-		t.Fatal(err)
-	}
-	seen := map[[32]byte]bool{}
-	for i := 0; i < len(topics)*3+10000; i++ {
-		text, err := freeLesson(i, topics)
-		if err != nil || !utf8.ValidString(text) || utf8.RuneCountInString(text) > 4096 {
-			t.Fatalf("lesson %d: %v", i, err)
-		}
-		hash := sha256.Sum256([]byte(text))
-		if seen[hash] {
-			t.Fatalf("duplicate lesson %d", i)
-		}
-		seen[hash] = true
-	}
-}
-
-func TestPracticeAnswersAndUnits(t *testing.T) {
-	for _, tc := range []struct {
-		index    int
-		expected string
-	}{
-		{0, "80 × 0,6 = 48 А"},
-		{1, "101 + 5 + 45 = 151 мс"},
-		{2, "1021 − 1000 = 21 мс"},
-		{3, "|1001 − 1000| = 1 мА"},
-		{4, "501 мс = 0,501 с"},
-		{2499, "1000 мс = 1,000 с"},
-	} {
-		if text := practiceLesson(tc.index); !strings.Contains(text, tc.expected) {
-			t.Fatalf("task %d: expected %q in %q", tc.index, tc.expected, text)
-		}
-	}
-}
-
-func TestPrepareQueueTopUpAndIdempotency(t *testing.T) {
+func TestEditorialReplacementPreservesPublishedHistory(t *testing.T) {
 	dir := t.TempDir()
 	statePath := filepath.Join(dir, "state.json")
-	t.Setenv("TELEGRAM_CHANNEL", "@rza_school")
-	if err := os.WriteFile(filepath.Join(dir, "006-original.txt"), []byte("Существующий урок"), 0644); err != nil {
+	for name, body := range map[string]string{"119-auto.txt": "Published source", "120-auto.txt": "Repeated old task", "121-auto.txt": "Repeated old task 2"} {
+		if err := os.WriteFile(filepath.Join(dir, name), []byte(body), 0644); err != nil {
+			t.Fatal(err)
+		}
+	}
+	_, hash, _ := queueText(dir, "119-auto.txt")
+	original := publication{File: "119-auto.txt", SHA256: hash, Status: "sent", MessageID: 122, Channel: "@rza_school"}
+	if err := saveState(statePath, []publication{original}); err != nil {
 		t.Fatal(err)
 	}
-	if err := prepareQueue(dir, statePath, 3); err != nil {
-		t.Fatal(err)
+	for i := 0; i < 2; i++ {
+		if err := prepareEditorialQueue(dir, statePath, 1000); err != nil {
+			t.Fatal(err)
+		}
+	}
+	if _, err := os.Stat(filepath.Join(dir, "120-auto.txt")); !os.IsNotExist(err) {
+		t.Fatal("unpublished repeat retained")
+	}
+	state, _ := readState(statePath)
+	if len(state) != 1 || state[0] != original {
+		t.Fatal("published history changed")
 	}
 	files, _ := filepath.Glob(filepath.Join(dir, "*.txt"))
-	if len(files) != 3 {
-		t.Fatalf("expected 3 lessons, got %d", len(files))
+	if len(files) != 41 {
+		t.Fatalf("want history + 40 unique lessons, got %d", len(files))
 	}
-	if err := prepareQueue(dir, statePath, 3); err != nil {
-		t.Fatal(err)
+	lessons, _ := loadEditorial()
+	for _, p := range lessons {
+		_, h, err := queueText(dir, p.File)
+		if err != nil {
+			t.Fatal(err)
+		}
+		state = append(state, publication{File: p.File, SHA256: h, Status: "sent"})
 	}
-	files, _ = filepath.Glob(filepath.Join(dir, "*.txt"))
-	if len(files) != 3 {
-		t.Fatal("prepare must not append while the buffer is full")
-	}
-	if err := reserveNext(dir, statePath); err != nil {
-		t.Fatal(err)
-	}
-	if err := prepareQueue(dir, statePath, 3); err == nil {
-		t.Fatal("must block unresolved delivery")
-	}
-	state, err := readState(statePath)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if state[0].File != "006-original.txt" {
-		t.Fatal("existing lesson must be published first")
-	}
-	state[0].Status = "sent"
 	if err := saveState(statePath, state); err != nil {
 		t.Fatal(err)
 	}
-	if err := prepareQueue(dir, statePath, 3); err != nil {
+	if err := prepareEditorialQueue(dir, statePath, 1000); err != nil {
 		t.Fatal(err)
 	}
-	if _, err := os.Stat(filepath.Join(dir, "009-auto.txt")); err != nil {
-		t.Fatal("new lesson was not generated")
+	files, _ = filepath.Glob(filepath.Join(dir, "*.txt"))
+	if len(files) != 41 {
+		t.Fatal("exhausted syllabus was recycled")
 	}
-	data, _ := os.ReadFile(filepath.Join(dir, "009-auto.txt"))
-	if !strings.Contains(string(data), "Полярность измерений") {
-		t.Fatal("course must continue from its third topic")
+}
+
+func TestEditorialBlocksUnresolvedOrChangedHistory(t *testing.T) {
+	for _, status := range []string{"pending", "attempted", "sent"} {
+		dir := t.TempDir()
+		path := filepath.Join(dir, "state.json")
+		os.WriteFile(filepath.Join(dir, "119-auto.txt"), []byte("source"), 0644)
+		os.WriteFile(filepath.Join(dir, "120-auto.txt"), []byte("repeat"), 0644)
+		saveState(path, []publication{{File: "119-auto.txt", SHA256: "wrong", Status: status}})
+		if err := prepareEditorialQueue(dir, path, 1000); err == nil {
+			t.Fatal("must block unresolved or changed source")
+		}
+		if _, err := os.Stat(filepath.Join(dir, "120-auto.txt")); err != nil {
+			t.Fatal("mutated queue before checking history")
+		}
+	}
+}
+
+func TestEditorialCatalogRejectsDuplicateTitles(t *testing.T) {
+	original := editorialJSON
+	defer func() { editorialJSON = original }()
+	editorialJSON = []byte(`[{"id":"x","file":"120-advanced.txt","title":"same","body":"a","nodes":["a","b","c"],"note":"n","source_ids":["N1"]},{"id":"y","file":"121-advanced.txt","title":"same","body":"b","nodes":["a","b","c"],"note":"n","source_ids":["N1"]}]`)
+	if _, err := loadEditorial(); err == nil {
+		t.Fatal("duplicate subject accepted")
 	}
 }
 
 func TestNaturalOrderAcrossOneThousandLessons(t *testing.T) {
-	files := []string{"1000-auto.txt", "999-auto.txt", "007-auto.txt", "006-original.txt"}
+	files := []string{"1000-auto.txt", "999-auto.txt", "120-advanced.txt", "006-original.txt"}
 	sortLessonFiles(files)
-	if strings.Join(files, ",") != "006-original.txt,007-auto.txt,999-auto.txt,1000-auto.txt" {
-		t.Fatalf("wrong order: %v", files)
-	}
-}
-
-func TestPrepareRejectsMissingPublishedSource(t *testing.T) {
-	dir := t.TempDir()
-	path := filepath.Join(dir, "state.json")
-	if err := saveState(path, []publication{{File: "001-auto.txt", Status: "sent"}}); err != nil {
-		t.Fatal(err)
-	}
-	if err := prepareQueue(dir, path, 6); err == nil {
-		t.Fatal("must not restart course after deleting its history")
-	}
-}
-
-func TestThousandReadyPostsExcludePublishedHistory(t *testing.T) {
-	dir := t.TempDir()
-	path := filepath.Join(dir, "state.json")
-	if err := os.WriteFile(filepath.Join(dir, "001-original.txt"), []byte("Уже опубликовано"), 0644); err != nil {
-		t.Fatal(err)
-	}
-	if err := saveState(path, []publication{{File: "001-original.txt", Status: "sent"}}); err != nil {
-		t.Fatal(err)
-	}
-	if err := prepareQueue(dir, path, 1000); err != nil {
-		t.Fatal(err)
-	}
-	files, err := filepath.Glob(filepath.Join(dir, "*-auto.txt"))
-	if err != nil || len(files) != 1000 {
-		t.Fatalf("ready=%d err=%v", len(files), err)
-	}
-	seen := map[string]bool{}
-	for _, file := range files {
-		_, hash, err := queueText(dir, filepath.Base(file))
-		if err != nil {
-			t.Fatal(err)
-		}
-		if seen[hash] {
-			t.Fatal("duplicate ready post")
-		}
-		seen[hash] = true
-	}
-	if err := prepareQueue(dir, path, 1000); err != nil {
-		t.Fatal(err)
-	}
-	files, _ = filepath.Glob(filepath.Join(dir, "*.txt"))
-	if len(files) != 1001 {
-		t.Fatalf("top-up repeated or counted history: %d", len(files))
+	if strings.Join(files, ",") != "006-original.txt,120-advanced.txt,999-auto.txt,1000-auto.txt" {
+		t.Fatal(files)
 	}
 }

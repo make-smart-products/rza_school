@@ -32,7 +32,7 @@ func run() error {
 	reserve := flag.Bool("reserve", false, "Зарезервировать следующий пост очереди")
 	deliver := flag.Bool("deliver", false, "Отправить зарезервированный пост")
 	prepare := flag.Bool("prepare", false, "Бесплатно пополнить очередь учебными материалами")
-	buffer := flag.Int("buffer", 6, "Число готовых постов в очереди")
+	buffer := flag.Int("buffer", 6, "Совместимый параметр; редакционная серия конечна")
 	queue := flag.String("queue", "posts/lessons", "Каталог очереди")
 	state := flag.String("state", ".publisher-state.json", "Файл состояния очереди")
 	flag.Parse()
@@ -46,7 +46,7 @@ func run() error {
 		return errors.New("выберите один режим: -prepare, -reserve, -deliver или -send")
 	}
 	if *prepare {
-		return prepareQueue(*queue, *state, *buffer)
+		return prepareEditorialQueue(*queue, *state, *buffer)
 	}
 	if *reserve {
 		return reserveNext(*queue, *state)

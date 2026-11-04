@@ -54,6 +54,12 @@ def decimal(value):
 def describe(name, source):
     number = int(re.match(r'\d+', Path(name).stem).group())
     data = {'number': number, 'source': source}
+    if name.endswith('-advanced.txt'):
+        catalog=json.loads((Path(__file__).resolve().parents[1]/'content/advanced.json').read_text(encoding='utf-8'))
+        lesson=next((p for p in catalog if p['file']==name),None)
+        if lesson is None or source!=lesson['body']: raise ValueError('Editorial source differs from reviewed catalog')
+        data.update(kind='editorial',title=lesson['title'],nodes=lesson['nodes'],note=lesson['note'],source_ids=lesson['source_ids'])
+        return data
     if source.startswith('Учебная задача: первичный и вторичный ток'):
         match = re.search(r'коэффициент K = I₁/I₂ = (\d+).*?I₂ = (\d+),(\d+) А', source, re.S)
         if not match: raise ValueError('Unknown current-ratio task format')
@@ -99,6 +105,7 @@ def caption(data):
         paragraphs=data['source'].split('\n\n')
         paragraphs=[p.strip() for p in paragraphs if p.strip() and not p.startswith('#') and not p.startswith('Учебный материал') and not p.startswith('Материал для изучения')]
         text='\n\n'.join(paragraphs).replace('Проверьте себя:', 'Вопрос:').replace('Ответ и пояснение:', 'Разбор:')
+    if kind=='editorial': text+='\n\nИсточники: '+', '.join(data['source_ids'])
     text+='\n\nУчебная модель, не готовые уставки оборудования.\n#РЗА #ШколаРЗА'
     if len(text.encode('utf-16-le'))//2>1024: raise ValueError('Caption exceeds Telegram limit; content was not truncated')
     parts=text.split('\n\n')
@@ -107,7 +114,10 @@ def caption(data):
         escaped=html.escape(part)
         escaped=re.sub(r'^(Дано|Найти|Решение|Вывод|Вопрос|Ответ|Разбор):',r'<b>\1:</b>',escaped)
         formatted.append(escaped)
-    return text,'\n\n'.join(formatted)
+    formatted_text='\n\n'.join(formatted)
+    if kind=='editorial':
+        formatted_text=formatted_text.replace('Источники:', '<a href="https://github.com/make-smart-products/rza_school/blob/main/content/ADVANCED_SOURCES.md">Источники:</a>')
+    return text,formatted_text
 
 
 def frame(data,progress=1):
@@ -120,7 +130,9 @@ def render(path,output):
     plain,formatted=caption(data)
     animation=is_animated(data)
     asset=output/(path.stem+('.mp4' if animation else '.png'))
-    pipeline_hash=hashlib.sha256(Path(__file__).read_bytes()+(Path(__file__).parent/'drawing_v3.py').read_bytes()).hexdigest()
+    pipeline=Path(__file__).read_bytes()+(Path(__file__).parent/'drawing_v3.py').read_bytes()
+    if data['kind']=='editorial': pipeline+=(Path(__file__).resolve().parents[1]/'content/advanced.json').read_bytes()
+    pipeline_hash=hashlib.sha256(pipeline).hexdigest()
     metadata_path=output/(path.stem+'.json')
     source_hash=hashlib.sha256(source.encode()).hexdigest()
     if metadata_path.exists() and asset.exists():

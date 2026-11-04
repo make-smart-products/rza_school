@@ -1,0 +1,4010 @@
+{
+  "reason": "Replace five repeated numeric task templates with 40 reviewed advanced lessons",
+  "base_commit": "07e506f187d816a88641388563f6376fc8b3e07d",
+  "preserved_published_lessons": 119,
+  "ready_before": 999,
+  "ready_after": 40,
+  "order": [
+    "ВЛ 10 кВ: 20",
+    "Промышленная сеть 0,4 кВ: 20"
+  ],
+  "removed_unpublished": [
+    {
+      "path": "posts/lessons/1000-auto.txt",
+      "blob_sha": "5f364733a8db918c5a27f2eb44a89dfb6d907634"
+    },
+    {
+      "path": "posts/lessons/1001-auto.txt",
+      "blob_sha": "0d7af682094cb401d55acc0df55a12c06d9ced4e"
+    },
+    {
+      "path": "posts/lessons/1002-auto.txt",
+      "blob_sha": "f399f65d26d9008a0613daaa85daadaaf322a9d1"
+    },
+    {
+      "path": "posts/lessons/1003-auto.txt",
+      "blob_sha": "797fbd3452f201b5ab37082382e59e85eec13235"
+    },
+    {
+      "path": "posts/lessons/1004-auto.txt",
+      "blob_sha": "379a15ac5fd55994c85f6fc155dbbde1d8a6853d"
+    },
+    {
+      "path": "posts/lessons/1005-auto.txt",
+      "blob_sha": "95e2bf7eba1869e11d14d223f0e9e8a97123e639"
+    },
+    {
+      "path": "posts/lessons/1006-auto.txt",
+      "blob_sha": "f36e863705143aa29ac196e61e8fb3cc3c54278d"
+    },
+    {
+      "path": "posts/lessons/1007-auto.txt",
+      "blob_sha": "1642547700d14b16f40233e73b6b36a066f25d56"
+    },
+    {
+      "path": "posts/lessons/1008-auto.txt",
+      "blob_sha": "feeacc13f1ffd3f8c64726545d94c245021ccc46"
+    },
+    {
+      "path": "posts/lessons/1009-auto.txt",
+      "blob_sha": "e03b36685e496986fb96381e991efa1b14cf27af"
+    },
+    {
+      "path": "posts/lessons/1010-auto.txt",
+      "blob_sha": "a1af5f81371969992610a3589cf30c497f0f53a4"
+    },
+    {
+      "path": "posts/lessons/1011-auto.txt",
+      "blob_sha": "c3631b3c3f76b125261dc65f3d76b035dc6d21e5"
+    },
+    {
+      "path": "posts/lessons/1012-auto.txt",
+      "blob_sha": "886d3aa5128e127a7cb97aa626fbe1543d76f0d3"
+    },
+    {
+      "path": "posts/lessons/1013-auto.txt",
+      "blob_sha": "ce59d314be13c75499d7b085518b4b5ca6575f4f"
+    },
+    {
+      "path": "posts/lessons/1014-auto.txt",
+      "blob_sha": "55c249ae2e8d86fbd3e8e76fc3723d5596092739"
+    },
+    {
+      "path": "posts/lessons/1015-auto.txt",
+      "blob_sha": "c26c02d8f8ad5fdc88b815a6e6056c2e26b4b9f1"
+    },
+    {
+      "path": "posts/lessons/1016-auto.txt",
+      "blob_sha": "ce2b8e0a97e2f1554ec8664aa375f2b2f3e90cca"
+    },
+    {
+      "path": "posts/lessons/1017-auto.txt",
+      "blob_sha": "6077ecfda9d3bd706004329dec536070ffae921d"
+    },
+    {
+      "path": "posts/lessons/1018-auto.txt",
+      "blob_sha": "a575a9b6efa9b8552be66bdb9cdc9490fbca6e06"
+    },
+    {
+      "path": "posts/lessons/1019-auto.txt",
+      "blob_sha": "02dd5940555c403efc9de7e9c45a1d853b8ede6e"
+    },
+    {
+      "path": "posts/lessons/1020-auto.txt",
+      "blob_sha": "0b84705e0397e6a5bb795bfe942645cb749aed1e"
+    },
+    {
+      "path": "posts/lessons/1021-auto.txt",
+      "blob_sha": "7648e109b0ec335b2d8561ddfdde19076fcda9b8"
+    },
+    {
+      "path": "posts/lessons/1022-auto.txt",
+      "blob_sha": "266c55ef30d7b5764c5d0f32e43800ba70065d21"
+    },
+    {
+      "path": "posts/lessons/1023-auto.txt",
+      "blob_sha": "611f3841a196ca59d19d0d377bedcc2a1e2273dc"
+    },
+    {
+      "path": "posts/lessons/1024-auto.txt",
+      "blob_sha": "6b34411c8a00869e402b1271ab60db00977d0f14"
+    },
+    {
+      "path": "posts/lessons/1025-auto.txt",
+      "blob_sha": "850f13fcb2b67901490076ec835355a12c70bb38"
+    },
+    {
+      "path": "posts/lessons/1026-auto.txt",
+      "blob_sha": "c0433c6e88d19d06875439ddd64bc1e0189c02de"
+    },
+    {
+      "path": "posts/lessons/1027-auto.txt",
+      "blob_sha": "baee6b349ce9298188920821e53253fea8c385bf"
+    },
+    {
+      "path": "posts/lessons/1028-auto.txt",
+      "blob_sha": "f6064912ed105689a5da3ffd6f44e022d778ef06"
+    },
+    {
+      "path": "posts/lessons/1029-auto.txt",
+      "blob_sha": "f0b49f8f01d009bd34ec4a628179d3730de24cc3"
+    },
+    {
+      "path": "posts/lessons/1030-auto.txt",
+      "blob_sha": "3889afe40521188448a51a0bc886d88dd154b774"
+    },
+    {
+      "path": "posts/lessons/1031-auto.txt",
+      "blob_sha": "b7e1c3a131cee65d2f2cea6a1fd3284cb861ee6c"
+    },
+    {
+      "path": "posts/lessons/1032-auto.txt",
+      "blob_sha": "66773b48838fad50a657534709fcd7abe9762422"
+    },
+    {
+      "path": "posts/lessons/1033-auto.txt",
+      "blob_sha": "6c0163453bd0d15c78d153af40974bbeb717ddf5"
+    },
+    {
+      "path": "posts/lessons/1034-auto.txt",
+      "blob_sha": "f84bffa621adc091a5844ed11278586419a7b233"
+    },
+    {
+      "path": "posts/lessons/1035-auto.txt",
+      "blob_sha": "f155451fb11a72c23854e1bb0ded4ff9250b8b22"
+    },
+    {
+      "path": "posts/lessons/1036-auto.txt",
+      "blob_sha": "c11a0e585b7edfb66a63dca9781284f82cad8b31"
+    },
+    {
+      "path": "posts/lessons/1037-auto.txt",
+      "blob_sha": "de922fb0413a36ea2f6ab66ab5aeaa282f8f63d6"
+    },
+    {
+      "path": "posts/lessons/1038-auto.txt",
+      "blob_sha": "f567d02850568ea75c071a40c880c43c532de38c"
+    },
+    {
+      "path": "posts/lessons/1039-auto.txt",
+      "blob_sha": "173fbe0623b75be69a55ed1fb2c053892dd472cb"
+    },
+    {
+      "path": "posts/lessons/1040-auto.txt",
+      "blob_sha": "06a8a9f5837763a80ada18b416c5aa55bfa31c8b"
+    },
+    {
+      "path": "posts/lessons/1041-auto.txt",
+      "blob_sha": "7b2910b7f7c33120ce4ac7ec1cfa40f9d2dc2a46"
+    },
+    {
+      "path": "posts/lessons/1042-auto.txt",
+      "blob_sha": "ca62d313212d948f12890b47ac674388d603089a"
+    },
+    {
+      "path": "posts/lessons/1043-auto.txt",
+      "blob_sha": "8ea84eae70f66dfcec127ec2a4ab5c60450a2714"
+    },
+    {
+      "path": "posts/lessons/1044-auto.txt",
+      "blob_sha": "58cb03b28e25f0a3f1f5ce6f8f74bf34ce160d9b"
+    },
+    {
+      "path": "posts/lessons/1045-auto.txt",
+      "blob_sha": "2fb25e08e89849b3a7a2b9a5bb7c376dd8a41a3c"
+    },
+    {
+      "path": "posts/lessons/1046-auto.txt",
+      "blob_sha": "849a57ae8e58f5bdf35e9849db5b97e19f65cf49"
+    },
+    {
+      "path": "posts/lessons/1047-auto.txt",
+      "blob_sha": "11ebeb6e56b0b4fdf8657fd3fcdb31bcf79b54b1"
+    },
+    {
+      "path": "posts/lessons/1048-auto.txt",
+      "blob_sha": "3b0594a21df0fbf2c2a13e4751dc1c8f49628e6a"
+    },
+    {
+      "path": "posts/lessons/1049-auto.txt",
+      "blob_sha": "6fe6ae92bb7b7b677df6ea642beeb5ec58df389f"
+    },
+    {
+      "path": "posts/lessons/1050-auto.txt",
+      "blob_sha": "3de54260200b0cca01ff19c6cd84af6c564211e7"
+    },
+    {
+      "path": "posts/lessons/1051-auto.txt",
+      "blob_sha": "a166e1d05043a76c2464c0310a8dff5da912a1c8"
+    },
+    {
+      "path": "posts/lessons/1052-auto.txt",
+      "blob_sha": "fd3cac19b2154b03cd46b6776e0166e897757fa6"
+    },
+    {
+      "path": "posts/lessons/1053-auto.txt",
+      "blob_sha": "6773e4a9ab58587544b77025a8a55c2f13327607"
+    },
+    {
+      "path": "posts/lessons/1054-auto.txt",
+      "blob_sha": "900da9893a88f9015c2bd1f3047d4c24dd49de6d"
+    },
+    {
+      "path": "posts/lessons/1055-auto.txt",
+      "blob_sha": "c2d08dc04ee91b2c973f9838c7ce37e45b8760aa"
+    },
+    {
+      "path": "posts/lessons/1056-auto.txt",
+      "blob_sha": "9ca23c695a0e29cd6b651eaeaae7a88bd214e75b"
+    },
+    {
+      "path": "posts/lessons/1057-auto.txt",
+      "blob_sha": "d4222d00fde87fe0c46d6d21a3f2b233d1396438"
+    },
+    {
+      "path": "posts/lessons/1058-auto.txt",
+      "blob_sha": "beda5499545d27f0c97c61761eb0b33ce95c0064"
+    },
+    {
+      "path": "posts/lessons/1059-auto.txt",
+      "blob_sha": "c0ec113846a5c4e27b1e39a40d87459832cc9acb"
+    },
+    {
+      "path": "posts/lessons/1060-auto.txt",
+      "blob_sha": "60431a5cc6c695248e569774c1f324e4bdb91114"
+    },
+    {
+      "path": "posts/lessons/1061-auto.txt",
+      "blob_sha": "43714e82eb29dc3d05fe24737d299bfd32cc69f2"
+    },
+    {
+      "path": "posts/lessons/1062-auto.txt",
+      "blob_sha": "0871f42334319ccbe5bb2c2275ef1b7eb93e00c0"
+    },
+    {
+      "path": "posts/lessons/1063-auto.txt",
+      "blob_sha": "d1cb6494fa6afd48f69761df146cc4adba293af6"
+    },
+    {
+      "path": "posts/lessons/1064-auto.txt",
+      "blob_sha": "65d02a067850c48de95bb0fc238d1d30bcac5687"
+    },
+    {
+      "path": "posts/lessons/1065-auto.txt",
+      "blob_sha": "212d0e4e4fc42260c6c2219f1c69882933240998"
+    },
+    {
+      "path": "posts/lessons/1066-auto.txt",
+      "blob_sha": "ffaf7676c0ae9a89b83155a469921de97ee73d86"
+    },
+    {
+      "path": "posts/lessons/1067-auto.txt",
+      "blob_sha": "b9253c88020f3dfe280c6a1d16efa0b2fad89abd"
+    },
+    {
+      "path": "posts/lessons/1068-auto.txt",
+      "blob_sha": "77dc3bfaa82b354e790c9fbf8362d8c2b8f91fb9"
+    },
+    {
+      "path": "posts/lessons/1069-auto.txt",
+      "blob_sha": "7bfd92e9b78c1c92f3ac55a3773d6a2aa2822c2a"
+    },
+    {
+      "path": "posts/lessons/1070-auto.txt",
+      "blob_sha": "637a609d7a1635f8fada4750fa6467d0e90b4cb1"
+    },
+    {
+      "path": "posts/lessons/1071-auto.txt",
+      "blob_sha": "d1173285b8445654da0ad4ef0d5538881fc0ffd4"
+    },
+    {
+      "path": "posts/lessons/1072-auto.txt",
+      "blob_sha": "211436b8db0693a2d339a06a0cbfd1a62544692a"
+    },
+    {
+      "path": "posts/lessons/1073-auto.txt",
+      "blob_sha": "351dcc5d5eff46314499724c8a4f9da711248dc7"
+    },
+    {
+      "path": "posts/lessons/1074-auto.txt",
+      "blob_sha": "c27b83b66991491b986dc887e07848bb40d7e66d"
+    },
+    {
+      "path": "posts/lessons/1075-auto.txt",
+      "blob_sha": "27c741837c11862d247164035b58f93aa7786aab"
+    },
+    {
+      "path": "posts/lessons/1076-auto.txt",
+      "blob_sha": "4b674b923e73d4e50842ba6448a1de79aa2852d2"
+    },
+    {
+      "path": "posts/lessons/1077-auto.txt",
+      "blob_sha": "436cc155af59d9dbbaa336e32811d8293f138965"
+    },
+    {
+      "path": "posts/lessons/1078-auto.txt",
+      "blob_sha": "85d0fd5d488144faa6f0f07927b092dd49d2b3b4"
+    },
+    {
+      "path": "posts/lessons/1079-auto.txt",
+      "blob_sha": "a21561da40f8736154a1a2ff4ea2e59ec09baa99"
+    },
+    {
+      "path": "posts/lessons/1080-auto.txt",
+      "blob_sha": "b8c6dee4ebd674a94674e582c1dea0a1ce41e8e5"
+    },
+    {
+      "path": "posts/lessons/1081-auto.txt",
+      "blob_sha": "1909af1f7f8dd5cbf5843ea1f4b219ec0ce66313"
+    },
+    {
+      "path": "posts/lessons/1082-auto.txt",
+      "blob_sha": "dedb355f561f21503631974e2bc7ed398fd20fc3"
+    },
+    {
+      "path": "posts/lessons/1083-auto.txt",
+      "blob_sha": "5eee674a13b016f71de52a95b656f190bdcebc15"
+    },
+    {
+      "path": "posts/lessons/1084-auto.txt",
+      "blob_sha": "caa0538ef5d039f6be1a3c309f2470afacff726b"
+    },
+    {
+      "path": "posts/lessons/1085-auto.txt",
+      "blob_sha": "538d29992a26130d1f86bd3e10afdd4004ae6f04"
+    },
+    {
+      "path": "posts/lessons/1086-auto.txt",
+      "blob_sha": "351a61f4f6e871169844850820c2010565d4dffb"
+    },
+    {
+      "path": "posts/lessons/1087-auto.txt",
+      "blob_sha": "8eaf44855d64bdd680acafaa5dd06e87ce0d21a0"
+    },
+    {
+      "path": "posts/lessons/1088-auto.txt",
+      "blob_sha": "ff724176be82d3adc8b228c4b0542889d33ad710"
+    },
+    {
+      "path": "posts/lessons/1089-auto.txt",
+      "blob_sha": "992f9cb60b700f62932f748dceb4f47876d510e6"
+    },
+    {
+      "path": "posts/lessons/1090-auto.txt",
+      "blob_sha": "043562416072ab4b410d1550dbe4ddc155dca549"
+    },
+    {
+      "path": "posts/lessons/1091-auto.txt",
+      "blob_sha": "bac14144db3cf26462f2b674a3d8e1bfd7d9d3c2"
+    },
+    {
+      "path": "posts/lessons/1092-auto.txt",
+      "blob_sha": "c917a5958a7e4fa0a0b12814bc57769e2a12c50c"
+    },
+    {
+      "path": "posts/lessons/1093-auto.txt",
+      "blob_sha": "2b867ba2548863aab87c7a55e2e41929bb113864"
+    },
+    {
+      "path": "posts/lessons/1094-auto.txt",
+      "blob_sha": "7ba134426254479b6795a8e83c27f1a48bed5864"
+    },
+    {
+      "path": "posts/lessons/1095-auto.txt",
+      "blob_sha": "7da5c6ad87e4d6c3320128827907fc1acf44a9cb"
+    },
+    {
+      "path": "posts/lessons/1096-auto.txt",
+      "blob_sha": "57ec6aa749f8d74cc5e02810e43a229578b9df62"
+    },
+    {
+      "path": "posts/lessons/1097-auto.txt",
+      "blob_sha": "e34c2fdc8100f0ddd28ded009c9a07aafa14ffa6"
+    },
+    {
+      "path": "posts/lessons/1098-auto.txt",
+      "blob_sha": "f9dbba5878bce88838dddf7623aeca8a7fbe7148"
+    },
+    {
+      "path": "posts/lessons/1099-auto.txt",
+      "blob_sha": "ff2733970aa827b31c24ba2d98ade9ae0a9a7695"
+    },
+    {
+      "path": "posts/lessons/1100-auto.txt",
+      "blob_sha": "08f1b7574c15e7b13842796d20b611dfbf79bbe8"
+    },
+    {
+      "path": "posts/lessons/1101-auto.txt",
+      "blob_sha": "09aa684a21b0d3092dbee651ed62d0702b991012"
+    },
+    {
+      "path": "posts/lessons/1102-auto.txt",
+      "blob_sha": "fa6831efcb5525b401d2719603376bdb882a456c"
+    },
+    {
+      "path": "posts/lessons/1103-auto.txt",
+      "blob_sha": "d7f97deecec8208317190e0216634ca7fa15515e"
+    },
+    {
+      "path": "posts/lessons/1104-auto.txt",
+      "blob_sha": "4fd707634dedf62987559d5004c743de39d18a5b"
+    },
+    {
+      "path": "posts/lessons/1105-auto.txt",
+      "blob_sha": "aaba89f6c4114e2d20b4ad2623d914516934d520"
+    },
+    {
+      "path": "posts/lessons/1106-auto.txt",
+      "blob_sha": "91d0f0986d50393a8bc31059f63a224eb6d16b1b"
+    },
+    {
+      "path": "posts/lessons/1107-auto.txt",
+      "blob_sha": "b208baf857f053921e0e90660fe57cd69ea1f409"
+    },
+    {
+      "path": "posts/lessons/1108-auto.txt",
+      "blob_sha": "720513cb79e6bf7fefc0929d1fa575cf6939123e"
+    },
+    {
+      "path": "posts/lessons/1109-auto.txt",
+      "blob_sha": "fbaa0586f2fa05826b2772464a974dda10698270"
+    },
+    {
+      "path": "posts/lessons/1110-auto.txt",
+      "blob_sha": "1d85324b96be5fd37a097dd66ae2bdbc9a264648"
+    },
+    {
+      "path": "posts/lessons/1111-auto.txt",
+      "blob_sha": "c904f4b26e1e490995825c3fb8ec723df2114640"
+    },
+    {
+      "path": "posts/lessons/1112-auto.txt",
+      "blob_sha": "7273eb6e1e54edf16b222e5a04ff5eb9670ca61e"
+    },
+    {
+      "path": "posts/lessons/1113-auto.txt",
+      "blob_sha": "07e668730dbbe4a0bd8ccba90572c271723ac855"
+    },
+    {
+      "path": "posts/lessons/1114-auto.txt",
+      "blob_sha": "1c2ab3416d85275b6d86d3a6c95cbda89fee7a45"
+    },
+    {
+      "path": "posts/lessons/1115-auto.txt",
+      "blob_sha": "e5139d5b29906ba954786340408807e173ff3a79"
+    },
+    {
+      "path": "posts/lessons/1116-auto.txt",
+      "blob_sha": "0d9f1171ca6d8d69e8fd83b6e147d26a57363c6d"
+    },
+    {
+      "path": "posts/lessons/1117-auto.txt",
+      "blob_sha": "9fc198cf8aa219cdfb98c2a4123f0dd54abe5e9b"
+    },
+    {
+      "path": "posts/lessons/1118-auto.txt",
+      "blob_sha": "5e60cc9669574416c8317bae96f2ab76cf9787a5"
+    },
+    {
+      "path": "posts/lessons/120-auto.txt",
+      "blob_sha": "da3b1e1fc7f781a032a53d37731b547a5cf6737e"
+    },
+    {
+      "path": "posts/lessons/121-auto.txt",
+      "blob_sha": "ebe269028851511820f53d6cb47ab3c8fb5db305"
+    },
+    {
+      "path": "posts/lessons/122-auto.txt",
+      "blob_sha": "803042a708b01ce5aa5af408d202e702c2c3081e"
+    },
+    {
+      "path": "posts/lessons/123-auto.txt",
+      "blob_sha": "3556575c031785006fe3c761abcc7da02083b1c3"
+    },
+    {
+      "path": "posts/lessons/124-auto.txt",
+      "blob_sha": "75efe84e5e7478e9ca429b473f6c403e60ed44d2"
+    },
+    {
+      "path": "posts/lessons/125-auto.txt",
+      "blob_sha": "67cb4916e4c80fa1e8536e81a93a1cca6854108b"
+    },
+    {
+      "path": "posts/lessons/126-auto.txt",
+      "blob_sha": "06afe4055b7e8b277db85c27370db05e374d7404"
+    },
+    {
+      "path": "posts/lessons/127-auto.txt",
+      "blob_sha": "183aee49eb2bdb650a5ecf1754594ec7f962148a"
+    },
+    {
+      "path": "posts/lessons/128-auto.txt",
+      "blob_sha": "c5b2a0c889c03ce98cad63795d90687035ecefd7"
+    },
+    {
+      "path": "posts/lessons/129-auto.txt",
+      "blob_sha": "e73d45a6fbd3f503bb4204748bbc88350a6528dc"
+    },
+    {
+      "path": "posts/lessons/130-auto.txt",
+      "blob_sha": "fd028d94362d1213ef80ecd56c61e280a1332e4a"
+    },
+    {
+      "path": "posts/lessons/131-auto.txt",
+      "blob_sha": "720121f12a2d9432b721c19b84323ebf9f62b85e"
+    },
+    {
+      "path": "posts/lessons/132-auto.txt",
+      "blob_sha": "19cc34e794995904a6302763344a12bce0fd617e"
+    },
+    {
+      "path": "posts/lessons/133-auto.txt",
+      "blob_sha": "0c5a77e6f2c440a8d7a36542b260ecf8625f650f"
+    },
+    {
+      "path": "posts/lessons/134-auto.txt",
+      "blob_sha": "358eccd0c016807bb30ba41cf2dfc70c70d8884b"
+    },
+    {
+      "path": "posts/lessons/135-auto.txt",
+      "blob_sha": "3dc7668a2f71e06bca1ef5e5a71ebab881082238"
+    },
+    {
+      "path": "posts/lessons/136-auto.txt",
+      "blob_sha": "5aea579e52ffb35d56666fd95cd21030b91244c0"
+    },
+    {
+      "path": "posts/lessons/137-auto.txt",
+      "blob_sha": "b89490e691788c865d46b1fdbe7d667d13461d82"
+    },
+    {
+      "path": "posts/lessons/138-auto.txt",
+      "blob_sha": "327bd5b3fa6d93b001da94dedc6e95960fee5cf9"
+    },
+    {
+      "path": "posts/lessons/139-auto.txt",
+      "blob_sha": "47227f27d906390965078dab4e4c2112427e4805"
+    },
+    {
+      "path": "posts/lessons/140-auto.txt",
+      "blob_sha": "ec39edf7a1a434ee9eb359fb366a9de26ad0ecc6"
+    },
+    {
+      "path": "posts/lessons/141-auto.txt",
+      "blob_sha": "fc298774a51a74f0cabc188a6d4f554dcc060303"
+    },
+    {
+      "path": "posts/lessons/142-auto.txt",
+      "blob_sha": "94cd30e697c5d9d511c7e29f07ecf9fb1276c041"
+    },
+    {
+      "path": "posts/lessons/143-auto.txt",
+      "blob_sha": "cd847af489fd166b4750be34bb17c45d57498188"
+    },
+    {
+      "path": "posts/lessons/144-auto.txt",
+      "blob_sha": "8e7e5592f2640c6c164b30ff98da11fca3b22fa6"
+    },
+    {
+      "path": "posts/lessons/145-auto.txt",
+      "blob_sha": "8879b25b8a180e9083b66577e292398e18a3c811"
+    },
+    {
+      "path": "posts/lessons/146-auto.txt",
+      "blob_sha": "5e1e9afb9a78dd5f6ae5605d55b5cf788cf825da"
+    },
+    {
+      "path": "posts/lessons/147-auto.txt",
+      "blob_sha": "b75af2731ad93d08fdc3ee4d6a0042ff7db992a9"
+    },
+    {
+      "path": "posts/lessons/148-auto.txt",
+      "blob_sha": "bca31505551c308629275a92464d34b327882bc2"
+    },
+    {
+      "path": "posts/lessons/149-auto.txt",
+      "blob_sha": "09bb4c5a14c645f6495fe13e82e15e60cc895c04"
+    },
+    {
+      "path": "posts/lessons/150-auto.txt",
+      "blob_sha": "71b43b2103e50f1858bdaae17bf9f0ce013703ba"
+    },
+    {
+      "path": "posts/lessons/151-auto.txt",
+      "blob_sha": "319158f2e554be218587765536680b87f8200a8c"
+    },
+    {
+      "path": "posts/lessons/152-auto.txt",
+      "blob_sha": "a878975076850c3ba73038384a09a5967ec9641c"
+    },
+    {
+      "path": "posts/lessons/153-auto.txt",
+      "blob_sha": "db23d47c5c3791b78b357fe1912925c0000c98a5"
+    },
+    {
+      "path": "posts/lessons/154-auto.txt",
+      "blob_sha": "aeae0435ab81ef6bd56e0c8678742422791b6577"
+    },
+    {
+      "path": "posts/lessons/155-auto.txt",
+      "blob_sha": "a45b35d258149cf8fdec5c7fa6ad52236e701aa9"
+    },
+    {
+      "path": "posts/lessons/156-auto.txt",
+      "blob_sha": "4b503f526802f6f459e1c43fb14eae5df648e76f"
+    },
+    {
+      "path": "posts/lessons/157-auto.txt",
+      "blob_sha": "0b344665cc4495b135add5f4bffe7dad14c122fc"
+    },
+    {
+      "path": "posts/lessons/158-auto.txt",
+      "blob_sha": "159ecbc8fd79ed50e3e72810d41f7764b5cdbe7f"
+    },
+    {
+      "path": "posts/lessons/159-auto.txt",
+      "blob_sha": "24e2a9ccb9ba8e94bcd962b1584e18f38ed11ba7"
+    },
+    {
+      "path": "posts/lessons/160-auto.txt",
+      "blob_sha": "b9422f8dd2d3bb62fe51d67fdf8027fe4b718117"
+    },
+    {
+      "path": "posts/lessons/161-auto.txt",
+      "blob_sha": "d537fb4ff9bf75b5ff201155c47fe5c94a185cf5"
+    },
+    {
+      "path": "posts/lessons/162-auto.txt",
+      "blob_sha": "d865f522f975ad6412bfad85f1c83bf9fa97b0a3"
+    },
+    {
+      "path": "posts/lessons/163-auto.txt",
+      "blob_sha": "430338248918755c56cd99a974bfecf77c42080f"
+    },
+    {
+      "path": "posts/lessons/164-auto.txt",
+      "blob_sha": "3c1a48fcf7426b4399d8050f5146baee77ceb2c0"
+    },
+    {
+      "path": "posts/lessons/165-auto.txt",
+      "blob_sha": "d88f2f0db6706908b8d9f9d8c74498d6dd549c34"
+    },
+    {
+      "path": "posts/lessons/166-auto.txt",
+      "blob_sha": "8992d908557e06c9a37ab607928889c37cec73bd"
+    },
+    {
+      "path": "posts/lessons/167-auto.txt",
+      "blob_sha": "52ba237efa0a4290be34e8ea83b0c5c3cfb53112"
+    },
+    {
+      "path": "posts/lessons/168-auto.txt",
+      "blob_sha": "5da78d12d5c11f4d1e60c5242f26f1e07d6354f8"
+    },
+    {
+      "path": "posts/lessons/169-auto.txt",
+      "blob_sha": "8928e744c8c4180b595f0010623fcf17ca709683"
+    },
+    {
+      "path": "posts/lessons/170-auto.txt",
+      "blob_sha": "3fabc55d260f2e1f84cfdf25d330f6f44cafbc60"
+    },
+    {
+      "path": "posts/lessons/171-auto.txt",
+      "blob_sha": "dc350d145658673389d9746cad28520c7389821d"
+    },
+    {
+      "path": "posts/lessons/172-auto.txt",
+      "blob_sha": "5262f21927c8c69e3b1ee802ca9bd73ea7d544be"
+    },
+    {
+      "path": "posts/lessons/173-auto.txt",
+      "blob_sha": "95c8398c1b68b07c37f76a11ecfddfa14e34a9b9"
+    },
+    {
+      "path": "posts/lessons/174-auto.txt",
+      "blob_sha": "da3fefd128ed14931f421a8af34bd57289a5ae37"
+    },
+    {
+      "path": "posts/lessons/175-auto.txt",
+      "blob_sha": "fdadd5d29e5e8d25f2474e598a3ce8156a78eaed"
+    },
+    {
+      "path": "posts/lessons/176-auto.txt",
+      "blob_sha": "22ec90d1e035eaef6a8d69401c1427cf1f67c2f8"
+    },
+    {
+      "path": "posts/lessons/177-auto.txt",
+      "blob_sha": "67478442c2e678c0a55eb33343e361f932554699"
+    },
+    {
+      "path": "posts/lessons/178-auto.txt",
+      "blob_sha": "31a86205423ddbf153b75ea568a65fa0eb811817"
+    },
+    {
+      "path": "posts/lessons/179-auto.txt",
+      "blob_sha": "d30ae137074a0cf2d2fedf8ccb159395f520e6b3"
+    },
+    {
+      "path": "posts/lessons/180-auto.txt",
+      "blob_sha": "c8edc503f486f9e1df9cae2dd8889eeb945d88c4"
+    },
+    {
+      "path": "posts/lessons/181-auto.txt",
+      "blob_sha": "815cfbdc43a6a26499cd4638cd685a544034b9ae"
+    },
+    {
+      "path": "posts/lessons/182-auto.txt",
+      "blob_sha": "bed382ee862b8736e52e8e32f7504e46c149823e"
+    },
+    {
+      "path": "posts/lessons/183-auto.txt",
+      "blob_sha": "af94eb6418f69904cb4bf3f329c0d74ddd22e3a0"
+    },
+    {
+      "path": "posts/lessons/184-auto.txt",
+      "blob_sha": "2acac258aa81a89da3f2edc5923fd99caca39b6d"
+    },
+    {
+      "path": "posts/lessons/185-auto.txt",
+      "blob_sha": "fd9899170ce25ab6b7d569cc6dc953604b0d508b"
+    },
+    {
+      "path": "posts/lessons/186-auto.txt",
+      "blob_sha": "3181c7fc3bbc277c15475f3d9a3297596c29dbfe"
+    },
+    {
+      "path": "posts/lessons/187-auto.txt",
+      "blob_sha": "9a53717a67393c371c8360750d272e214251bb7e"
+    },
+    {
+      "path": "posts/lessons/188-auto.txt",
+      "blob_sha": "1d9848fb35da55121322fe844b5a6f2a94a58ad0"
+    },
+    {
+      "path": "posts/lessons/189-auto.txt",
+      "blob_sha": "1420a7a00ceaece030a525ecaf035514471656c4"
+    },
+    {
+      "path": "posts/lessons/190-auto.txt",
+      "blob_sha": "0f081948f495593d80acbb26a20a965f416618ed"
+    },
+    {
+      "path": "posts/lessons/191-auto.txt",
+      "blob_sha": "bb016bd6509aa9126a6d96ab7d3668fdfe0a10fe"
+    },
+    {
+      "path": "posts/lessons/192-auto.txt",
+      "blob_sha": "59c34e0fbbf0b7a7e2a2bf6fdd2c7c8ba5a935c9"
+    },
+    {
+      "path": "posts/lessons/193-auto.txt",
+      "blob_sha": "52f9571b15684573d1d6e02111e77d093c20f2a4"
+    },
+    {
+      "path": "posts/lessons/194-auto.txt",
+      "blob_sha": "bd8560c869feb089c67d1baeeb3073a30f827220"
+    },
+    {
+      "path": "posts/lessons/195-auto.txt",
+      "blob_sha": "3ceaf7b7eefa0a6ce4e63ab6a54542a599222281"
+    },
+    {
+      "path": "posts/lessons/196-auto.txt",
+      "blob_sha": "f36b4f2ccbacfd9b0243bd4835f387466f47e324"
+    },
+    {
+      "path": "posts/lessons/197-auto.txt",
+      "blob_sha": "d5c9d8eeff5ac79c8d020b806968e50d568ed619"
+    },
+    {
+      "path": "posts/lessons/198-auto.txt",
+      "blob_sha": "6877973233f1998dd0f58ba056972e700d147338"
+    },
+    {
+      "path": "posts/lessons/199-auto.txt",
+      "blob_sha": "b10b8926ecf1a41d874c91c18008535300daaea9"
+    },
+    {
+      "path": "posts/lessons/200-auto.txt",
+      "blob_sha": "7a4bcff9429a67f210c7541d34beadfaa8a7fef0"
+    },
+    {
+      "path": "posts/lessons/201-auto.txt",
+      "blob_sha": "88b39a0d28a851a03c39bcfbebe709d80c0e733e"
+    },
+    {
+      "path": "posts/lessons/202-auto.txt",
+      "blob_sha": "63b1a34af0a0622cdac682b6d517cbdecb119071"
+    },
+    {
+      "path": "posts/lessons/203-auto.txt",
+      "blob_sha": "a32b85e346808686d2ef27cd309335c7f8c84adf"
+    },
+    {
+      "path": "posts/lessons/204-auto.txt",
+      "blob_sha": "b38e8784072c7cd227994451c1a7047d9fc24f64"
+    },
+    {
+      "path": "posts/lessons/205-auto.txt",
+      "blob_sha": "d2406dbdfa9a3b9a6987f5edf2b156eaad2aafce"
+    },
+    {
+      "path": "posts/lessons/206-auto.txt",
+      "blob_sha": "071bcc97f7e7fcf67f61859751afb0cdad5442c6"
+    },
+    {
+      "path": "posts/lessons/207-auto.txt",
+      "blob_sha": "bab4f1cfac356b3c666efadada44fb3c4d6303ed"
+    },
+    {
+      "path": "posts/lessons/208-auto.txt",
+      "blob_sha": "f2698b6553607e1f5c3ed07865a6dc025955d2bd"
+    },
+    {
+      "path": "posts/lessons/209-auto.txt",
+      "blob_sha": "23462ed9f81a914c68aa3a4d9bffdec541030b53"
+    },
+    {
+      "path": "posts/lessons/210-auto.txt",
+      "blob_sha": "b006cac9612381809e90f689f01a532fa32985fc"
+    },
+    {
+      "path": "posts/lessons/211-auto.txt",
+      "blob_sha": "0b1cf2b1d41d50c1d552090e548a361adc722397"
+    },
+    {
+      "path": "posts/lessons/212-auto.txt",
+      "blob_sha": "74161af515245c1dd7fb39be36e3d74c823a0fa3"
+    },
+    {
+      "path": "posts/lessons/213-auto.txt",
+      "blob_sha": "fdfb76e01337d54d887bd34b7c25ea0640e97ef4"
+    },
+    {
+      "path": "posts/lessons/214-auto.txt",
+      "blob_sha": "0ed7cb94dd1c84e03874a3099ec572d4017a8da0"
+    },
+    {
+      "path": "posts/lessons/215-auto.txt",
+      "blob_sha": "f89f60f806821bd979f75791a94a0d5844a60e94"
+    },
+    {
+      "path": "posts/lessons/216-auto.txt",
+      "blob_sha": "2535141117969793d489902f96765048801f3df5"
+    },
+    {
+      "path": "posts/lessons/217-auto.txt",
+      "blob_sha": "aca9a0bfc0849c610b59374cb157bfb7f16191f8"
+    },
+    {
+      "path": "posts/lessons/218-auto.txt",
+      "blob_sha": "8f50dd989bde88151bf5e90029b8a36c74a955a8"
+    },
+    {
+      "path": "posts/lessons/219-auto.txt",
+      "blob_sha": "88e30c5f8a9f2537e0d92d21be2419b084de377d"
+    },
+    {
+      "path": "posts/lessons/220-auto.txt",
+      "blob_sha": "fff9a672f5ef5cfe1e1464b1b81b534467fc00ea"
+    },
+    {
+      "path": "posts/lessons/221-auto.txt",
+      "blob_sha": "32fc1c09033261089ad40dad16b48757b56064ca"
+    },
+    {
+      "path": "posts/lessons/222-auto.txt",
+      "blob_sha": "cbc7a9b099d7a2e7ba1417dd131d76ae362f393b"
+    },
+    {
+      "path": "posts/lessons/223-auto.txt",
+      "blob_sha": "ee9ca752bceefb8c25a2731b478ae42f7ec978e5"
+    },
+    {
+      "path": "posts/lessons/224-auto.txt",
+      "blob_sha": "d9dcef449f29d407d94503782ad4b5f79025180d"
+    },
+    {
+      "path": "posts/lessons/225-auto.txt",
+      "blob_sha": "73b86cd02c7da2191969c1b3298bf95614a5a05e"
+    },
+    {
+      "path": "posts/lessons/226-auto.txt",
+      "blob_sha": "8844fb9198e5cc8a51747a992fdd8ddad88253e7"
+    },
+    {
+      "path": "posts/lessons/227-auto.txt",
+      "blob_sha": "b2b8bb647362269474360ab33a5e94090a916fe8"
+    },
+    {
+      "path": "posts/lessons/228-auto.txt",
+      "blob_sha": "b1667ba6b178669518eef6489c7234e20f6deeeb"
+    },
+    {
+      "path": "posts/lessons/229-auto.txt",
+      "blob_sha": "6b30563eb3c217df837eabaa8ec32fa9bbd57f34"
+    },
+    {
+      "path": "posts/lessons/230-auto.txt",
+      "blob_sha": "1ecb148b77c54bd4638f8d7b9b709db1f02390df"
+    },
+    {
+      "path": "posts/lessons/231-auto.txt",
+      "blob_sha": "02cf4b540044a71b09fbc696cbef7121fe34511c"
+    },
+    {
+      "path": "posts/lessons/232-auto.txt",
+      "blob_sha": "192a229f862e70e2784cca18649abdb5bf159f8b"
+    },
+    {
+      "path": "posts/lessons/233-auto.txt",
+      "blob_sha": "9e725cce1a8251d43461db95d557cb6a4d79134e"
+    },
+    {
+      "path": "posts/lessons/234-auto.txt",
+      "blob_sha": "a1fcae07ad2b779610b0b8440bfb4cfaa2a089e8"
+    },
+    {
+      "path": "posts/lessons/235-auto.txt",
+      "blob_sha": "46bdeef78cee9593396893047d0f645e7a7f6795"
+    },
+    {
+      "path": "posts/lessons/236-auto.txt",
+      "blob_sha": "ecd5c19401ceb6d6a088c806cd2052a532851553"
+    },
+    {
+      "path": "posts/lessons/237-auto.txt",
+      "blob_sha": "5124e61c8e27429536c58c0ea3b42e7a00df1bb2"
+    },
+    {
+      "path": "posts/lessons/238-auto.txt",
+      "blob_sha": "61f238cb1ca2510e8016ece83fe29b920eaf93f1"
+    },
+    {
+      "path": "posts/lessons/239-auto.txt",
+      "blob_sha": "ba280b351597b263c50215ba58d1ef2ec7ed1328"
+    },
+    {
+      "path": "posts/lessons/240-auto.txt",
+      "blob_sha": "c213a1cf540a297b69d428bc7479472d21bfd74b"
+    },
+    {
+      "path": "posts/lessons/241-auto.txt",
+      "blob_sha": "a460fe1db21e656567e9bf70c9cb2202bf8c35c7"
+    },
+    {
+      "path": "posts/lessons/242-auto.txt",
+      "blob_sha": "23752537464e184a498d64ca7b5593053c0f5853"
+    },
+    {
+      "path": "posts/lessons/243-auto.txt",
+      "blob_sha": "308ed48bff84ca15798848bfaba08e7080e12ec7"
+    },
+    {
+      "path": "posts/lessons/244-auto.txt",
+      "blob_sha": "0a5167c6d835c6edaf81c34aac8c3b6b8e4b86af"
+    },
+    {
+      "path": "posts/lessons/245-auto.txt",
+      "blob_sha": "4d09acba1ec04bbaa7b37d56224f7f2b4180ae39"
+    },
+    {
+      "path": "posts/lessons/246-auto.txt",
+      "blob_sha": "129b5a8b0fb67a827aac891ab8de5fe2557213c7"
+    },
+    {
+      "path": "posts/lessons/247-auto.txt",
+      "blob_sha": "ea9ba42ae113f31eca831d648d0d7e79565e1e63"
+    },
+    {
+      "path": "posts/lessons/248-auto.txt",
+      "blob_sha": "3e1a6aa8ac4cb832b037fc6edc90b35a0887b515"
+    },
+    {
+      "path": "posts/lessons/249-auto.txt",
+      "blob_sha": "524b7fbc59b405d044ab1ae9fcb1912f199d2daa"
+    },
+    {
+      "path": "posts/lessons/250-auto.txt",
+      "blob_sha": "195fb3b6282f8d5e20c0ee85be4b0eacc11137e6"
+    },
+    {
+      "path": "posts/lessons/251-auto.txt",
+      "blob_sha": "2e366d2da5d3e5ec863c80d77442d0c8ba751846"
+    },
+    {
+      "path": "posts/lessons/252-auto.txt",
+      "blob_sha": "726f602ecdb8cbadc726198666cf045cfee2e5e7"
+    },
+    {
+      "path": "posts/lessons/253-auto.txt",
+      "blob_sha": "a7f24dff24e2ebfca0ddfcdf695b9c5f6326fcb4"
+    },
+    {
+      "path": "posts/lessons/254-auto.txt",
+      "blob_sha": "f26b5b8240dd7728737a32e4007e51323e8c8571"
+    },
+    {
+      "path": "posts/lessons/255-auto.txt",
+      "blob_sha": "86f93bb6a334068da42851abed34f3a18e7484d6"
+    },
+    {
+      "path": "posts/lessons/256-auto.txt",
+      "blob_sha": "b76145dc85bd9652efabe991318c3c1ac64897b0"
+    },
+    {
+      "path": "posts/lessons/257-auto.txt",
+      "blob_sha": "2c86305346b913e8438b9038e0e4a41364ac4e48"
+    },
+    {
+      "path": "posts/lessons/258-auto.txt",
+      "blob_sha": "2ad59347ba5d285676af10d73dc72634085ddbee"
+    },
+    {
+      "path": "posts/lessons/259-auto.txt",
+      "blob_sha": "54619d93b239c83787d6a351ad893eb911488ed7"
+    },
+    {
+      "path": "posts/lessons/260-auto.txt",
+      "blob_sha": "09c98f1b14c6e4faaffd328534a4c7397ea92c23"
+    },
+    {
+      "path": "posts/lessons/261-auto.txt",
+      "blob_sha": "a1faf206900117eca3667d9dfeeaf1b44ef04dfc"
+    },
+    {
+      "path": "posts/lessons/262-auto.txt",
+      "blob_sha": "af9a09095a67242d582e510d205ef1dcf187f716"
+    },
+    {
+      "path": "posts/lessons/263-auto.txt",
+      "blob_sha": "62f427d027a40fcdef63bf533ca5cf75ee56b58e"
+    },
+    {
+      "path": "posts/lessons/264-auto.txt",
+      "blob_sha": "aa7e2f23a03d967712d0e4a8578404c43d74d3ca"
+    },
+    {
+      "path": "posts/lessons/265-auto.txt",
+      "blob_sha": "087842c8e5e9d156d86817f98bce3fafb51b8cab"
+    },
+    {
+      "path": "posts/lessons/266-auto.txt",
+      "blob_sha": "4f290e253c30e1dfee9ae13350a3eeeaeb1349b9"
+    },
+    {
+      "path": "posts/lessons/267-auto.txt",
+      "blob_sha": "d8b0bfcc694c6d5583972d9cab752995714bb16f"
+    },
+    {
+      "path": "posts/lessons/268-auto.txt",
+      "blob_sha": "97bff38855bfc7976a585ed033a7f28fe6e8c609"
+    },
+    {
+      "path": "posts/lessons/269-auto.txt",
+      "blob_sha": "c15aa421c7f3229264ca4766778c0ec1b45ac074"
+    },
+    {
+      "path": "posts/lessons/270-auto.txt",
+      "blob_sha": "7a22cb6dee0b080db8ba42de45b73a87b1766fc0"
+    },
+    {
+      "path": "posts/lessons/271-auto.txt",
+      "blob_sha": "b2076b7753e3792fc4a9079174b17c19ba541abf"
+    },
+    {
+      "path": "posts/lessons/272-auto.txt",
+      "blob_sha": "5e379f305f2e6d81459d4aa640bb97956f63c685"
+    },
+    {
+      "path": "posts/lessons/273-auto.txt",
+      "blob_sha": "052a45b455af4699ee2cff774d2990204523aea4"
+    },
+    {
+      "path": "posts/lessons/274-auto.txt",
+      "blob_sha": "faeb7ee7913aa55b9433c22774900f3a296cdb74"
+    },
+    {
+      "path": "posts/lessons/275-auto.txt",
+      "blob_sha": "2e4e9cd6b6b34f93c6ed7ab71f05179aa745cc0e"
+    },
+    {
+      "path": "posts/lessons/276-auto.txt",
+      "blob_sha": "326be8fa251e808d35146daf4eba49f53881feb6"
+    },
+    {
+      "path": "posts/lessons/277-auto.txt",
+      "blob_sha": "96ca2a8f696a3942cf238dbcf84aa598bd7ea360"
+    },
+    {
+      "path": "posts/lessons/278-auto.txt",
+      "blob_sha": "c180f08ed48d6c786b0e8a15774fa74c00261bcc"
+    },
+    {
+      "path": "posts/lessons/279-auto.txt",
+      "blob_sha": "da44760bb46a467bf43b17a914d674eb3404df1d"
+    },
+    {
+      "path": "posts/lessons/280-auto.txt",
+      "blob_sha": "73a24026582deb0b96966978f80779c027ed0093"
+    },
+    {
+      "path": "posts/lessons/281-auto.txt",
+      "blob_sha": "0f6c735adf01528694381c7780c83a79196e67fc"
+    },
+    {
+      "path": "posts/lessons/282-auto.txt",
+      "blob_sha": "39f12fab30c74b8553bf10ec81d3988b17f9ea58"
+    },
+    {
+      "path": "posts/lessons/283-auto.txt",
+      "blob_sha": "4149b2be37af08383117e45cb7c100ac8ba69c49"
+    },
+    {
+      "path": "posts/lessons/284-auto.txt",
+      "blob_sha": "0c9c2def2872850b9baaa775afc2229fc6d7cd49"
+    },
+    {
+      "path": "posts/lessons/285-auto.txt",
+      "blob_sha": "3f9aefbab32ab15b79e217c75416376fd77b9693"
+    },
+    {
+      "path": "posts/lessons/286-auto.txt",
+      "blob_sha": "7a88a1a000823b163ce3895fdfc4fff6cefd1937"
+    },
+    {
+      "path": "posts/lessons/287-auto.txt",
+      "blob_sha": "cd76c4fe241b72cd484996a8028dd1bba2860629"
+    },
+    {
+      "path": "posts/lessons/288-auto.txt",
+      "blob_sha": "8920d480c62dad0ee3f77fa96fa8123812aa4541"
+    },
+    {
+      "path": "posts/lessons/289-auto.txt",
+      "blob_sha": "9b05fd30586919d8ef8d50928665983d02187fa0"
+    },
+    {
+      "path": "posts/lessons/290-auto.txt",
+      "blob_sha": "2f98d6014f741262342118749ba6d739ffb1521d"
+    },
+    {
+      "path": "posts/lessons/291-auto.txt",
+      "blob_sha": "efcb8f5cd08afb2c0eb4e2c195691451ac42fcb0"
+    },
+    {
+      "path": "posts/lessons/292-auto.txt",
+      "blob_sha": "07ffcaaf5c76c457293cead4baae23873aa230c5"
+    },
+    {
+      "path": "posts/lessons/293-auto.txt",
+      "blob_sha": "ec812b1a95206b3fb634d4b26a7c4e492dcf01f9"
+    },
+    {
+      "path": "posts/lessons/294-auto.txt",
+      "blob_sha": "17c65c62eab9b6610e3a7be07594b19a3e117730"
+    },
+    {
+      "path": "posts/lessons/295-auto.txt",
+      "blob_sha": "4df01d0e81cd23a28eeefea9da2f7207e9af2c32"
+    },
+    {
+      "path": "posts/lessons/296-auto.txt",
+      "blob_sha": "87add6a687e1dd837e919786cdd6bb4457127aca"
+    },
+    {
+      "path": "posts/lessons/297-auto.txt",
+      "blob_sha": "6389941bdb35808e34c94ddd85391ed5e5715a6a"
+    },
+    {
+      "path": "posts/lessons/298-auto.txt",
+      "blob_sha": "4648371e623070d8a83cc2b054f90a328b71faf1"
+    },
+    {
+      "path": "posts/lessons/299-auto.txt",
+      "blob_sha": "2c1cb6529c87ee16d5ab8edaa100335cb789788a"
+    },
+    {
+      "path": "posts/lessons/300-auto.txt",
+      "blob_sha": "2cb6515320717e7e8eb073bd4159ffbb6c6ed2f9"
+    },
+    {
+      "path": "posts/lessons/301-auto.txt",
+      "blob_sha": "1be3a50ed2ff23a8af733cfe73a3db254e154341"
+    },
+    {
+      "path": "posts/lessons/302-auto.txt",
+      "blob_sha": "16043098f30cac7c69a0caa0120f996f4fb99bbc"
+    },
+    {
+      "path": "posts/lessons/303-auto.txt",
+      "blob_sha": "a6a17862c3a1f464f9e5845ed703ee85559e14ec"
+    },
+    {
+      "path": "posts/lessons/304-auto.txt",
+      "blob_sha": "a8bf518fe3a0fd0a36f4daca7a39c5eaf5fcae0c"
+    },
+    {
+      "path": "posts/lessons/305-auto.txt",
+      "blob_sha": "b94c0526c9467251ae878244431b4666b692854c"
+    },
+    {
+      "path": "posts/lessons/306-auto.txt",
+      "blob_sha": "ac010ab448c10eb932d9e221342cc9b581d57cca"
+    },
+    {
+      "path": "posts/lessons/307-auto.txt",
+      "blob_sha": "5210ee5b841ae3a36103db8ddd9423b06c53a9b2"
+    },
+    {
+      "path": "posts/lessons/308-auto.txt",
+      "blob_sha": "8ac64f43c39af02ffdaefb64f91ffe326cf0d3de"
+    },
+    {
+      "path": "posts/lessons/309-auto.txt",
+      "blob_sha": "bb58685af2847d8018bdc540b897bed6c4ff0b08"
+    },
+    {
+      "path": "posts/lessons/310-auto.txt",
+      "blob_sha": "f60d700da8e2647d057cc8531642d6f2cec3a68e"
+    },
+    {
+      "path": "posts/lessons/311-auto.txt",
+      "blob_sha": "ec595ce1698987475b429c623bbaa318d01d80ea"
+    },
+    {
+      "path": "posts/lessons/312-auto.txt",
+      "blob_sha": "42320be23ddc9acb0c476a55be23391bccea030a"
+    },
+    {
+      "path": "posts/lessons/313-auto.txt",
+      "blob_sha": "09084b54a9c04de48aa63fc7913688b6456d430f"
+    },
+    {
+      "path": "posts/lessons/314-auto.txt",
+      "blob_sha": "c1eefe3b5ebd8ba65c83d7a713203544885c02a5"
+    },
+    {
+      "path": "posts/lessons/315-auto.txt",
+      "blob_sha": "d7ebddb503096dbdcd32d8b69e9dc9f380b41ca0"
+    },
+    {
+      "path": "posts/lessons/316-auto.txt",
+      "blob_sha": "20707be918e3c66ebd3ae82cd336c070a08c9321"
+    },
+    {
+      "path": "posts/lessons/317-auto.txt",
+      "blob_sha": "55afa521e4a5fb9ae8b030f59624c43a20123fc7"
+    },
+    {
+      "path": "posts/lessons/318-auto.txt",
+      "blob_sha": "b3a7ebea0bef9895cfee02be7b24aa16e9030fd1"
+    },
+    {
+      "path": "posts/lessons/319-auto.txt",
+      "blob_sha": "a900492ef2346c0977c9e532969a21e2ae4183eb"
+    },
+    {
+      "path": "posts/lessons/320-auto.txt",
+      "blob_sha": "2c586f3c3b5b00eb4efa727c2462ba0a8d5aa6fe"
+    },
+    {
+      "path": "posts/lessons/321-auto.txt",
+      "blob_sha": "86b963407d458344de129de60682ffb8c8ca0044"
+    },
+    {
+      "path": "posts/lessons/322-auto.txt",
+      "blob_sha": "8801c440dc0a222fad830f18dc51c255dbccac21"
+    },
+    {
+      "path": "posts/lessons/323-auto.txt",
+      "blob_sha": "32896349ccd2a7d46bfbc3f26a2a75eff61ce7bd"
+    },
+    {
+      "path": "posts/lessons/324-auto.txt",
+      "blob_sha": "3644282a3ad9cc61a420f988d6cb6848bfb87599"
+    },
+    {
+      "path": "posts/lessons/325-auto.txt",
+      "blob_sha": "fd6573ebd0d110be88d05124e1a997f85c4fb2bc"
+    },
+    {
+      "path": "posts/lessons/326-auto.txt",
+      "blob_sha": "4281d70c4ac40d0832393f033fd83794f372b8a6"
+    },
+    {
+      "path": "posts/lessons/327-auto.txt",
+      "blob_sha": "5e86c3816bbf650ff3dfaaeedf1c34328e5efe1b"
+    },
+    {
+      "path": "posts/lessons/328-auto.txt",
+      "blob_sha": "82511ba9f5327df86237a037fc19e54c5ae4fa59"
+    },
+    {
+      "path": "posts/lessons/329-auto.txt",
+      "blob_sha": "a65822f252909b4dd193a2379566f7d5125d3bef"
+    },
+    {
+      "path": "posts/lessons/330-auto.txt",
+      "blob_sha": "a0887c93b112b7903a85d64a539d6850d27f5459"
+    },
+    {
+      "path": "posts/lessons/331-auto.txt",
+      "blob_sha": "8d0d525eba2c5ad19c01b371e04fe65dc285dbd0"
+    },
+    {
+      "path": "posts/lessons/332-auto.txt",
+      "blob_sha": "bf7e956fc551a81b4c1037805da700afe5bf3953"
+    },
+    {
+      "path": "posts/lessons/333-auto.txt",
+      "blob_sha": "5f26d3afc400af797ecc0d1436056a5c25aa4524"
+    },
+    {
+      "path": "posts/lessons/334-auto.txt",
+      "blob_sha": "e04128029f32c9166ad87f88fe040e66d2be797f"
+    },
+    {
+      "path": "posts/lessons/335-auto.txt",
+      "blob_sha": "d41a8a25a707a3b4aaf20c50c8730d316f0b13ff"
+    },
+    {
+      "path": "posts/lessons/336-auto.txt",
+      "blob_sha": "b14a56dc84ae9078046d938be70e9cde57561237"
+    },
+    {
+      "path": "posts/lessons/337-auto.txt",
+      "blob_sha": "9081c44685d64a917ed037c23e2524fbf58b159e"
+    },
+    {
+      "path": "posts/lessons/338-auto.txt",
+      "blob_sha": "cbb4f7d7e55fae3298669312184efee81a997058"
+    },
+    {
+      "path": "posts/lessons/339-auto.txt",
+      "blob_sha": "2c7ee609be17222eff21111864c8384c3e46312a"
+    },
+    {
+      "path": "posts/lessons/340-auto.txt",
+      "blob_sha": "0ee756ccc2e3e8167f4b1954c0efc8adbe1cdae4"
+    },
+    {
+      "path": "posts/lessons/341-auto.txt",
+      "blob_sha": "cf88f2b51ec6790df21d975a671c81f7d6342987"
+    },
+    {
+      "path": "posts/lessons/342-auto.txt",
+      "blob_sha": "4d83211212bd863255c152511a3cea5cf4f2506d"
+    },
+    {
+      "path": "posts/lessons/343-auto.txt",
+      "blob_sha": "e498982b98a44bc4d589ddd35546f344eec2a34a"
+    },
+    {
+      "path": "posts/lessons/344-auto.txt",
+      "blob_sha": "d9ee8e3e3f929f73511537e2656a94ba3646b0b2"
+    },
+    {
+      "path": "posts/lessons/345-auto.txt",
+      "blob_sha": "f47baa473097d25d23cd58d1d9a8196c186b1c9e"
+    },
+    {
+      "path": "posts/lessons/346-auto.txt",
+      "blob_sha": "758e7540ed260f9d30f902e7f3a60a485da91bec"
+    },
+    {
+      "path": "posts/lessons/347-auto.txt",
+      "blob_sha": "70e4f278896ab907045768102fc5e590bfc22d82"
+    },
+    {
+      "path": "posts/lessons/348-auto.txt",
+      "blob_sha": "64ef5c7959dc0ab4c8003ca1fd71024da77e1813"
+    },
+    {
+      "path": "posts/lessons/349-auto.txt",
+      "blob_sha": "7336527d52dfbace297456589638a8cc2187f847"
+    },
+    {
+      "path": "posts/lessons/350-auto.txt",
+      "blob_sha": "a47b59d0281e0e086e20d1c976595d61ba1f3bb4"
+    },
+    {
+      "path": "posts/lessons/351-auto.txt",
+      "blob_sha": "b3d6516d1c7f7601d9fc6bb3204eb7ca38347944"
+    },
+    {
+      "path": "posts/lessons/352-auto.txt",
+      "blob_sha": "f22d130998682532090e9e9819e63055be54dbeb"
+    },
+    {
+      "path": "posts/lessons/353-auto.txt",
+      "blob_sha": "c23c55d4cb3077b6ed1cab133e13add83201b47d"
+    },
+    {
+      "path": "posts/lessons/354-auto.txt",
+      "blob_sha": "a622280e428fce793cbb54bb26e0299a18653cf0"
+    },
+    {
+      "path": "posts/lessons/355-auto.txt",
+      "blob_sha": "9d220a96c424c9933ac84b32162de2bd790817a2"
+    },
+    {
+      "path": "posts/lessons/356-auto.txt",
+      "blob_sha": "8ae8701d3550a473602dd892fff6012ed9692ba6"
+    },
+    {
+      "path": "posts/lessons/357-auto.txt",
+      "blob_sha": "9a286f5428c21bacde07861758dcaa2eeadf3789"
+    },
+    {
+      "path": "posts/lessons/358-auto.txt",
+      "blob_sha": "d615c5f9504b4af4a756d12285bf21c949993b9c"
+    },
+    {
+      "path": "posts/lessons/359-auto.txt",
+      "blob_sha": "72626dfd735322295f56b3ca195ef5b8a17c62ef"
+    },
+    {
+      "path": "posts/lessons/360-auto.txt",
+      "blob_sha": "b469674fdf734ea1b0deecc9f390f736c4a1b826"
+    },
+    {
+      "path": "posts/lessons/361-auto.txt",
+      "blob_sha": "90f6aef5ecb24db0b904d3e14d3a95fc584c373f"
+    },
+    {
+      "path": "posts/lessons/362-auto.txt",
+      "blob_sha": "591e13fb908dcd762538004176c182fc27ae06ce"
+    },
+    {
+      "path": "posts/lessons/363-auto.txt",
+      "blob_sha": "e635de6e7ffe189db632c86c7b73f6e4f2977345"
+    },
+    {
+      "path": "posts/lessons/364-auto.txt",
+      "blob_sha": "530e31aca210b2cd1d795b9e3342be36e02f5b4c"
+    },
+    {
+      "path": "posts/lessons/365-auto.txt",
+      "blob_sha": "94b74d4b78c5b0d3c3e03337311746a7b4b94cbd"
+    },
+    {
+      "path": "posts/lessons/366-auto.txt",
+      "blob_sha": "4eff1df65e499aba79a35b290ddbaec90a8dd778"
+    },
+    {
+      "path": "posts/lessons/367-auto.txt",
+      "blob_sha": "0fa4426fed88883bd055df7b58400ee3b36cebd5"
+    },
+    {
+      "path": "posts/lessons/368-auto.txt",
+      "blob_sha": "ee1d2684952f7d5a8ea08c0602411e25d267661a"
+    },
+    {
+      "path": "posts/lessons/369-auto.txt",
+      "blob_sha": "ed05ad4af252e47972b349e82328acad5fd3f08a"
+    },
+    {
+      "path": "posts/lessons/370-auto.txt",
+      "blob_sha": "0c6b088bbf1c159a3195130deaf9aa5167337e19"
+    },
+    {
+      "path": "posts/lessons/371-auto.txt",
+      "blob_sha": "553cc825942809194bf3d7e1930139f20e57617b"
+    },
+    {
+      "path": "posts/lessons/372-auto.txt",
+      "blob_sha": "d67487aac683f2c75a1561cfdd13bb836b47e9df"
+    },
+    {
+      "path": "posts/lessons/373-auto.txt",
+      "blob_sha": "29ac89aa066df456c4ee335a1c28c76d0e291983"
+    },
+    {
+      "path": "posts/lessons/374-auto.txt",
+      "blob_sha": "fffdb307cc002bf9d4012ad48978671c5ed1b660"
+    },
+    {
+      "path": "posts/lessons/375-auto.txt",
+      "blob_sha": "2b0daa878e40e9d956790ced098af28f1e06e06b"
+    },
+    {
+      "path": "posts/lessons/376-auto.txt",
+      "blob_sha": "59035480d34ef2fcaeb26419563cfd7b573b1e22"
+    },
+    {
+      "path": "posts/lessons/377-auto.txt",
+      "blob_sha": "1aeb09ee7c28c1afb0f2332070f08621e3c62377"
+    },
+    {
+      "path": "posts/lessons/378-auto.txt",
+      "blob_sha": "9800d7f596f38bf3e6b4112ab60f9b2f19042fc0"
+    },
+    {
+      "path": "posts/lessons/379-auto.txt",
+      "blob_sha": "bc76906434564be16ba2dfb2e1fbcaa800885bd4"
+    },
+    {
+      "path": "posts/lessons/380-auto.txt",
+      "blob_sha": "9197ca4c6a74085205d8e860fa88eec6664f1e2a"
+    },
+    {
+      "path": "posts/lessons/381-auto.txt",
+      "blob_sha": "6f45b42de421cb5a721f214e8c7ecda10872a5ec"
+    },
+    {
+      "path": "posts/lessons/382-auto.txt",
+      "blob_sha": "639b5f9b1b62917528f39254be43638c555f5291"
+    },
+    {
+      "path": "posts/lessons/383-auto.txt",
+      "blob_sha": "6b9e97d487813a71bf269decacdc092644d80c39"
+    },
+    {
+      "path": "posts/lessons/384-auto.txt",
+      "blob_sha": "f9ceae9a2dc51dd8f57c35850735c86571f7944d"
+    },
+    {
+      "path": "posts/lessons/385-auto.txt",
+      "blob_sha": "5f52af7bb2a6a0ed70452210576d89fbf45e28c0"
+    },
+    {
+      "path": "posts/lessons/386-auto.txt",
+      "blob_sha": "f27ae05b1b01b9a7cbffcc94277f3eaf863a605c"
+    },
+    {
+      "path": "posts/lessons/387-auto.txt",
+      "blob_sha": "773fae4ce8118bff3aa3ad50c96351d52406849e"
+    },
+    {
+      "path": "posts/lessons/388-auto.txt",
+      "blob_sha": "e0a950fbf0f7154b6a37b28c4a348ee31bad52f6"
+    },
+    {
+      "path": "posts/lessons/389-auto.txt",
+      "blob_sha": "a35bd33dd1e79cfd095b2525def5de540d8513fd"
+    },
+    {
+      "path": "posts/lessons/390-auto.txt",
+      "blob_sha": "303a207ea9a0dd5f7f0e4014cdc8569c78a4f85e"
+    },
+    {
+      "path": "posts/lessons/391-auto.txt",
+      "blob_sha": "e46b669a4d6b8b3cfdf71ffeeb7b300c9aa011f6"
+    },
+    {
+      "path": "posts/lessons/392-auto.txt",
+      "blob_sha": "e4e6a6d3c3b1f5ae8d51e32be6ac356aeb674400"
+    },
+    {
+      "path": "posts/lessons/393-auto.txt",
+      "blob_sha": "e3a50b5bb43b1cc4a7d2ec2a76a8b0c20315186a"
+    },
+    {
+      "path": "posts/lessons/394-auto.txt",
+      "blob_sha": "706efd44a866a4a62955c45d06d845e93ed16d1c"
+    },
+    {
+      "path": "posts/lessons/395-auto.txt",
+      "blob_sha": "e93a1da78b919dad3f6348706dcfd145d9c6c2ab"
+    },
+    {
+      "path": "posts/lessons/396-auto.txt",
+      "blob_sha": "89e62bf2ab796177c69aaf12373e4f5a7d2826aa"
+    },
+    {
+      "path": "posts/lessons/397-auto.txt",
+      "blob_sha": "4180ab6e5ac80145a1f661f8bde95b98226556dd"
+    },
+    {
+      "path": "posts/lessons/398-auto.txt",
+      "blob_sha": "c44f51070c688e8b104f62290ecb20e16323dee0"
+    },
+    {
+      "path": "posts/lessons/399-auto.txt",
+      "blob_sha": "2ebeb4696167e57feaa5c3387fcb7af23c56c4e7"
+    },
+    {
+      "path": "posts/lessons/400-auto.txt",
+      "blob_sha": "986d98c8085fd5956365cecd2082d57faa926e32"
+    },
+    {
+      "path": "posts/lessons/401-auto.txt",
+      "blob_sha": "e11bfb80e4d7ad4e49f6e21dcabc1fc58b113642"
+    },
+    {
+      "path": "posts/lessons/402-auto.txt",
+      "blob_sha": "df1b9d2429c435c1dd3eb3a1a9844d1d6a0beadd"
+    },
+    {
+      "path": "posts/lessons/403-auto.txt",
+      "blob_sha": "dca2b3f40ba5792decc9e4fc0cc7ad3dd968b0df"
+    },
+    {
+      "path": "posts/lessons/404-auto.txt",
+      "blob_sha": "d025b04e3aa58c42d98a0d12b304a5a5e57ad522"
+    },
+    {
+      "path": "posts/lessons/405-auto.txt",
+      "blob_sha": "d9185d9c581e507df85e3720c1726f4176962e27"
+    },
+    {
+      "path": "posts/lessons/406-auto.txt",
+      "blob_sha": "c1cac86c6b27dd26c67610a8609e776d8d244865"
+    },
+    {
+      "path": "posts/lessons/407-auto.txt",
+      "blob_sha": "fae4e30dc2d287ddbffa96cb631a8651ab7045dd"
+    },
+    {
+      "path": "posts/lessons/408-auto.txt",
+      "blob_sha": "c46e447c33d0906b0d0a6d1e21db1dd5da0df7d9"
+    },
+    {
+      "path": "posts/lessons/409-auto.txt",
+      "blob_sha": "71d191eb81f26dfb82afce1bc34cbfac1a3bfdd8"
+    },
+    {
+      "path": "posts/lessons/410-auto.txt",
+      "blob_sha": "66c8d779d00c74641dd527032f7aa0aa248c7712"
+    },
+    {
+      "path": "posts/lessons/411-auto.txt",
+      "blob_sha": "f90a355f8f86a8e5d421f3e39c8b09628a7dd95e"
+    },
+    {
+      "path": "posts/lessons/412-auto.txt",
+      "blob_sha": "183da77ab7dce85424d49c869d14da59be93654e"
+    },
+    {
+      "path": "posts/lessons/413-auto.txt",
+      "blob_sha": "4a6f2c30e52711598f8d5c48aca2abe3a09bdb0b"
+    },
+    {
+      "path": "posts/lessons/414-auto.txt",
+      "blob_sha": "548e7980aeac844d0bf4a75520f1ff270388d1b4"
+    },
+    {
+      "path": "posts/lessons/415-auto.txt",
+      "blob_sha": "9c487f96f5204f6a470ca393fad9f4d7c7ede36f"
+    },
+    {
+      "path": "posts/lessons/416-auto.txt",
+      "blob_sha": "bd0df893c3c99cc6a6726c604eaf66300ca89de1"
+    },
+    {
+      "path": "posts/lessons/417-auto.txt",
+      "blob_sha": "69bb602ea32d1f7da5c956c82a125c0ae08af24a"
+    },
+    {
+      "path": "posts/lessons/418-auto.txt",
+      "blob_sha": "19682c55a42c776b694a6229009b91046b4b3940"
+    },
+    {
+      "path": "posts/lessons/419-auto.txt",
+      "blob_sha": "776041fc2e6547f46028e0c9681a0a92e3aeb82d"
+    },
+    {
+      "path": "posts/lessons/420-auto.txt",
+      "blob_sha": "e54219de420164c569a185d063047df51d152811"
+    },
+    {
+      "path": "posts/lessons/421-auto.txt",
+      "blob_sha": "5cda36cff41a22cd68927eab51c45f002963c1b9"
+    },
+    {
+      "path": "posts/lessons/422-auto.txt",
+      "blob_sha": "3aa81afe357d3d73bf3b5af24dbb0bcc688e271c"
+    },
+    {
+      "path": "posts/lessons/423-auto.txt",
+      "blob_sha": "9062999396de1be5f6912b41574f9ba35ef55835"
+    },
+    {
+      "path": "posts/lessons/424-auto.txt",
+      "blob_sha": "7f381902571fb92d7c61a91552beaffabd66729c"
+    },
+    {
+      "path": "posts/lessons/425-auto.txt",
+      "blob_sha": "22d7db82c8b0cef7412fa63349b08e5ce38baf3d"
+    },
+    {
+      "path": "posts/lessons/426-auto.txt",
+      "blob_sha": "ecd4fce7ae09918397dff56da322107696ffa231"
+    },
+    {
+      "path": "posts/lessons/427-auto.txt",
+      "blob_sha": "59c56f53dd4e8aeff02ef46a3baf9658d7fc3123"
+    },
+    {
+      "path": "posts/lessons/428-auto.txt",
+      "blob_sha": "d11cd5b7b449f8d5f76c06a46e2c18807a579bf8"
+    },
+    {
+      "path": "posts/lessons/429-auto.txt",
+      "blob_sha": "205b6fdf75b9a1cc0882300308607c23f1a9a60a"
+    },
+    {
+      "path": "posts/lessons/430-auto.txt",
+      "blob_sha": "2f679e9a8a88ea5391c3388d09c75dcbd8ecea0e"
+    },
+    {
+      "path": "posts/lessons/431-auto.txt",
+      "blob_sha": "8f2d3396e684b7e4d54653143164d6d2ba15e955"
+    },
+    {
+      "path": "posts/lessons/432-auto.txt",
+      "blob_sha": "44126ce90d713ad007414412421c2a603bcdeaab"
+    },
+    {
+      "path": "posts/lessons/433-auto.txt",
+      "blob_sha": "dd81d365dad0fcb39ab76f3a4df1571d3df528ff"
+    },
+    {
+      "path": "posts/lessons/434-auto.txt",
+      "blob_sha": "cdd856e062581e578192a1f6de8882a547934c89"
+    },
+    {
+      "path": "posts/lessons/435-auto.txt",
+      "blob_sha": "03c4c586b2252df5cdfba55328dfafc23f2e4232"
+    },
+    {
+      "path": "posts/lessons/436-auto.txt",
+      "blob_sha": "52d6110be2fea2785abd36626d7c3da60713dbac"
+    },
+    {
+      "path": "posts/lessons/437-auto.txt",
+      "blob_sha": "92dbd1ef94b7017e9181f7e6d15c0086e6b30396"
+    },
+    {
+      "path": "posts/lessons/438-auto.txt",
+      "blob_sha": "708aed23381cf368ff461a40044320ff252d9228"
+    },
+    {
+      "path": "posts/lessons/439-auto.txt",
+      "blob_sha": "4d18ad0bedc31254e13a8afa061fd6c3d882c6c7"
+    },
+    {
+      "path": "posts/lessons/440-auto.txt",
+      "blob_sha": "9e32349de044578f6ba664183b1d4afbe4d9cd95"
+    },
+    {
+      "path": "posts/lessons/441-auto.txt",
+      "blob_sha": "0efa023dcfad9ed0fc0830b72ed9ee9bbc0c958a"
+    },
+    {
+      "path": "posts/lessons/442-auto.txt",
+      "blob_sha": "e39fd776dd2a6f64fe11db0b4ccbde7bd5928472"
+    },
+    {
+      "path": "posts/lessons/443-auto.txt",
+      "blob_sha": "b7a519861c6f5b50442ad563d915dadcd07f6117"
+    },
+    {
+      "path": "posts/lessons/444-auto.txt",
+      "blob_sha": "012caa99981082506a74d260d972585f1393220b"
+    },
+    {
+      "path": "posts/lessons/445-auto.txt",
+      "blob_sha": "d53416af0550c66c0136d334cfa59b02fefb0cad"
+    },
+    {
+      "path": "posts/lessons/446-auto.txt",
+      "blob_sha": "8085da03c716b311031f48883d9cd176e0f2cab7"
+    },
+    {
+      "path": "posts/lessons/447-auto.txt",
+      "blob_sha": "8bec22acfab6388af8211f494c4f2d0f70be428c"
+    },
+    {
+      "path": "posts/lessons/448-auto.txt",
+      "blob_sha": "2d3fcec983778a91034bf05b26a3e2c295c7a847"
+    },
+    {
+      "path": "posts/lessons/449-auto.txt",
+      "blob_sha": "4c3f974c7645683ac63f95295bb85012db3196d4"
+    },
+    {
+      "path": "posts/lessons/450-auto.txt",
+      "blob_sha": "b8f8eb783617ecb991a6d351d70476d76200425f"
+    },
+    {
+      "path": "posts/lessons/451-auto.txt",
+      "blob_sha": "b23449c49830bc69f844c93ef2faf2b12d6ab0be"
+    },
+    {
+      "path": "posts/lessons/452-auto.txt",
+      "blob_sha": "114cda029e7bafd5c87352639c73732e14325939"
+    },
+    {
+      "path": "posts/lessons/453-auto.txt",
+      "blob_sha": "4c18105b67a66cbd0e7b15cd3a8e4ef5b40c006b"
+    },
+    {
+      "path": "posts/lessons/454-auto.txt",
+      "blob_sha": "1c92366ecaeeee6e39e2f855f020bd37e1efdce6"
+    },
+    {
+      "path": "posts/lessons/455-auto.txt",
+      "blob_sha": "452a508fbd100a564921d31fb075616f6b7d0b27"
+    },
+    {
+      "path": "posts/lessons/456-auto.txt",
+      "blob_sha": "977d2e0ca07018006ddf0be6706748f432910480"
+    },
+    {
+      "path": "posts/lessons/457-auto.txt",
+      "blob_sha": "a6a21a9bc551e16898f929e2ab4ec72b6f479811"
+    },
+    {
+      "path": "posts/lessons/458-auto.txt",
+      "blob_sha": "68d4e71cefdc272f6680ae55acf14dc5b076260f"
+    },
+    {
+      "path": "posts/lessons/459-auto.txt",
+      "blob_sha": "0cb8c95f0f8452a297193fcbbe3be51985793651"
+    },
+    {
+      "path": "posts/lessons/460-auto.txt",
+      "blob_sha": "172581438064050cd86492d33ea56a434ed8202d"
+    },
+    {
+      "path": "posts/lessons/461-auto.txt",
+      "blob_sha": "d8b011847de7e759c734a77e4d82a19e53f2f020"
+    },
+    {
+      "path": "posts/lessons/462-auto.txt",
+      "blob_sha": "5fab5e29eae926e20b1eff28578837fba5d16f38"
+    },
+    {
+      "path": "posts/lessons/463-auto.txt",
+      "blob_sha": "a604fadf28e4160d5457853a9175b5371dccef1b"
+    },
+    {
+      "path": "posts/lessons/464-auto.txt",
+      "blob_sha": "d020762d29ad0e66876ab36ba0742d474e6f200d"
+    },
+    {
+      "path": "posts/lessons/465-auto.txt",
+      "blob_sha": "e82e90df3876d033fc8aedef170f71500bcd7e1c"
+    },
+    {
+      "path": "posts/lessons/466-auto.txt",
+      "blob_sha": "a80ed726b3a592ff63f4590df3f9bced59cec507"
+    },
+    {
+      "path": "posts/lessons/467-auto.txt",
+      "blob_sha": "b22ab65f846cebaa805e68fbef4c03ce394af693"
+    },
+    {
+      "path": "posts/lessons/468-auto.txt",
+      "blob_sha": "59dc0d212f4243911cb5b7fc0a6547ff3d186c07"
+    },
+    {
+      "path": "posts/lessons/469-auto.txt",
+      "blob_sha": "1dc918d29f732bb9e57bbbd389873dc8e285608d"
+    },
+    {
+      "path": "posts/lessons/470-auto.txt",
+      "blob_sha": "ff73b219ceb54b35e536af2a17eeb6c05cf134e7"
+    },
+    {
+      "path": "posts/lessons/471-auto.txt",
+      "blob_sha": "d0d301673d21da837bb076eae7059ac67e06e957"
+    },
+    {
+      "path": "posts/lessons/472-auto.txt",
+      "blob_sha": "20b40906b558da84f353455651664e248810648a"
+    },
+    {
+      "path": "posts/lessons/473-auto.txt",
+      "blob_sha": "26c8f589a43042907003c4d68435d1bccb0eac9a"
+    },
+    {
+      "path": "posts/lessons/474-auto.txt",
+      "blob_sha": "6518d2cc32cf5da46e4e1f1f9303cf0436c67e2f"
+    },
+    {
+      "path": "posts/lessons/475-auto.txt",
+      "blob_sha": "1217753b4c58b6480723c7d153b26538ab977455"
+    },
+    {
+      "path": "posts/lessons/476-auto.txt",
+      "blob_sha": "bc6e12572a117ba8ba78a933b7458f5390992d07"
+    },
+    {
+      "path": "posts/lessons/477-auto.txt",
+      "blob_sha": "9510aa43c2b4837fc728602927a3520bf3909c7b"
+    },
+    {
+      "path": "posts/lessons/478-auto.txt",
+      "blob_sha": "6afb6f4dcd73eb616ec11cfa6ee5fe5616980838"
+    },
+    {
+      "path": "posts/lessons/479-auto.txt",
+      "blob_sha": "be8d8c36b75924d5720774f3eaa695a39ae4bd2c"
+    },
+    {
+      "path": "posts/lessons/480-auto.txt",
+      "blob_sha": "497acc6300532ee2c5bf2830ced8383e445cf417"
+    },
+    {
+      "path": "posts/lessons/481-auto.txt",
+      "blob_sha": "e0d727713844136250aa30bfdf4db76a56bb31a1"
+    },
+    {
+      "path": "posts/lessons/482-auto.txt",
+      "blob_sha": "feef38066aa94313274b704a0f95bab62cfd5231"
+    },
+    {
+      "path": "posts/lessons/483-auto.txt",
+      "blob_sha": "fdbce5219537ad1ca3979e2f0506aaf86409a89c"
+    },
+    {
+      "path": "posts/lessons/484-auto.txt",
+      "blob_sha": "9c029a75969c465b4e87aca226ece11bd0a423b3"
+    },
+    {
+      "path": "posts/lessons/485-auto.txt",
+      "blob_sha": "44b30dacbeb6e8f7b199cb31fb4f706fbc8a18f7"
+    },
+    {
+      "path": "posts/lessons/486-auto.txt",
+      "blob_sha": "df2332ced18a095e4f4cee5412d2e2d9b16ea880"
+    },
+    {
+      "path": "posts/lessons/487-auto.txt",
+      "blob_sha": "401c77bd75cea9480ca234d4437d67ca5a2dc700"
+    },
+    {
+      "path": "posts/lessons/488-auto.txt",
+      "blob_sha": "9ad73b43ac3b91fefe44ca869e8725c8b1e77e26"
+    },
+    {
+      "path": "posts/lessons/489-auto.txt",
+      "blob_sha": "b34a5e219c5b336f182d0434372c3adb5d16267a"
+    },
+    {
+      "path": "posts/lessons/490-auto.txt",
+      "blob_sha": "b90e237e6327acf0797b6194eaf5deaf07e6dce1"
+    },
+    {
+      "path": "posts/lessons/491-auto.txt",
+      "blob_sha": "d084858bd2449637680d49d31c06c0d960b8b607"
+    },
+    {
+      "path": "posts/lessons/492-auto.txt",
+      "blob_sha": "c12c025810727259ea89986ac7feefca44db31b6"
+    },
+    {
+      "path": "posts/lessons/493-auto.txt",
+      "blob_sha": "0f5543c2e9b084b17aa2c6810b4ed375173e5614"
+    },
+    {
+      "path": "posts/lessons/494-auto.txt",
+      "blob_sha": "ec2f1293ef805f72bef3d570622aeed79bb1450c"
+    },
+    {
+      "path": "posts/lessons/495-auto.txt",
+      "blob_sha": "88eb03d44413f4f37a5d90fbe5f563274f1d7f41"
+    },
+    {
+      "path": "posts/lessons/496-auto.txt",
+      "blob_sha": "82086e6c695e037a3e270fd3360f53bbd9e6148b"
+    },
+    {
+      "path": "posts/lessons/497-auto.txt",
+      "blob_sha": "512053196ac77141328e2a1738622855b4a5b2b6"
+    },
+    {
+      "path": "posts/lessons/498-auto.txt",
+      "blob_sha": "552d9d534bc11ae7f19c769a37b01d1ff287488f"
+    },
+    {
+      "path": "posts/lessons/499-auto.txt",
+      "blob_sha": "c9c24f645598d62178be61b9359ba85cbd34fd10"
+    },
+    {
+      "path": "posts/lessons/500-auto.txt",
+      "blob_sha": "98b8551b1b525968b88268135d8f33506f6f8af4"
+    },
+    {
+      "path": "posts/lessons/501-auto.txt",
+      "blob_sha": "43b8c7cc1007cea05241da1cc269c1f2d45946ff"
+    },
+    {
+      "path": "posts/lessons/502-auto.txt",
+      "blob_sha": "0a69e24b6f7150e2501c29d3d4f70430d2992337"
+    },
+    {
+      "path": "posts/lessons/503-auto.txt",
+      "blob_sha": "4b166bf4c37639cd272cf6a955f3d8d8fbc36bb8"
+    },
+    {
+      "path": "posts/lessons/504-auto.txt",
+      "blob_sha": "e116d63a6936f2566d5985f1c8cc21a1e0c55e30"
+    },
+    {
+      "path": "posts/lessons/505-auto.txt",
+      "blob_sha": "f156ae315ec397122ae73edf45a2e93095a65f05"
+    },
+    {
+      "path": "posts/lessons/506-auto.txt",
+      "blob_sha": "ad7fb760d74de370f53075e8ab087b740545d0dc"
+    },
+    {
+      "path": "posts/lessons/507-auto.txt",
+      "blob_sha": "2d1e82b390978f5f102a0aac93208375326f60e5"
+    },
+    {
+      "path": "posts/lessons/508-auto.txt",
+      "blob_sha": "f419df40e70ef6cdd21494722baf0aac9f8ca69e"
+    },
+    {
+      "path": "posts/lessons/509-auto.txt",
+      "blob_sha": "ac561ea13b7764f9063748cfbccddf85028c83f3"
+    },
+    {
+      "path": "posts/lessons/510-auto.txt",
+      "blob_sha": "5d34c19f094ea155e294c1921a9112977ee216a7"
+    },
+    {
+      "path": "posts/lessons/511-auto.txt",
+      "blob_sha": "d726c12fd3e0cf7b027e0580a87e26a88ee20818"
+    },
+    {
+      "path": "posts/lessons/512-auto.txt",
+      "blob_sha": "a30b380ccde708b620083d120580131f845208b0"
+    },
+    {
+      "path": "posts/lessons/513-auto.txt",
+      "blob_sha": "8c658895966711024903bf9d4a37994e53a2eade"
+    },
+    {
+      "path": "posts/lessons/514-auto.txt",
+      "blob_sha": "3d6964218695a3c136f60382518d600ecd69164c"
+    },
+    {
+      "path": "posts/lessons/515-auto.txt",
+      "blob_sha": "4494f97ec15a94a84bc7051cfb4cd37ad6bcfa8e"
+    },
+    {
+      "path": "posts/lessons/516-auto.txt",
+      "blob_sha": "e0524957cfad29f193e8072446771377b126bff4"
+    },
+    {
+      "path": "posts/lessons/517-auto.txt",
+      "blob_sha": "fbe350c78dec1a71509aa888ffed4e9cc1e72338"
+    },
+    {
+      "path": "posts/lessons/518-auto.txt",
+      "blob_sha": "dd0c72f2192c2ef4d9fd7974bb367fdc96224fab"
+    },
+    {
+      "path": "posts/lessons/519-auto.txt",
+      "blob_sha": "1653f0b21b64f1e9252843054cf40f187ef95697"
+    },
+    {
+      "path": "posts/lessons/520-auto.txt",
+      "blob_sha": "cf0d54a2a3ef865e164967b1b1efbabddf83d28f"
+    },
+    {
+      "path": "posts/lessons/521-auto.txt",
+      "blob_sha": "671da67cb68668958e89baf2b2863b890ee624ab"
+    },
+    {
+      "path": "posts/lessons/522-auto.txt",
+      "blob_sha": "5866969e6408327d2b68cb488fbfde57b115ed5b"
+    },
+    {
+      "path": "posts/lessons/523-auto.txt",
+      "blob_sha": "0a54cede40ba70d9b5dee1de6ddc9b65c338391c"
+    },
+    {
+      "path": "posts/lessons/524-auto.txt",
+      "blob_sha": "e092c3f7421574b0b07050a0c870c39e6407be9a"
+    },
+    {
+      "path": "posts/lessons/525-auto.txt",
+      "blob_sha": "7efcd5004054b9c9e85db30c8debe90ec3e51a0c"
+    },
+    {
+      "path": "posts/lessons/526-auto.txt",
+      "blob_sha": "9f500f587aa6cef88269e0c281480f36045d624a"
+    },
+    {
+      "path": "posts/lessons/527-auto.txt",
+      "blob_sha": "677d89815331d626266db0c7dac178045d8652d7"
+    },
+    {
+      "path": "posts/lessons/528-auto.txt",
+      "blob_sha": "0300ad01a7079bd8047c3ae219b8266b13f0e5a1"
+    },
+    {
+      "path": "posts/lessons/529-auto.txt",
+      "blob_sha": "c5a8b94337811a80539a7dfb09948e9cfa6510a8"
+    },
+    {
+      "path": "posts/lessons/530-auto.txt",
+      "blob_sha": "1dea902544a7cb6fe159efac87aa0d4049bceb07"
+    },
+    {
+      "path": "posts/lessons/531-auto.txt",
+      "blob_sha": "d304ce84ae250dab560256da3774fb498272cc8b"
+    },
+    {
+      "path": "posts/lessons/532-auto.txt",
+      "blob_sha": "c47cfd238fd130a06b97153cb0ce3f6c6adfcfe1"
+    },
+    {
+      "path": "posts/lessons/533-auto.txt",
+      "blob_sha": "a7158c4b4c989191fb4858185fb829d197202de5"
+    },
+    {
+      "path": "posts/lessons/534-auto.txt",
+      "blob_sha": "f7908e57778c2da0afee744fd85f941a6ba13975"
+    },
+    {
+      "path": "posts/lessons/535-auto.txt",
+      "blob_sha": "49d93374befb20791d1d78609617d1e507501401"
+    },
+    {
+      "path": "posts/lessons/536-auto.txt",
+      "blob_sha": "b6f8cbdd2d9ae89b0b1bec3fd9e2e0cea4ea14c0"
+    },
+    {
+      "path": "posts/lessons/537-auto.txt",
+      "blob_sha": "f73e8967dfa54054c0d378ea26ad4eaa4497baa4"
+    },
+    {
+      "path": "posts/lessons/538-auto.txt",
+      "blob_sha": "c8acace2236fd106a7f3eb1bfd9b452ba627f2d5"
+    },
+    {
+      "path": "posts/lessons/539-auto.txt",
+      "blob_sha": "2a7e358b62e1c6a90b06b361dae2f296a7119d6e"
+    },
+    {
+      "path": "posts/lessons/540-auto.txt",
+      "blob_sha": "e375c27c9095b59ce4dc239a22a22d6fa4a15eae"
+    },
+    {
+      "path": "posts/lessons/541-auto.txt",
+      "blob_sha": "86e751171020689cc5d07216a1d572a45080eeb5"
+    },
+    {
+      "path": "posts/lessons/542-auto.txt",
+      "blob_sha": "d2eb4d11f76a604903f28f93b8a841bd99b4d41e"
+    },
+    {
+      "path": "posts/lessons/543-auto.txt",
+      "blob_sha": "b174bc99ed7d657d63009c75d4c958a39f535959"
+    },
+    {
+      "path": "posts/lessons/544-auto.txt",
+      "blob_sha": "fa52e8711bf0e669c7fbdda0fa8c8505abbc6700"
+    },
+    {
+      "path": "posts/lessons/545-auto.txt",
+      "blob_sha": "9bd4d541070fd246ea87299b04f7dc94e310be56"
+    },
+    {
+      "path": "posts/lessons/546-auto.txt",
+      "blob_sha": "88926e9f63537cbc7ebbaaaaab47eca697338fdc"
+    },
+    {
+      "path": "posts/lessons/547-auto.txt",
+      "blob_sha": "5a8e317a749c95f38713363dca7b96d818081426"
+    },
+    {
+      "path": "posts/lessons/548-auto.txt",
+      "blob_sha": "a3253135be643b17995b8dff1abfbaaaf0f6ab04"
+    },
+    {
+      "path": "posts/lessons/549-auto.txt",
+      "blob_sha": "6ebb942acd76d506072f8ad38abd33f622b562fd"
+    },
+    {
+      "path": "posts/lessons/550-auto.txt",
+      "blob_sha": "16ecdfd58af5194de4312894af57de825da70b4b"
+    },
+    {
+      "path": "posts/lessons/551-auto.txt",
+      "blob_sha": "1974615db48ef8a51120b27d1915e157ef76bfb0"
+    },
+    {
+      "path": "posts/lessons/552-auto.txt",
+      "blob_sha": "25220535992d64091a718a405220a2d226f35e92"
+    },
+    {
+      "path": "posts/lessons/553-auto.txt",
+      "blob_sha": "1ca5d0f7b8f8655328f1d53a3231651eda8c97c2"
+    },
+    {
+      "path": "posts/lessons/554-auto.txt",
+      "blob_sha": "99b2ee4faf48d21862593d723963db07c3f3d601"
+    },
+    {
+      "path": "posts/lessons/555-auto.txt",
+      "blob_sha": "b7a36434b04ad5a505ae54445a5983eb1482e0af"
+    },
+    {
+      "path": "posts/lessons/556-auto.txt",
+      "blob_sha": "035fda88417bdfc1660709023f566525ce8bdd53"
+    },
+    {
+      "path": "posts/lessons/557-auto.txt",
+      "blob_sha": "0ed71364a0c4a7e2d2f3ebd82e259681233865c8"
+    },
+    {
+      "path": "posts/lessons/558-auto.txt",
+      "blob_sha": "d32a3758df38b169d777fb18a0b44bc257ed0c72"
+    },
+    {
+      "path": "posts/lessons/559-auto.txt",
+      "blob_sha": "3d83faaff8c66622918143d5788f14e0cd0638cd"
+    },
+    {
+      "path": "posts/lessons/560-auto.txt",
+      "blob_sha": "b30c57522991950009b2b6d59d3fd145a8fada61"
+    },
+    {
+      "path": "posts/lessons/561-auto.txt",
+      "blob_sha": "9603e94fac70e73554b3606df08bff95a858978e"
+    },
+    {
+      "path": "posts/lessons/562-auto.txt",
+      "blob_sha": "881732354fe16ff7c8621f339021519a46ab7b0a"
+    },
+    {
+      "path": "posts/lessons/563-auto.txt",
+      "blob_sha": "5a087085e9bfb3f503feea9b1dcb73418173d3c2"
+    },
+    {
+      "path": "posts/lessons/564-auto.txt",
+      "blob_sha": "59598046903bea432ed8ce769646e6085710ec41"
+    },
+    {
+      "path": "posts/lessons/565-auto.txt",
+      "blob_sha": "d59c1b45107d6413e89e1d4999710ffaba0fd0f4"
+    },
+    {
+      "path": "posts/lessons/566-auto.txt",
+      "blob_sha": "35d2009122cc6b9d8992469c098244a68c713481"
+    },
+    {
+      "path": "posts/lessons/567-auto.txt",
+      "blob_sha": "74612db887cb2e3fcb480bbb77aa01b21ef3c02c"
+    },
+    {
+      "path": "posts/lessons/568-auto.txt",
+      "blob_sha": "1fd4b8d1d47cf05ea54827605dff7e84d240558b"
+    },
+    {
+      "path": "posts/lessons/569-auto.txt",
+      "blob_sha": "c76d634fc52830a9921ea43ef5738c9647442906"
+    },
+    {
+      "path": "posts/lessons/570-auto.txt",
+      "blob_sha": "260e7fb3073ac07f95ff98764bc3d912d378898d"
+    },
+    {
+      "path": "posts/lessons/571-auto.txt",
+      "blob_sha": "1a4a1b1233634cfc319c49a9d30e17772b9bcb7b"
+    },
+    {
+      "path": "posts/lessons/572-auto.txt",
+      "blob_sha": "a8b8b34374476b312f3030f163796873c3f809a7"
+    },
+    {
+      "path": "posts/lessons/573-auto.txt",
+      "blob_sha": "0cb6c9a6d532ead66c222975c1449b8c063be7ae"
+    },
+    {
+      "path": "posts/lessons/574-auto.txt",
+      "blob_sha": "55a6100b6c85e9b69726dc29d594eb3453962140"
+    },
+    {
+      "path": "posts/lessons/575-auto.txt",
+      "blob_sha": "b86907962808f71ba74c83124dc2a5220f4009df"
+    },
+    {
+      "path": "posts/lessons/576-auto.txt",
+      "blob_sha": "262d10c59ec6c5f18b2e60110e66d942365e3bed"
+    },
+    {
+      "path": "posts/lessons/577-auto.txt",
+      "blob_sha": "53031c518485e2a9a2a151ca9094d7882ef262ad"
+    },
+    {
+      "path": "posts/lessons/578-auto.txt",
+      "blob_sha": "0f147c1eb4e3576b03f55ea613730feaea9633a9"
+    },
+    {
+      "path": "posts/lessons/579-auto.txt",
+      "blob_sha": "47c44ac7c872bf8d75e31d615c610cee2db87125"
+    },
+    {
+      "path": "posts/lessons/580-auto.txt",
+      "blob_sha": "26158e63d2c894319082bcf4ac8e94f1c402d44d"
+    },
+    {
+      "path": "posts/lessons/581-auto.txt",
+      "blob_sha": "1b0edcdff3568901fa22fe0b9ebd3428b352318c"
+    },
+    {
+      "path": "posts/lessons/582-auto.txt",
+      "blob_sha": "13d1e56e1522173191ad388a1bb7067614a45536"
+    },
+    {
+      "path": "posts/lessons/583-auto.txt",
+      "blob_sha": "2cd60516b326ff71d93914910b1728568b7979bf"
+    },
+    {
+      "path": "posts/lessons/584-auto.txt",
+      "blob_sha": "07bae2a763fb3decc58fd8aa297ab8c0981ceeeb"
+    },
+    {
+      "path": "posts/lessons/585-auto.txt",
+      "blob_sha": "bbda13e044a2c394f1381790e664099f30478c90"
+    },
+    {
+      "path": "posts/lessons/586-auto.txt",
+      "blob_sha": "dd74c620dd8b88e318334a77002de7381ce4f2d1"
+    },
+    {
+      "path": "posts/lessons/587-auto.txt",
+      "blob_sha": "4a6e0612ca179eec31b702384fa18dea09f30d67"
+    },
+    {
+      "path": "posts/lessons/588-auto.txt",
+      "blob_sha": "36c33e3777336f504d648614418f5a37767a417e"
+    },
+    {
+      "path": "posts/lessons/589-auto.txt",
+      "blob_sha": "54c7acbd58fbd4a5a4c60498f25d277d9b832bc9"
+    },
+    {
+      "path": "posts/lessons/590-auto.txt",
+      "blob_sha": "de28f04bb92dc82a9bfcf4b58eb7d063d4e46ae8"
+    },
+    {
+      "path": "posts/lessons/591-auto.txt",
+      "blob_sha": "6531391d139825e7b67770e8a2bf064a7437a733"
+    },
+    {
+      "path": "posts/lessons/592-auto.txt",
+      "blob_sha": "e7b58280c4c5d7f829b32efcb4621bbf31084626"
+    },
+    {
+      "path": "posts/lessons/593-auto.txt",
+      "blob_sha": "ffdc1a0384bfa9ede4a5bef9687e812298496a0f"
+    },
+    {
+      "path": "posts/lessons/594-auto.txt",
+      "blob_sha": "a85c2362e24b4f9fbd1b9e30a352b9cf01172fe7"
+    },
+    {
+      "path": "posts/lessons/595-auto.txt",
+      "blob_sha": "05ff831a1d973e871b9a88f394da987715ff316e"
+    },
+    {
+      "path": "posts/lessons/596-auto.txt",
+      "blob_sha": "b2d38c06646272ed3ad80c330dd2b21116ca2436"
+    },
+    {
+      "path": "posts/lessons/597-auto.txt",
+      "blob_sha": "192f8bb310bfef4555512ebc826bfb0993c5b6dd"
+    },
+    {
+      "path": "posts/lessons/598-auto.txt",
+      "blob_sha": "5b6e9b3a42e240d321df9af2a071e6a53514bfc0"
+    },
+    {
+      "path": "posts/lessons/599-auto.txt",
+      "blob_sha": "69053993e145a04fea8de5c5670b49d7aa10af16"
+    },
+    {
+      "path": "posts/lessons/600-auto.txt",
+      "blob_sha": "bebff0dd5d8a44717644cc18ce65c124d9d87562"
+    },
+    {
+      "path": "posts/lessons/601-auto.txt",
+      "blob_sha": "1ba499ba9619275a9b9dd688aa7803a7d50907fe"
+    },
+    {
+      "path": "posts/lessons/602-auto.txt",
+      "blob_sha": "961977aebf20c36f0c59520d2882c3c99b72d6b2"
+    },
+    {
+      "path": "posts/lessons/603-auto.txt",
+      "blob_sha": "d08ba970f88da0193b9aec0f3ed043930548577c"
+    },
+    {
+      "path": "posts/lessons/604-auto.txt",
+      "blob_sha": "38a2759ed057ec0275bf90b08165ac4115efb094"
+    },
+    {
+      "path": "posts/lessons/605-auto.txt",
+      "blob_sha": "1d5ab2c03446403f29458e46cb056d3a037638ae"
+    },
+    {
+      "path": "posts/lessons/606-auto.txt",
+      "blob_sha": "bb5619a0e4cb671b383cb19443b5fccf23866cbc"
+    },
+    {
+      "path": "posts/lessons/607-auto.txt",
+      "blob_sha": "5caac4b135051a7c4a07a1434650c3a8a688b745"
+    },
+    {
+      "path": "posts/lessons/608-auto.txt",
+      "blob_sha": "da4950f445573fc77bd32505a8553edb813db563"
+    },
+    {
+      "path": "posts/lessons/609-auto.txt",
+      "blob_sha": "2289587b46957a50c0a4c0fa7f86f6b78a78c97b"
+    },
+    {
+      "path": "posts/lessons/610-auto.txt",
+      "blob_sha": "262f4f5235d5dd4b631b5a09abb8f67e9ba46b5d"
+    },
+    {
+      "path": "posts/lessons/611-auto.txt",
+      "blob_sha": "93b5a29dfb57f7f209ddfa15ea1ed873b36a4fb1"
+    },
+    {
+      "path": "posts/lessons/612-auto.txt",
+      "blob_sha": "52b69c65005d9341befda93fb29dc6b8d7c34cdf"
+    },
+    {
+      "path": "posts/lessons/613-auto.txt",
+      "blob_sha": "b39c16c13c529e0617800bd6b62a6d4917e345cd"
+    },
+    {
+      "path": "posts/lessons/614-auto.txt",
+      "blob_sha": "b34c57314bd68ef6572c7e057727a1c313352016"
+    },
+    {
+      "path": "posts/lessons/615-auto.txt",
+      "blob_sha": "7f0bb238fad2cb491c0cbc0b1a2aa9c7217c93fd"
+    },
+    {
+      "path": "posts/lessons/616-auto.txt",
+      "blob_sha": "c4d3f95ecb0e7cef78ed168502f75b0b6aaf979a"
+    },
+    {
+      "path": "posts/lessons/617-auto.txt",
+      "blob_sha": "fed092929d9250ac20d21e736b6ea8715062373f"
+    },
+    {
+      "path": "posts/lessons/618-auto.txt",
+      "blob_sha": "a369c4950f47ef1af6cf6688ae2ae5f5e8fab0cd"
+    },
+    {
+      "path": "posts/lessons/619-auto.txt",
+      "blob_sha": "76113de594ace044b470a5438f1e11e9b166cf84"
+    },
+    {
+      "path": "posts/lessons/620-auto.txt",
+      "blob_sha": "ba02531ca12c6f389f31c2d24fe78f63f65c0b52"
+    },
+    {
+      "path": "posts/lessons/621-auto.txt",
+      "blob_sha": "8560d8652b514472106a81e7c37ac4cd8b7146cc"
+    },
+    {
+      "path": "posts/lessons/622-auto.txt",
+      "blob_sha": "4de5d84ac585062286d2faf38e23d967fb27010b"
+    },
+    {
+      "path": "posts/lessons/623-auto.txt",
+      "blob_sha": "42efd2cafd657212c9783a71c30851dcdbebe7fa"
+    },
+    {
+      "path": "posts/lessons/624-auto.txt",
+      "blob_sha": "b7c3eb46987dfafd7ffa86799103dcb07745ec58"
+    },
+    {
+      "path": "posts/lessons/625-auto.txt",
+      "blob_sha": "7aef7315e405dcc2f9860dc0547c5a72764f4ae8"
+    },
+    {
+      "path": "posts/lessons/626-auto.txt",
+      "blob_sha": "194e31824c11587decec0d80892380ae582df0f0"
+    },
+    {
+      "path": "posts/lessons/627-auto.txt",
+      "blob_sha": "6a688a7f05d219e7ee24f9a203f860d5fe0675e1"
+    },
+    {
+      "path": "posts/lessons/628-auto.txt",
+      "blob_sha": "d7ec818c70373f9e133d2953f931dd664b0dd352"
+    },
+    {
+      "path": "posts/lessons/629-auto.txt",
+      "blob_sha": "5b8869f9091b28ee9b70edfc7458d41e167787ef"
+    },
+    {
+      "path": "posts/lessons/630-auto.txt",
+      "blob_sha": "da1be312875768f636ada51dbd6b681448dd9d4d"
+    },
+    {
+      "path": "posts/lessons/631-auto.txt",
+      "blob_sha": "5bf261e0cfa17c33ac1363efac2c8961508cbe26"
+    },
+    {
+      "path": "posts/lessons/632-auto.txt",
+      "blob_sha": "342dcd662cfef7a1ff09e28b4574fa346388c543"
+    },
+    {
+      "path": "posts/lessons/633-auto.txt",
+      "blob_sha": "3c58462cadf126b97747be672030e8b6cbb8409c"
+    },
+    {
+      "path": "posts/lessons/634-auto.txt",
+      "blob_sha": "8b4281e3634a463cf06c2bae8260b0562a660393"
+    },
+    {
+      "path": "posts/lessons/635-auto.txt",
+      "blob_sha": "3f7bf97e929213beedf3f21a13c9675fdf0500a7"
+    },
+    {
+      "path": "posts/lessons/636-auto.txt",
+      "blob_sha": "858d6c19eb56cea52367819510bdd81f9e73c7c8"
+    },
+    {
+      "path": "posts/lessons/637-auto.txt",
+      "blob_sha": "3ff3824db53ae7ff356079f147b8cfd054eb6061"
+    },
+    {
+      "path": "posts/lessons/638-auto.txt",
+      "blob_sha": "938688a2a9e5f2c8186d6e627bf4a83e6d1b43f3"
+    },
+    {
+      "path": "posts/lessons/639-auto.txt",
+      "blob_sha": "b1e96b790a4ac295bca49f52e25f1bba761dfba8"
+    },
+    {
+      "path": "posts/lessons/640-auto.txt",
+      "blob_sha": "448b905899cc65a81831a68b8b88cebd01f1bde8"
+    },
+    {
+      "path": "posts/lessons/641-auto.txt",
+      "blob_sha": "bb7f966da906580923a4b6b8d6050fec1f8621d2"
+    },
+    {
+      "path": "posts/lessons/642-auto.txt",
+      "blob_sha": "aaefc58bbf4e8990373479e2eea34c0128e1fbac"
+    },
+    {
+      "path": "posts/lessons/643-auto.txt",
+      "blob_sha": "cb0a8feac0226f7d826db6c7f7e11212d6cf9365"
+    },
+    {
+      "path": "posts/lessons/644-auto.txt",
+      "blob_sha": "2dd2d56ec631366664a8908481c844ae922cf910"
+    },
+    {
+      "path": "posts/lessons/645-auto.txt",
+      "blob_sha": "e4341ac6e13f2ccee241fa89b76f3bf8183316d8"
+    },
+    {
+      "path": "posts/lessons/646-auto.txt",
+      "blob_sha": "37267dc78ac2e5e36d281e79e025afea2df943a2"
+    },
+    {
+      "path": "posts/lessons/647-auto.txt",
+      "blob_sha": "82fcaed732ae95df1c59d77f74fb2d16db40384a"
+    },
+    {
+      "path": "posts/lessons/648-auto.txt",
+      "blob_sha": "3fb8edea26ae778be970078ef79a27f87ecfb8d0"
+    },
+    {
+      "path": "posts/lessons/649-auto.txt",
+      "blob_sha": "f0a38c76faef87fe037282b3907199c666c354ed"
+    },
+    {
+      "path": "posts/lessons/650-auto.txt",
+      "blob_sha": "37c0f3c96524078ae25ffe294dc4543b61f85ee5"
+    },
+    {
+      "path": "posts/lessons/651-auto.txt",
+      "blob_sha": "5e21209c58a8114cfa1a3dd1f14f9d9763d02621"
+    },
+    {
+      "path": "posts/lessons/652-auto.txt",
+      "blob_sha": "6a458ac47298ba3a0b0cf597f4300dbf4ae982c8"
+    },
+    {
+      "path": "posts/lessons/653-auto.txt",
+      "blob_sha": "8d801461876c513c282d4ab213f9ea0663ed4c3d"
+    },
+    {
+      "path": "posts/lessons/654-auto.txt",
+      "blob_sha": "43dc4c5aed2f9092caccb78d3efcee0ecfb3ccfc"
+    },
+    {
+      "path": "posts/lessons/655-auto.txt",
+      "blob_sha": "f394a006494c686da8116b8c1cce3e4b5572ef31"
+    },
+    {
+      "path": "posts/lessons/656-auto.txt",
+      "blob_sha": "9799d871bdc8098cf2b011c7247c6b8708d8eb34"
+    },
+    {
+      "path": "posts/lessons/657-auto.txt",
+      "blob_sha": "d3ddb5c276c327e5c4afd998559266094575f52c"
+    },
+    {
+      "path": "posts/lessons/658-auto.txt",
+      "blob_sha": "5ee48decdd8dceb3ce0922f6fd853a753737308c"
+    },
+    {
+      "path": "posts/lessons/659-auto.txt",
+      "blob_sha": "b40f6fb8d38e00a5aa0df38b69da61b23510c469"
+    },
+    {
+      "path": "posts/lessons/660-auto.txt",
+      "blob_sha": "2daac426604056acffcd0a5ba22272275a7c9b44"
+    },
+    {
+      "path": "posts/lessons/661-auto.txt",
+      "blob_sha": "b9b1fb87acc7f74be13a76518b2b41c0ec843630"
+    },
+    {
+      "path": "posts/lessons/662-auto.txt",
+      "blob_sha": "0c89e988cb0ae8370d69786792dd030a5aff9a35"
+    },
+    {
+      "path": "posts/lessons/663-auto.txt",
+      "blob_sha": "7a4b692bafbc0aa22e4e865039aa95bde05e157d"
+    },
+    {
+      "path": "posts/lessons/664-auto.txt",
+      "blob_sha": "5bd1477368c83856d73539eae9ce890f2c3bc5c1"
+    },
+    {
+      "path": "posts/lessons/665-auto.txt",
+      "blob_sha": "184262baa608a7fb9fb10180a6551a5b3bb28a65"
+    },
+    {
+      "path": "posts/lessons/666-auto.txt",
+      "blob_sha": "252614040265bc4b60e13a5760b1979114b0cb11"
+    },
+    {
+      "path": "posts/lessons/667-auto.txt",
+      "blob_sha": "aa897e1a5baa79893bed7359d28ff9469afe0a2a"
+    },
+    {
+      "path": "posts/lessons/668-auto.txt",
+      "blob_sha": "8f33bb14550e39e70a9863475835462870706b45"
+    },
+    {
+      "path": "posts/lessons/669-auto.txt",
+      "blob_sha": "51196d6ec2db7719ff65c57ea4b92ba20c5cc10a"
+    },
+    {
+      "path": "posts/lessons/670-auto.txt",
+      "blob_sha": "bae1596829a2aad531f902e490eca4127b3f4dff"
+    },
+    {
+      "path": "posts/lessons/671-auto.txt",
+      "blob_sha": "ea50b5a45e0ab6b99b292644ab1599d08e7232c9"
+    },
+    {
+      "path": "posts/lessons/672-auto.txt",
+      "blob_sha": "6aab7f4364683ac1a4b9c7ebf0ceaa39272fe704"
+    },
+    {
+      "path": "posts/lessons/673-auto.txt",
+      "blob_sha": "9b8d556c5f74e76b0a3b4422c8467e6845af64f4"
+    },
+    {
+      "path": "posts/lessons/674-auto.txt",
+      "blob_sha": "b97ddba3f0d3a057021e8e40bb22247f815b8b5a"
+    },
+    {
+      "path": "posts/lessons/675-auto.txt",
+      "blob_sha": "2a6e0449cb2d9ab9a9c93bf9bd3d978f31f6f2b4"
+    },
+    {
+      "path": "posts/lessons/676-auto.txt",
+      "blob_sha": "52e1375f65b5c67708dd102952c64110b46b1025"
+    },
+    {
+      "path": "posts/lessons/677-auto.txt",
+      "blob_sha": "acdcd909d00d6cfe42f47d98e615f58ce9d8fbe6"
+    },
+    {
+      "path": "posts/lessons/678-auto.txt",
+      "blob_sha": "6c26e27dbab5842c7d445c9af97a02f162916954"
+    },
+    {
+      "path": "posts/lessons/679-auto.txt",
+      "blob_sha": "3f1fbf3475979cda04359725c2b44e98d738289f"
+    },
+    {
+      "path": "posts/lessons/680-auto.txt",
+      "blob_sha": "d22fa87f257506a5a91b37350df98b29d326b184"
+    },
+    {
+      "path": "posts/lessons/681-auto.txt",
+      "blob_sha": "92a0df6facf2c2f59633929f0975ed7771d7fcde"
+    },
+    {
+      "path": "posts/lessons/682-auto.txt",
+      "blob_sha": "6f08f22c2edb407e59f848fc094409a92be14534"
+    },
+    {
+      "path": "posts/lessons/683-auto.txt",
+      "blob_sha": "e5b9d82e98fb38682ece4680b0d8fe6652cf60f5"
+    },
+    {
+      "path": "posts/lessons/684-auto.txt",
+      "blob_sha": "9637a32469de4b94e734ce0d3d8a199d3f158c67"
+    },
+    {
+      "path": "posts/lessons/685-auto.txt",
+      "blob_sha": "351cd483312040aa0c4aa89a2434a2056ec44aef"
+    },
+    {
+      "path": "posts/lessons/686-auto.txt",
+      "blob_sha": "3482c78460fb51e9d1f4c6dea7bceda7cd526e90"
+    },
+    {
+      "path": "posts/lessons/687-auto.txt",
+      "blob_sha": "c7ed3fffccc6554dbd2953c2ee25da79234f5ce0"
+    },
+    {
+      "path": "posts/lessons/688-auto.txt",
+      "blob_sha": "4accd5dccdb998354a4006d1f860749370d51c05"
+    },
+    {
+      "path": "posts/lessons/689-auto.txt",
+      "blob_sha": "abe4fc2853cbc19a7b8d4ca205a4677117c9a3ff"
+    },
+    {
+      "path": "posts/lessons/690-auto.txt",
+      "blob_sha": "109ebfce1c447318d9adb94e40b3d5f012eea958"
+    },
+    {
+      "path": "posts/lessons/691-auto.txt",
+      "blob_sha": "85bde790cf43650386809ee3a30525c4f75ada6b"
+    },
+    {
+      "path": "posts/lessons/692-auto.txt",
+      "blob_sha": "c2eae12713393820252739c0ab68914a99bf06c6"
+    },
+    {
+      "path": "posts/lessons/693-auto.txt",
+      "blob_sha": "9f0b313b2a8aa561adaaf39117bc54ab2822de14"
+    },
+    {
+      "path": "posts/lessons/694-auto.txt",
+      "blob_sha": "0fee9cb4369f7751bca746b639223c289117ae9b"
+    },
+    {
+      "path": "posts/lessons/695-auto.txt",
+      "blob_sha": "23efd6458acbfe07b64668230b9f351812ebc1f3"
+    },
+    {
+      "path": "posts/lessons/696-auto.txt",
+      "blob_sha": "be3b98bdbe19e18fc805253f48725f46e1a45f77"
+    },
+    {
+      "path": "posts/lessons/697-auto.txt",
+      "blob_sha": "09595de22997fd646219d1bb0d612f1c51c00aba"
+    },
+    {
+      "path": "posts/lessons/698-auto.txt",
+      "blob_sha": "651a0fa95f53021fc55ce235b2dcd923bb823cdb"
+    },
+    {
+      "path": "posts/lessons/699-auto.txt",
+      "blob_sha": "1e3a04c30abf0a45084a6026bb45aa356ce1f45e"
+    },
+    {
+      "path": "posts/lessons/700-auto.txt",
+      "blob_sha": "a99cbcb764ac2ca3c3c6193a47ef1b7ee938b901"
+    },
+    {
+      "path": "posts/lessons/701-auto.txt",
+      "blob_sha": "4b6dfa5d3f045ae642955ae8a49734a402ad2e9a"
+    },
+    {
+      "path": "posts/lessons/702-auto.txt",
+      "blob_sha": "46c2d12f19df0955dedc039d7d54fb91c5cbd21a"
+    },
+    {
+      "path": "posts/lessons/703-auto.txt",
+      "blob_sha": "1aa67c853da818f422b8465b2232eb022a20ef82"
+    },
+    {
+      "path": "posts/lessons/704-auto.txt",
+      "blob_sha": "75a6721696f595e82f90ae2508c6db5df7a1386a"
+    },
+    {
+      "path": "posts/lessons/705-auto.txt",
+      "blob_sha": "fe537aadacd3279f777c4d71889488d6b1877323"
+    },
+    {
+      "path": "posts/lessons/706-auto.txt",
+      "blob_sha": "cbb9b27c12b8db7beaedf88cb0c430222d5f0e7b"
+    },
+    {
+      "path": "posts/lessons/707-auto.txt",
+      "blob_sha": "63fe9b9707dd7ebeffdc9c9cac001842795b004d"
+    },
+    {
+      "path": "posts/lessons/708-auto.txt",
+      "blob_sha": "1d6fe4022c803e991f4de9f8abefc014999dcc00"
+    },
+    {
+      "path": "posts/lessons/709-auto.txt",
+      "blob_sha": "d4d97374a32804dfc562a33c19cf824b50dd9fe3"
+    },
+    {
+      "path": "posts/lessons/710-auto.txt",
+      "blob_sha": "19355f3f3ab91216d32795e242447c15ab5dd5d3"
+    },
+    {
+      "path": "posts/lessons/711-auto.txt",
+      "blob_sha": "2605aec7bf04fccecd33472abe2deec514c02e6c"
+    },
+    {
+      "path": "posts/lessons/712-auto.txt",
+      "blob_sha": "b05b07d6659287a9a170b46324ba0f171f0f5d8e"
+    },
+    {
+      "path": "posts/lessons/713-auto.txt",
+      "blob_sha": "82f7de5f5dd69ec1b6ffed666370be94b71d9b46"
+    },
+    {
+      "path": "posts/lessons/714-auto.txt",
+      "blob_sha": "6e8399b0b7ae62775242d084bff6bbd82e291765"
+    },
+    {
+      "path": "posts/lessons/715-auto.txt",
+      "blob_sha": "62a348117a0c39a784a0d9ac7cf9b373eb360a4f"
+    },
+    {
+      "path": "posts/lessons/716-auto.txt",
+      "blob_sha": "f694724bc69ba922ca4b3173d358a2fc47197dde"
+    },
+    {
+      "path": "posts/lessons/717-auto.txt",
+      "blob_sha": "314ade7efca8efaa3081cf19e76689cb70e019bb"
+    },
+    {
+      "path": "posts/lessons/718-auto.txt",
+      "blob_sha": "c6300fe1540bd4cc8063704ebbddbd7c4a20704b"
+    },
+    {
+      "path": "posts/lessons/719-auto.txt",
+      "blob_sha": "f028889194b02c69f7fdd63e47daeeb3d51cdbf3"
+    },
+    {
+      "path": "posts/lessons/720-auto.txt",
+      "blob_sha": "e924892c5df23f167e64fb0b6af8be2cc78a4365"
+    },
+    {
+      "path": "posts/lessons/721-auto.txt",
+      "blob_sha": "5c285a73a4f48a3267aeb56feaccfa6f71f9259a"
+    },
+    {
+      "path": "posts/lessons/722-auto.txt",
+      "blob_sha": "f51c41a8d1272a2d6ff3c8a4595a1e9c5da22cea"
+    },
+    {
+      "path": "posts/lessons/723-auto.txt",
+      "blob_sha": "e5ef02f807cb2706be9e2e70d572e1b9929b5976"
+    },
+    {
+      "path": "posts/lessons/724-auto.txt",
+      "blob_sha": "fc2126a1e9cd5c2b17f13b7cc808bca985ddfae9"
+    },
+    {
+      "path": "posts/lessons/725-auto.txt",
+      "blob_sha": "f4a919235372f09cc3ceb2cf9a4403982ebf7b2d"
+    },
+    {
+      "path": "posts/lessons/726-auto.txt",
+      "blob_sha": "b7608ef3b066dfe045e1689adfabf64084d72fee"
+    },
+    {
+      "path": "posts/lessons/727-auto.txt",
+      "blob_sha": "181e2e7003947dc33de9707ed9d54e1bdcc75c18"
+    },
+    {
+      "path": "posts/lessons/728-auto.txt",
+      "blob_sha": "f09d6a8da21be20344d7060a2d8decb772bc517f"
+    },
+    {
+      "path": "posts/lessons/729-auto.txt",
+      "blob_sha": "cf8d0879b13df6437cf8b97793bf94b2ce0b68ed"
+    },
+    {
+      "path": "posts/lessons/730-auto.txt",
+      "blob_sha": "446c455363b08989d3ff77156da7a7e1b1dea97a"
+    },
+    {
+      "path": "posts/lessons/731-auto.txt",
+      "blob_sha": "6022fc4246114f79bbb83e8e306bf3c42e355cec"
+    },
+    {
+      "path": "posts/lessons/732-auto.txt",
+      "blob_sha": "cd8b012600673b665fab211082174acec4520e65"
+    },
+    {
+      "path": "posts/lessons/733-auto.txt",
+      "blob_sha": "6de76f702dc8a49c2877f5f68c52c6695a7f3259"
+    },
+    {
+      "path": "posts/lessons/734-auto.txt",
+      "blob_sha": "3bdb95cea37789930fbb692ade9aff19a2e2cac3"
+    },
+    {
+      "path": "posts/lessons/735-auto.txt",
+      "blob_sha": "57dc6f2f35bacd0c296ad859b1bc01dcb565df51"
+    },
+    {
+      "path": "posts/lessons/736-auto.txt",
+      "blob_sha": "82b4bd66719ce94e154570954a23194ffa932e84"
+    },
+    {
+      "path": "posts/lessons/737-auto.txt",
+      "blob_sha": "5fb4ef7fcf373c27d6031809001c212fb7ab937c"
+    },
+    {
+      "path": "posts/lessons/738-auto.txt",
+      "blob_sha": "050168f09987bca0aa214f3b10d9284aa55c6399"
+    },
+    {
+      "path": "posts/lessons/739-auto.txt",
+      "blob_sha": "e6eef618c8a794707dfc523aa4564775a770496a"
+    },
+    {
+      "path": "posts/lessons/740-auto.txt",
+      "blob_sha": "494bcae8199a140302723983e19739d4f012c6c0"
+    },
+    {
+      "path": "posts/lessons/741-auto.txt",
+      "blob_sha": "518182576183c5e1dbc36bb4961ea07d2e7b1a37"
+    },
+    {
+      "path": "posts/lessons/742-auto.txt",
+      "blob_sha": "807ba658259213d45902c859e4104084e6203fa1"
+    },
+    {
+      "path": "posts/lessons/743-auto.txt",
+      "blob_sha": "3834c5bd34288dd08c6e5b9d906dec357faf9610"
+    },
+    {
+      "path": "posts/lessons/744-auto.txt",
+      "blob_sha": "7a0253c345923fa6db834483ed5fbc1a833bc705"
+    },
+    {
+      "path": "posts/lessons/745-auto.txt",
+      "blob_sha": "607758989181203b4461fd5ec93012e3a4a9160b"
+    },
+    {
+      "path": "posts/lessons/746-auto.txt",
+      "blob_sha": "3ff57ab93beaea791e2d6c9d261f57518dbaa069"
+    },
+    {
+      "path": "posts/lessons/747-auto.txt",
+      "blob_sha": "2bc80868f8666403cab4ad2990547c77ea0bcbee"
+    },
+    {
+      "path": "posts/lessons/748-auto.txt",
+      "blob_sha": "0b4a66971be03500438d0b5ae6160c101ab0995f"
+    },
+    {
+      "path": "posts/lessons/749-auto.txt",
+      "blob_sha": "76bb8d65e9951d6cc222b053a753a357ff3dadb8"
+    },
+    {
+      "path": "posts/lessons/750-auto.txt",
+      "blob_sha": "f131f31342e804f3b64c7f13ecd2def6218b7e9c"
+    },
+    {
+      "path": "posts/lessons/751-auto.txt",
+      "blob_sha": "23c4881e4409f025bbe97996e6593aeb18cccbb0"
+    },
+    {
+      "path": "posts/lessons/752-auto.txt",
+      "blob_sha": "c85b42d6eda3174a49f59c6da076732c1b60aabe"
+    },
+    {
+      "path": "posts/lessons/753-auto.txt",
+      "blob_sha": "fd73a5b4063efc5decbaef5dbee4b50bf9a646a7"
+    },
+    {
+      "path": "posts/lessons/754-auto.txt",
+      "blob_sha": "67599882bfc13c2d177fbfceaf95f8b6d69e5a18"
+    },
+    {
+      "path": "posts/lessons/755-auto.txt",
+      "blob_sha": "fcc2d602c738313666cf5bd52c49a57ebbd1c74a"
+    },
+    {
+      "path": "posts/lessons/756-auto.txt",
+      "blob_sha": "727e8373c35c465b5f161c473f28b2a3747b0200"
+    },
+    {
+      "path": "posts/lessons/757-auto.txt",
+      "blob_sha": "575bbb11b3dc39783fe6889b1ab3a6d5bd56659b"
+    },
+    {
+      "path": "posts/lessons/758-auto.txt",
+      "blob_sha": "ba3bd502d12bf0f74c1808c5f448bcb082e92d61"
+    },
+    {
+      "path": "posts/lessons/759-auto.txt",
+      "blob_sha": "55bb848087002b5dd5c27986fa5ee254d9fb942e"
+    },
+    {
+      "path": "posts/lessons/760-auto.txt",
+      "blob_sha": "3a8d30ffcb40bb117f348da2a9ba417fe02ac2a9"
+    },
+    {
+      "path": "posts/lessons/761-auto.txt",
+      "blob_sha": "4b6ccaab4a7ffa8e9f83fe092b476828a0bfb790"
+    },
+    {
+      "path": "posts/lessons/762-auto.txt",
+      "blob_sha": "994c0ca55cc900561e59d6ea6e22d6b2e465d416"
+    },
+    {
+      "path": "posts/lessons/763-auto.txt",
+      "blob_sha": "9a9a096b1f815280de26fb54dcbb6bef785626ee"
+    },
+    {
+      "path": "posts/lessons/764-auto.txt",
+      "blob_sha": "57bf2cb285178aafc2d0ec64ac60aca34fa96be5"
+    },
+    {
+      "path": "posts/lessons/765-auto.txt",
+      "blob_sha": "64bdcf73ca10c3fd5c5ec97a183bd9abcd7ef5e7"
+    },
+    {
+      "path": "posts/lessons/766-auto.txt",
+      "blob_sha": "4fc12b7355d1197b144fdf8e113cc53341761e3d"
+    },
+    {
+      "path": "posts/lessons/767-auto.txt",
+      "blob_sha": "5b89edd71086cc994b2acd64b4435496a74b19fe"
+    },
+    {
+      "path": "posts/lessons/768-auto.txt",
+      "blob_sha": "e6518655c244c74b5413283564f753b8f4e00284"
+    },
+    {
+      "path": "posts/lessons/769-auto.txt",
+      "blob_sha": "aa822335addecf976755bf4ca47513886955abae"
+    },
+    {
+      "path": "posts/lessons/770-auto.txt",
+      "blob_sha": "852cd7a79aa0f14f1c5ff6856ff1be7cf4a89ce0"
+    },
+    {
+      "path": "posts/lessons/771-auto.txt",
+      "blob_sha": "192b22b545c5eaaecb411caf2bebd839506ad567"
+    },
+    {
+      "path": "posts/lessons/772-auto.txt",
+      "blob_sha": "03a99fed56b230e9a22143a1c24f5c5db203ba1c"
+    },
+    {
+      "path": "posts/lessons/773-auto.txt",
+      "blob_sha": "f887c10633446c8468e420cf704bc1faf73aba2c"
+    },
+    {
+      "path": "posts/lessons/774-auto.txt",
+      "blob_sha": "9fa7709d0db1f354c313cab9f733d3608ad66399"
+    },
+    {
+      "path": "posts/lessons/775-auto.txt",
+      "blob_sha": "6d3f3fb08d0afcbfb6792d7b9a6d3120d6518390"
+    },
+    {
+      "path": "posts/lessons/776-auto.txt",
+      "blob_sha": "1f4436d2785bc91c325ccad5db64552a8a715f6e"
+    },
+    {
+      "path": "posts/lessons/777-auto.txt",
+      "blob_sha": "64a9aae351b4036f24514f9a32af28b4f7538287"
+    },
+    {
+      "path": "posts/lessons/778-auto.txt",
+      "blob_sha": "70428e6cffccabf49005de5efd50e868871a5144"
+    },
+    {
+      "path": "posts/lessons/779-auto.txt",
+      "blob_sha": "1c74037fd9497d2de870fa7ed60352e283277993"
+    },
+    {
+      "path": "posts/lessons/780-auto.txt",
+      "blob_sha": "24068cb9a3cb3c049b2fad7f10ee7ea16ee1a4cc"
+    },
+    {
+      "path": "posts/lessons/781-auto.txt",
+      "blob_sha": "90a7edaf6b23a36694e654096600e84599a06b72"
+    },
+    {
+      "path": "posts/lessons/782-auto.txt",
+      "blob_sha": "fedde6d0871776259ca19fb3b1bcacd4c6e858ff"
+    },
+    {
+      "path": "posts/lessons/783-auto.txt",
+      "blob_sha": "34fafa11a416541e3ccbcd8be098d2607d9b9fc8"
+    },
+    {
+      "path": "posts/lessons/784-auto.txt",
+      "blob_sha": "a3503776e6573eb1193fe1794e06db717e9c3ef7"
+    },
+    {
+      "path": "posts/lessons/785-auto.txt",
+      "blob_sha": "9b001376e7da9ab2c733ec441442905a3ebd1c7a"
+    },
+    {
+      "path": "posts/lessons/786-auto.txt",
+      "blob_sha": "15bac598c42985530cee63a46d4a8c5e5ea2e358"
+    },
+    {
+      "path": "posts/lessons/787-auto.txt",
+      "blob_sha": "2386667a294c442de4a06b50efaed3ea5bc50137"
+    },
+    {
+      "path": "posts/lessons/788-auto.txt",
+      "blob_sha": "31bbc453d0dece0fac80dfef24419d258156492f"
+    },
+    {
+      "path": "posts/lessons/789-auto.txt",
+      "blob_sha": "8ea3e126269aea5668ec3dd53c143445cbc4ae80"
+    },
+    {
+      "path": "posts/lessons/790-auto.txt",
+      "blob_sha": "539933e29960e89f8b10ca06c0190466ca609df5"
+    },
+    {
+      "path": "posts/lessons/791-auto.txt",
+      "blob_sha": "302d9b2ae49e9184f3dc8a6e48f58d61b5bbdc00"
+    },
+    {
+      "path": "posts/lessons/792-auto.txt",
+      "blob_sha": "bc19521a69b0b460a61d4fbdd2282b9e0f365fda"
+    },
+    {
+      "path": "posts/lessons/793-auto.txt",
+      "blob_sha": "366f88a4fadc55afe950e820bb30e3af5f1cd184"
+    },
+    {
+      "path": "posts/lessons/794-auto.txt",
+      "blob_sha": "7534fd201a20d2d7eb5771f4521b778dca4086b4"
+    },
+    {
+      "path": "posts/lessons/795-auto.txt",
+      "blob_sha": "a613b8c82af8e19ba44c4a47d3a4ebb998071fd1"
+    },
+    {
+      "path": "posts/lessons/796-auto.txt",
+      "blob_sha": "c98ca5019875b335f15d11ff4b368f0d0a68e7c8"
+    },
+    {
+      "path": "posts/lessons/797-auto.txt",
+      "blob_sha": "09d0b7c44bb840a2da32dd8a951da0e405b1ab4c"
+    },
+    {
+      "path": "posts/lessons/798-auto.txt",
+      "blob_sha": "869af60996818b65c607169085879f4327c4ce33"
+    },
+    {
+      "path": "posts/lessons/799-auto.txt",
+      "blob_sha": "dc29e6014252a1e3660b8b33700aad162710d8ed"
+    },
+    {
+      "path": "posts/lessons/800-auto.txt",
+      "blob_sha": "1136ff42e3b17450d6fcb4203878260f4056f6e3"
+    },
+    {
+      "path": "posts/lessons/801-auto.txt",
+      "blob_sha": "9745f5d43e6254b43c2963d002c216fd3d1d0c42"
+    },
+    {
+      "path": "posts/lessons/802-auto.txt",
+      "blob_sha": "0d29792bea1bf9239a19a3cc0bf932505928ea6b"
+    },
+    {
+      "path": "posts/lessons/803-auto.txt",
+      "blob_sha": "93c78656cc8a8b2301afde7265217b3a3bf54464"
+    },
+    {
+      "path": "posts/lessons/804-auto.txt",
+      "blob_sha": "3ba90737a92b40c7b7a9169b833fbfd706ab6a62"
+    },
+    {
+      "path": "posts/lessons/805-auto.txt",
+      "blob_sha": "9b9abfc22b2063f49a2f50567c5b72387265937c"
+    },
+    {
+      "path": "posts/lessons/806-auto.txt",
+      "blob_sha": "2eec1f9f7ba651d2dd81c77f9bd5752d23653230"
+    },
+    {
+      "path": "posts/lessons/807-auto.txt",
+      "blob_sha": "278273a39e6b0d4c292a25ae03748c30b0ce46d0"
+    },
+    {
+      "path": "posts/lessons/808-auto.txt",
+      "blob_sha": "ec01b64c42e6841c0efe084044260b55dccbe918"
+    },
+    {
+      "path": "posts/lessons/809-auto.txt",
+      "blob_sha": "49a0cc9c6c5cb115fc69f1a3feac0457bc52bbb3"
+    },
+    {
+      "path": "posts/lessons/810-auto.txt",
+      "blob_sha": "acc6f1105aa8f4c9c9e9e9ac02241ca65ba7fd85"
+    },
+    {
+      "path": "posts/lessons/811-auto.txt",
+      "blob_sha": "99ee43d4851ed585cbfc899f697597d9496df01f"
+    },
+    {
+      "path": "posts/lessons/812-auto.txt",
+      "blob_sha": "09424df1ac3d686ae31398b0509b38ed4ca07c78"
+    },
+    {
+      "path": "posts/lessons/813-auto.txt",
+      "blob_sha": "62346fa1270de27e9a454dbb95a5091f3e3fd9c9"
+    },
+    {
+      "path": "posts/lessons/814-auto.txt",
+      "blob_sha": "81504d4773baadec2ccbbd17ca7f76f5cccc52ab"
+    },
+    {
+      "path": "posts/lessons/815-auto.txt",
+      "blob_sha": "40c35212de46e68d0889b61fb618bfc38ef476ea"
+    },
+    {
+      "path": "posts/lessons/816-auto.txt",
+      "blob_sha": "8bfb0f37c39bd524ffda79b729eb005cb4b612ab"
+    },
+    {
+      "path": "posts/lessons/817-auto.txt",
+      "blob_sha": "d5a551f5cc63fe412b660cbecb52fd98a6ba1200"
+    },
+    {
+      "path": "posts/lessons/818-auto.txt",
+      "blob_sha": "2fcb5cd76a7a721becc82571583e70cdb8257cb6"
+    },
+    {
+      "path": "posts/lessons/819-auto.txt",
+      "blob_sha": "5ca1499a39b7e1fad7e776a1652902207424c1d0"
+    },
+    {
+      "path": "posts/lessons/820-auto.txt",
+      "blob_sha": "fff84ba79361f00753511c05fb6bd0eccb9afeaf"
+    },
+    {
+      "path": "posts/lessons/821-auto.txt",
+      "blob_sha": "61a8fe245e22c214c224c60dbbf16a126314843c"
+    },
+    {
+      "path": "posts/lessons/822-auto.txt",
+      "blob_sha": "14d9b43890b7a97830e5954ee3f642f44777c2fe"
+    },
+    {
+      "path": "posts/lessons/823-auto.txt",
+      "blob_sha": "0be5d529eb99fc278765b11e12bc1d9a69a57f7d"
+    },
+    {
+      "path": "posts/lessons/824-auto.txt",
+      "blob_sha": "6cce837668e289625dd23a583d214d6380ee68fe"
+    },
+    {
+      "path": "posts/lessons/825-auto.txt",
+      "blob_sha": "c57b7e914567f3d9480c9a945426d7f8169beaf6"
+    },
+    {
+      "path": "posts/lessons/826-auto.txt",
+      "blob_sha": "1aef56da428b132376d92b0db63e31e8aeed0d98"
+    },
+    {
+      "path": "posts/lessons/827-auto.txt",
+      "blob_sha": "9b581f2a60a25e33d6c2f97dd7d88c2f6950312d"
+    },
+    {
+      "path": "posts/lessons/828-auto.txt",
+      "blob_sha": "e5a1874984d533d15ac7db72394e32829d4e6acb"
+    },
+    {
+      "path": "posts/lessons/829-auto.txt",
+      "blob_sha": "ca032c9ef28ab41bdf100f0c6e8d67b31eb8ec6c"
+    },
+    {
+      "path": "posts/lessons/830-auto.txt",
+      "blob_sha": "9aa27124e05994c4059f65b567a83bc0bb76c1c8"
+    },
+    {
+      "path": "posts/lessons/831-auto.txt",
+      "blob_sha": "438e31da2ae9ef729ec49234504a64bfe715b751"
+    },
+    {
+      "path": "posts/lessons/832-auto.txt",
+      "blob_sha": "bcf7f2ae64732c5e4355de7dec0566bc78491f26"
+    },
+    {
+      "path": "posts/lessons/833-auto.txt",
+      "blob_sha": "f6e60fb081c7f64b5c85d62b7c2a462b2cd5226a"
+    },
+    {
+      "path": "posts/lessons/834-auto.txt",
+      "blob_sha": "6dca93cd36f70aa0be140991f8e96f0cd378fa91"
+    },
+    {
+      "path": "posts/lessons/835-auto.txt",
+      "blob_sha": "0d057d3f7e5c8885382370025a4f0fe6e49fc720"
+    },
+    {
+      "path": "posts/lessons/836-auto.txt",
+      "blob_sha": "3bdfb43200504931649aacc04868a0e8e99697f5"
+    },
+    {
+      "path": "posts/lessons/837-auto.txt",
+      "blob_sha": "542c36965893e45985dc8d43de790c91e507b573"
+    },
+    {
+      "path": "posts/lessons/838-auto.txt",
+      "blob_sha": "a1e72a4051a9af6cff4045953b4dd20ab01a09d3"
+    },
+    {
+      "path": "posts/lessons/839-auto.txt",
+      "blob_sha": "b138371e28ac146926b39d3c52be354686a97b1a"
+    },
+    {
+      "path": "posts/lessons/840-auto.txt",
+      "blob_sha": "6facd33b30ec18175e868cc0a07d4b59b615a53c"
+    },
+    {
+      "path": "posts/lessons/841-auto.txt",
+      "blob_sha": "c10a722f0285da4356cc548ab95bb6266cf62d36"
+    },
+    {
+      "path": "posts/lessons/842-auto.txt",
+      "blob_sha": "e15bb52075dfddb0a6773d5b33354256b8e78d1f"
+    },
+    {
+      "path": "posts/lessons/843-auto.txt",
+      "blob_sha": "4d75edd3c469e01951b31525027836a2fe3f2ecb"
+    },
+    {
+      "path": "posts/lessons/844-auto.txt",
+      "blob_sha": "d85e640d40b1ae146234f6d94d1f9fec7c7603aa"
+    },
+    {
+      "path": "posts/lessons/845-auto.txt",
+      "blob_sha": "96572802ca88020a96c58ea760ab31e107fe47dd"
+    },
+    {
+      "path": "posts/lessons/846-auto.txt",
+      "blob_sha": "f089cedabadf1de4de479c53210429a9abd39bc1"
+    },
+    {
+      "path": "posts/lessons/847-auto.txt",
+      "blob_sha": "d4c5a5565b7e59e132a85604f1e7b0d50fd6c18a"
+    },
+    {
+      "path": "posts/lessons/848-auto.txt",
+      "blob_sha": "9a0e4f578f29e4d0970c6cce87056d634eea2761"
+    },
+    {
+      "path": "posts/lessons/849-auto.txt",
+      "blob_sha": "f260d904bcd465849d99674ff06343857088a5fd"
+    },
+    {
+      "path": "posts/lessons/850-auto.txt",
+      "blob_sha": "b3061e3ae50fd604c498d8ed61c0d6cedd231552"
+    },
+    {
+      "path": "posts/lessons/851-auto.txt",
+      "blob_sha": "1a55faa4eb551f0d54b92b86474f69aeea345bbb"
+    },
+    {
+      "path": "posts/lessons/852-auto.txt",
+      "blob_sha": "de9964a763fdc34ee73065a17377a648aa6a6ebc"
+    },
+    {
+      "path": "posts/lessons/853-auto.txt",
+      "blob_sha": "9561900d69fd74c95979809bbde57c93947e4732"
+    },
+    {
+      "path": "posts/lessons/854-auto.txt",
+      "blob_sha": "9982433b4972585a71297192bc352e5d8fa37673"
+    },
+    {
+      "path": "posts/lessons/855-auto.txt",
+      "blob_sha": "31fe31fcdaa8e80af4f86b31c6450a35fd1e0ee3"
+    },
+    {
+      "path": "posts/lessons/856-auto.txt",
+      "blob_sha": "4f57ad005cbf41ee4ae27ccd901bb7fb875c1ccb"
+    },
+    {
+      "path": "posts/lessons/857-auto.txt",
+      "blob_sha": "ba7794bc168859af2cef8c3615b686edce7efc85"
+    },
+    {
+      "path": "posts/lessons/858-auto.txt",
+      "blob_sha": "3563dfdbbd9d22499ad90bfcd3f8bbd70b6f5808"
+    },
+    {
+      "path": "posts/lessons/859-auto.txt",
+      "blob_sha": "05c4199d9ddd6d70137aab3d07e5cc10e9cef05f"
+    },
+    {
+      "path": "posts/lessons/860-auto.txt",
+      "blob_sha": "771cee843a1682e89a36472fe37b2d75f416f065"
+    },
+    {
+      "path": "posts/lessons/861-auto.txt",
+      "blob_sha": "5a5708a2a63ca9afdd69b6cac5b99613187697ae"
+    },
+    {
+      "path": "posts/lessons/862-auto.txt",
+      "blob_sha": "2700fb573783a4489538cbc3684eea383bc533e2"
+    },
+    {
+      "path": "posts/lessons/863-auto.txt",
+      "blob_sha": "cd9d900c0aca21d2a299d944323e888ef1d400fc"
+    },
+    {
+      "path": "posts/lessons/864-auto.txt",
+      "blob_sha": "a13169518169d293d1c34175918ce0deae6dc64e"
+    },
+    {
+      "path": "posts/lessons/865-auto.txt",
+      "blob_sha": "e798094c017a9333b41a45b6f4108727b410a953"
+    },
+    {
+      "path": "posts/lessons/866-auto.txt",
+      "blob_sha": "fc4e7033169ed139449e6d4c88c96d04fd9b1e87"
+    },
+    {
+      "path": "posts/lessons/867-auto.txt",
+      "blob_sha": "2cf3e0b0bb690015402877631d3e32964a22c662"
+    },
+    {
+      "path": "posts/lessons/868-auto.txt",
+      "blob_sha": "7be0b0e074dd78043d46771c313ff7e6100ea41e"
+    },
+    {
+      "path": "posts/lessons/869-auto.txt",
+      "blob_sha": "c77e611fec0b3d4c52ea52bd042733fcae01fe74"
+    },
+    {
+      "path": "posts/lessons/870-auto.txt",
+      "blob_sha": "e0af758cd7a2abe552f8eb01e444bbf03ee1245d"
+    },
+    {
+      "path": "posts/lessons/871-auto.txt",
+      "blob_sha": "d528dd56c8c0bf45ae9e8396e83bb1a9e77809fa"
+    },
+    {
+      "path": "posts/lessons/872-auto.txt",
+      "blob_sha": "36de6158566ee5b3503e9e174066906ec66088bb"
+    },
+    {
+      "path": "posts/lessons/873-auto.txt",
+      "blob_sha": "4421a7048065bc4cdc801e7da98fde57e4a880ca"
+    },
+    {
+      "path": "posts/lessons/874-auto.txt",
+      "blob_sha": "8d6b568c4ccb52cdd652f29d9bd041a67535934b"
+    },
+    {
+      "path": "posts/lessons/875-auto.txt",
+      "blob_sha": "7380382d9c6e52e4deed51f14176071a2f0306c3"
+    },
+    {
+      "path": "posts/lessons/876-auto.txt",
+      "blob_sha": "451450c8d580cdfe7ad27477726916fcd0bcb2ca"
+    },
+    {
+      "path": "posts/lessons/877-auto.txt",
+      "blob_sha": "d0b8a4f24aeb3f6d4836f93aef5169ee5c30762b"
+    },
+    {
+      "path": "posts/lessons/878-auto.txt",
+      "blob_sha": "980562e4922199c79d8d66989ef8ad63c7acf5c3"
+    },
+    {
+      "path": "posts/lessons/879-auto.txt",
+      "blob_sha": "03f34b86ba34a1c3cf662c714794ef42f4fff403"
+    },
+    {
+      "path": "posts/lessons/880-auto.txt",
+      "blob_sha": "c09c50dba77e139f02aaf59bb3c81b32573b5b3c"
+    },
+    {
+      "path": "posts/lessons/881-auto.txt",
+      "blob_sha": "682542593e657bee3b58d8b0c349d1c5a7f95da3"
+    },
+    {
+      "path": "posts/lessons/882-auto.txt",
+      "blob_sha": "315119aa3873631ddd500945ce2aabc12aa18355"
+    },
+    {
+      "path": "posts/lessons/883-auto.txt",
+      "blob_sha": "16fbfb1b73cddcfabd43b7873a0bc910f62b2bc1"
+    },
+    {
+      "path": "posts/lessons/884-auto.txt",
+      "blob_sha": "41913c8aa0b0321d910db44c5cfe7a3bfd5e19c9"
+    },
+    {
+      "path": "posts/lessons/885-auto.txt",
+      "blob_sha": "9c8da0d101cdf48835b2171847aa937218cb9037"
+    },
+    {
+      "path": "posts/lessons/886-auto.txt",
+      "blob_sha": "0a2eb84a6e2c88b52ffbace2aee07629222f77d7"
+    },
+    {
+      "path": "posts/lessons/887-auto.txt",
+      "blob_sha": "e8d8bacc39c49f8d900879bce5fbb4e303259bf6"
+    },
+    {
+      "path": "posts/lessons/888-auto.txt",
+      "blob_sha": "1351d5a0a5a1dcf341263a62b23d16b965ea8128"
+    },
+    {
+      "path": "posts/lessons/889-auto.txt",
+      "blob_sha": "114dd07e7b3cabdcce0cd2ee3300af93ebeba0b5"
+    },
+    {
+      "path": "posts/lessons/890-auto.txt",
+      "blob_sha": "459bc9be977564df3163846082006af0e5d90505"
+    },
+    {
+      "path": "posts/lessons/891-auto.txt",
+      "blob_sha": "a9a1c8aa39d748e58772171d2191f55e3d56ff9b"
+    },
+    {
+      "path": "posts/lessons/892-auto.txt",
+      "blob_sha": "473fd038934ec2cdfadb944c62886011aecefef6"
+    },
+    {
+      "path": "posts/lessons/893-auto.txt",
+      "blob_sha": "e86571d414542806d457ec407668ef0100a18a98"
+    },
+    {
+      "path": "posts/lessons/894-auto.txt",
+      "blob_sha": "e9f8665b84c35faaa1b7bed7466cdb5b63d5b210"
+    },
+    {
+      "path": "posts/lessons/895-auto.txt",
+      "blob_sha": "a4d1ce9612731cd2a13620486d028725640b217a"
+    },
+    {
+      "path": "posts/lessons/896-auto.txt",
+      "blob_sha": "dbb95cec47fdf82b41ff374dff115056f5dd5bf2"
+    },
+    {
+      "path": "posts/lessons/897-auto.txt",
+      "blob_sha": "a9fec68407cce2fa43978e2c7edbd3af090da549"
+    },
+    {
+      "path": "posts/lessons/898-auto.txt",
+      "blob_sha": "8c75c796d8d8edee277ac0c7f23af0b604818af9"
+    },
+    {
+      "path": "posts/lessons/899-auto.txt",
+      "blob_sha": "2c5a4b8151d637aeb7efc2c2abb14f2f98c2683d"
+    },
+    {
+      "path": "posts/lessons/900-auto.txt",
+      "blob_sha": "45b5ccda16d873370e0177022767406c4308ba61"
+    },
+    {
+      "path": "posts/lessons/901-auto.txt",
+      "blob_sha": "3ecc01b9c381dbbeb25939c3d890c43a49683462"
+    },
+    {
+      "path": "posts/lessons/902-auto.txt",
+      "blob_sha": "029a7154efd0827298f4304fa75fc526b83dba0c"
+    },
+    {
+      "path": "posts/lessons/903-auto.txt",
+      "blob_sha": "1a4fbed7181bf7f658cf1b4a51729ef4fb09a55b"
+    },
+    {
+      "path": "posts/lessons/904-auto.txt",
+      "blob_sha": "f6e9b57151430bba05c8cc680fc73a54915633f6"
+    },
+    {
+      "path": "posts/lessons/905-auto.txt",
+      "blob_sha": "3f308e85ed4db95fedd58921a482f39220c2bf88"
+    },
+    {
+      "path": "posts/lessons/906-auto.txt",
+      "blob_sha": "442d40efdffc89dd5da425b05fc0a73a5f9a6ac2"
+    },
+    {
+      "path": "posts/lessons/907-auto.txt",
+      "blob_sha": "cd6cc7b84df1dd63d0d354b52410e53b3762166d"
+    },
+    {
+      "path": "posts/lessons/908-auto.txt",
+      "blob_sha": "1a53ba16d7976cf855bebf43cd49035cc40fd9d8"
+    },
+    {
+      "path": "posts/lessons/909-auto.txt",
+      "blob_sha": "5acd7c658b7d6359ef82bc5fc4427da05baa1372"
+    },
+    {
+      "path": "posts/lessons/910-auto.txt",
+      "blob_sha": "03d4f114ac2d5c8cbdc5d35e4a42f8670365e331"
+    },
+    {
+      "path": "posts/lessons/911-auto.txt",
+      "blob_sha": "d564e05f009865f482e900ef0c0d40b307e862b2"
+    },
+    {
+      "path": "posts/lessons/912-auto.txt",
+      "blob_sha": "3f11d9ff2ecc2ce22356620373d4a1030bdd51f8"
+    },
+    {
+      "path": "posts/lessons/913-auto.txt",
+      "blob_sha": "c4064319c03a2109225dce497e1bbf288bcd645a"
+    },
+    {
+      "path": "posts/lessons/914-auto.txt",
+      "blob_sha": "5608772702180b483d1046d183dff6a78e4a1e7d"
+    },
+    {
+      "path": "posts/lessons/915-auto.txt",
+      "blob_sha": "67ba5707deefac79308ca07c31e4756ab91035fc"
+    },
+    {
+      "path": "posts/lessons/916-auto.txt",
+      "blob_sha": "a1233ac1d4384c55ae489389446879d4da4b18ed"
+    },
+    {
+      "path": "posts/lessons/917-auto.txt",
+      "blob_sha": "0015899ef111ca1533a24eb16211e4ca7ffefcad"
+    },
+    {
+      "path": "posts/lessons/918-auto.txt",
+      "blob_sha": "78921ff7b5f8977e202d1afe614ae0b73ee0ccb3"
+    },
+    {
+      "path": "posts/lessons/919-auto.txt",
+      "blob_sha": "bd4d16f0de7f05de0352c4d96eb2ae2af9475ba9"
+    },
+    {
+      "path": "posts/lessons/920-auto.txt",
+      "blob_sha": "521aaced437c6ebf6d708755668efc57c0320464"
+    },
+    {
+      "path": "posts/lessons/921-auto.txt",
+      "blob_sha": "60a2aeed9cd66b635b5f7a71b1e08f9c6b4f220d"
+    },
+    {
+      "path": "posts/lessons/922-auto.txt",
+      "blob_sha": "79c65c1f9e670647cf09582992fdc9bcf7cae8a5"
+    },
+    {
+      "path": "posts/lessons/923-auto.txt",
+      "blob_sha": "2ea173048a2146f58f87b7eaea40ad722225009c"
+    },
+    {
+      "path": "posts/lessons/924-auto.txt",
+      "blob_sha": "e1c32a76708154781e68b73d4b52501affaa7a20"
+    },
+    {
+      "path": "posts/lessons/925-auto.txt",
+      "blob_sha": "81e59e2bdba8b9ea1f882e1e7abccc2398154815"
+    },
+    {
+      "path": "posts/lessons/926-auto.txt",
+      "blob_sha": "31c59452e14c854dd66c209c5f13dd63ac8d1156"
+    },
+    {
+      "path": "posts/lessons/927-auto.txt",
+      "blob_sha": "8ff3057869804bd8e915dd904bc9c08c2606fbbb"
+    },
+    {
+      "path": "posts/lessons/928-auto.txt",
+      "blob_sha": "cbc2af3981ee195e9eee62e8d5ee0621b9f2d932"
+    },
+    {
+      "path": "posts/lessons/929-auto.txt",
+      "blob_sha": "7a21a917bc64ae59303169230548e7bb1cfaffeb"
+    },
+    {
+      "path": "posts/lessons/930-auto.txt",
+      "blob_sha": "1e42956762dbf8ccfef54ec764899f04bfe0b498"
+    },
+    {
+      "path": "posts/lessons/931-auto.txt",
+      "blob_sha": "3e627e5abb95896ef55d5fb7b204d128fb6d599c"
+    },
+    {
+      "path": "posts/lessons/932-auto.txt",
+      "blob_sha": "f12489ee4cfa14728eda163af99503dce445958c"
+    },
+    {
+      "path": "posts/lessons/933-auto.txt",
+      "blob_sha": "5a21a17c575fe6eb0b754bf695e7ddfcf7beb39d"
+    },
+    {
+      "path": "posts/lessons/934-auto.txt",
+      "blob_sha": "3da7ba037f1ea884cc68e14742e592e38e89d44a"
+    },
+    {
+      "path": "posts/lessons/935-auto.txt",
+      "blob_sha": "aaa7e9164fe8360ab8eb5f1e221dc89b61c04b61"
+    },
+    {
+      "path": "posts/lessons/936-auto.txt",
+      "blob_sha": "b3698a52d43faf25fd384158058f09af0f28dfd5"
+    },
+    {
+      "path": "posts/lessons/937-auto.txt",
+      "blob_sha": "81ec9719f51c087c17b87234dacc25d317042790"
+    },
+    {
+      "path": "posts/lessons/938-auto.txt",
+      "blob_sha": "c7ae5a78218a013cc01497a2c13ebe616b6568a0"
+    },
+    {
+      "path": "posts/lessons/939-auto.txt",
+      "blob_sha": "1c2df777fc9cd1670811b6610cee57e7e3511fcb"
+    },
+    {
+      "path": "posts/lessons/940-auto.txt",
+      "blob_sha": "d66d323fe7ce95bf1e239fafb30e8f99b219d005"
+    },
+    {
+      "path": "posts/lessons/941-auto.txt",
+      "blob_sha": "ea30e1dcce4c2cee79997bc5bb66a0ee634e2462"
+    },
+    {
+      "path": "posts/lessons/942-auto.txt",
+      "blob_sha": "47fb6d2db3e14b289539adf1e700d4ff2fd7cb61"
+    },
+    {
+      "path": "posts/lessons/943-auto.txt",
+      "blob_sha": "cf448d37cf828aa2a9181234244bed466b2321ea"
+    },
+    {
+      "path": "posts/lessons/944-auto.txt",
+      "blob_sha": "e5359e10fb3051398316653c2c89d188a7b255b6"
+    },
+    {
+      "path": "posts/lessons/945-auto.txt",
+      "blob_sha": "07f9d6b22f3aa3d8efb748e8adaf7cf7e642e625"
+    },
+    {
+      "path": "posts/lessons/946-auto.txt",
+      "blob_sha": "2efdfb93245c7dd5ce2fac28bc4a51dc492e1d94"
+    },
+    {
+      "path": "posts/lessons/947-auto.txt",
+      "blob_sha": "98d8585b3b0a0786b03636283822a8e6e1f9a13f"
+    },
+    {
+      "path": "posts/lessons/948-auto.txt",
+      "blob_sha": "b531889f1a2fbf09d502a91f6a132012c8cf06bc"
+    },
+    {
+      "path": "posts/lessons/949-auto.txt",
+      "blob_sha": "1561391c55b130ad3adcc0a80a59dc0029cb2802"
+    },
+    {
+      "path": "posts/lessons/950-auto.txt",
+      "blob_sha": "21666a3a2cb27d53d2f1229fe6cde9a135d45d1a"
+    },
+    {
+      "path": "posts/lessons/951-auto.txt",
+      "blob_sha": "9bfbd7fad4e1504d32e96daac29bd1c09ddbf4fa"
+    },
+    {
+      "path": "posts/lessons/952-auto.txt",
+      "blob_sha": "42cd408c1530ad5b46889c252799a851b13dff16"
+    },
+    {
+      "path": "posts/lessons/953-auto.txt",
+      "blob_sha": "669feb6ac15f645c9c19a405eae32a4368172b57"
+    },
+    {
+      "path": "posts/lessons/954-auto.txt",
+      "blob_sha": "8d3b7d4035e88a16e910ad9bd1013c20a33c840f"
+    },
+    {
+      "path": "posts/lessons/955-auto.txt",
+      "blob_sha": "aa684f73154ea9b77565b57005f08a603e46cd7a"
+    },
+    {
+      "path": "posts/lessons/956-auto.txt",
+      "blob_sha": "6b0ca77319166dff140884da96b793de5b1b34c1"
+    },
+    {
+      "path": "posts/lessons/957-auto.txt",
+      "blob_sha": "29594c1baf9a4e0499fffb201ede093d0ecec31a"
+    },
+    {
+      "path": "posts/lessons/958-auto.txt",
+      "blob_sha": "f2fad95f8cf18d36ac99064e4c536cca557d5b0a"
+    },
+    {
+      "path": "posts/lessons/959-auto.txt",
+      "blob_sha": "6d8fe0a711fc9cab086be2f18342acb35b125f9f"
+    },
+    {
+      "path": "posts/lessons/960-auto.txt",
+      "blob_sha": "6d7e7c1dfb66e47a36cdccab1db76eb57d73a952"
+    },
+    {
+      "path": "posts/lessons/961-auto.txt",
+      "blob_sha": "c6d403eb94ce81aebc0a2320c1cd85ed410ffc28"
+    },
+    {
+      "path": "posts/lessons/962-auto.txt",
+      "blob_sha": "eb9509ab513a467e7b431fbbc38c1568e846244c"
+    },
+    {
+      "path": "posts/lessons/963-auto.txt",
+      "blob_sha": "a4470384840ccc87ab5a8296761d78a77230d84c"
+    },
+    {
+      "path": "posts/lessons/964-auto.txt",
+      "blob_sha": "2e75861ee9a7ec755fcd7bd9890425f091cb5094"
+    },
+    {
+      "path": "posts/lessons/965-auto.txt",
+      "blob_sha": "212493ac75141d489b3e8918dccdd8a48da3df67"
+    },
+    {
+      "path": "posts/lessons/966-auto.txt",
+      "blob_sha": "d0af848e1b77d65240ef61e7f7a20647747d6a8f"
+    },
+    {
+      "path": "posts/lessons/967-auto.txt",
+      "blob_sha": "c47be30f27554c8300559e23a47ab70515444a07"
+    },
+    {
+      "path": "posts/lessons/968-auto.txt",
+      "blob_sha": "35dd0957165ff3eb955e1561f8a0b53c0770627c"
+    },
+    {
+      "path": "posts/lessons/969-auto.txt",
+      "blob_sha": "913aceeadd3a1893fa594459ab04925fed3371f6"
+    },
+    {
+      "path": "posts/lessons/970-auto.txt",
+      "blob_sha": "99ae3a960757e2ef7eb583a36b8d5e0eeee6af49"
+    },
+    {
+      "path": "posts/lessons/971-auto.txt",
+      "blob_sha": "8888c9884f48a1b890289fb5481b8fb91ea85cc2"
+    },
+    {
+      "path": "posts/lessons/972-auto.txt",
+      "blob_sha": "956d04ad9655edb7b0521e9a69b406e3c944178f"
+    },
+    {
+      "path": "posts/lessons/973-auto.txt",
+      "blob_sha": "95d36c3bdcb86c1a0a2d6d458b7ef713a7b42652"
+    },
+    {
+      "path": "posts/lessons/974-auto.txt",
+      "blob_sha": "365e68592aa92ffe30c830f6ceb9533193653364"
+    },
+    {
+      "path": "posts/lessons/975-auto.txt",
+      "blob_sha": "eb4b8ba0226330675884cb26182bdd1241178211"
+    },
+    {
+      "path": "posts/lessons/976-auto.txt",
+      "blob_sha": "128471477587aca8ac5fb371f48e7f92e26b3f81"
+    },
+    {
+      "path": "posts/lessons/977-auto.txt",
+      "blob_sha": "bfa66c3f62ad4b339a69743f644da2cc38814808"
+    },
+    {
+      "path": "posts/lessons/978-auto.txt",
+      "blob_sha": "ade3f7ac3c7cdb9c29bd78bf36f6b8db2198bdc7"
+    },
+    {
+      "path": "posts/lessons/979-auto.txt",
+      "blob_sha": "793800d87261f82cac0d6388ab132d94f730ee9d"
+    },
+    {
+      "path": "posts/lessons/980-auto.txt",
+      "blob_sha": "e31e9f538446417681055cb4f0e7a55e3959d1a1"
+    },
+    {
+      "path": "posts/lessons/981-auto.txt",
+      "blob_sha": "b625217fda15d9d74da866456d417dde9d84db88"
+    },
+    {
+      "path": "posts/lessons/982-auto.txt",
+      "blob_sha": "8bacde4057453e4efd6f25105236c2cc7701069d"
+    },
+    {
+      "path": "posts/lessons/983-auto.txt",
+      "blob_sha": "70291d61f951f34782da8791c5a017d19b166184"
+    },
+    {
+      "path": "posts/lessons/984-auto.txt",
+      "blob_sha": "4b246ac00756f3ed59195f27435392ac0b5a4315"
+    },
+    {
+      "path": "posts/lessons/985-auto.txt",
+      "blob_sha": "18f1780da10d2ce02104331b6185bc22fe6778d5"
+    },
+    {
+      "path": "posts/lessons/986-auto.txt",
+      "blob_sha": "2c6b7fbf3e50bfc1136b8e153ffac840a877eef7"
+    },
+    {
+      "path": "posts/lessons/987-auto.txt",
+      "blob_sha": "bec23969c34448c7804c298653bf3e89a6abf275"
+    },
+    {
+      "path": "posts/lessons/988-auto.txt",
+      "blob_sha": "50448a2c5f1b32b8e71199ffccacfb15e00c135e"
+    },
+    {
+      "path": "posts/lessons/989-auto.txt",
+      "blob_sha": "40779fa680b16d085166b0f8ac02943924b6d579"
+    },
+    {
+      "path": "posts/lessons/990-auto.txt",
+      "blob_sha": "e30af8f2090267536ee0283431a917b37f390363"
+    },
+    {
+      "path": "posts/lessons/991-auto.txt",
+      "blob_sha": "267f015d24bd66aef3c9d21ab55d3768e1e3479d"
+    },
+    {
+      "path": "posts/lessons/992-auto.txt",
+      "blob_sha": "0ad1a767d55b1b2a934eb6063e95b13b580986d4"
+    },
+    {
+      "path": "posts/lessons/993-auto.txt",
+      "blob_sha": "4781434d49c1af9f03de266a0ec07f6a81a8294e"
+    },
+    {
+      "path": "posts/lessons/994-auto.txt",
+      "blob_sha": "d88943e7a6eb922f819d10bd2904931a0b0a0625"
+    },
+    {
+      "path": "posts/lessons/995-auto.txt",
+      "blob_sha": "c4b106640ec893e885e92a6a881c7eb6f7cdd0ac"
+    },
+    {
+      "path": "posts/lessons/996-auto.txt",
+      "blob_sha": "be9154190e7e3ea3aa346e46c08f6379f86ef076"
+    },
+    {
+      "path": "posts/lessons/997-auto.txt",
+      "blob_sha": "07972d760319036903b75752ef448d525ec1b578"
+    },
+    {
+      "path": "posts/lessons/998-auto.txt",
+      "blob_sha": "832d8f4ca8c8354f2375cd468f08d788dc420f92"
+    },
+    {
+      "path": "posts/lessons/999-auto.txt",
+      "blob_sha": "548fc7512bb7a59ce8a982102cb23aa73a0a91b5"
+    }
+  ],
+  "published_history_modified": false
+}

@@ -61,8 +61,8 @@ jobs:
             echo 'Add the TELEGRAM_BOT_TOKEN repository Actions secret before running the publisher.'
             exit 1
           fi
-      - name: Prepare free course continuation
-        run: ./publisher -prepare -buffer 1000
+      - name: Prepare reviewed advanced series
+        run: ./publisher -prepare
       - name: Save prepared lessons
         run: |
           git config user.name 'rza-publisher[bot]'
