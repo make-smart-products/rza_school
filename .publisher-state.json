@@ -5,9 +5,9 @@
     "status": "sent",
     "message_id": 4,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADAmrrROt5eaDPNhWBn3Mich2N5SxIAAKkHmsbOYRZS-y25NmJhqEZAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADBGrrThTQh1pOH5Kyw1pxG-biVVupAAJopQACOYRZS0pvdpvbIhnIPQQ",
+    "media_version": 3,
     "caption_sha256": "6c28555cce2bc38564e6d6d90ae26684bd07bbc44a1012058d295fe21fa58f73"
   },
   {
@@ -17,8 +17,8 @@
     "message_id": 5,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADBWrrRPM3ilSDxUzR8jZSssNPpF8hAAKlHmsbOYRZSysmLxwfW72lAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADBWrrThmHDXPiAAEGVXzwwK7h2vWZ0gACBx9rGzmEWUsQgIk2no6QmwEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "47e4ed872a9509ca4294ad81a26a3e956e03f8dfcbbe6f3baca5b1a48068e492"
   },
   {
@@ -28,8 +28,8 @@
     "message_id": 6,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADBmrrRPhl3MRow-aEuU_RlBhNCqMYAAKmHmsbOYRZS60dzH3t6HB6AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADBmrrTh-UyaoUfgI98zkUQp-N7F_QAAIIH2sbOYRZS1vmnYsCl5KGAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "ac2f84c685c64e86e23bbc3a3b43d59ce77483aa0717b5b7d1bcdcb758bdbf85"
   },
   {
@@ -39,8 +39,8 @@
     "message_id": 7,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADB2rrRPwedP_9m4zb3ApoDfymVaeSAAKnHmsbOYRZSxtRFFLt89i6AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADB2rrTiT0Ndb86pcLU1F9pV79fXXMAAIJH2sbOYRZS191I8aBOjKWAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "5d3e34e16803f0fc5904d1fa07956fc52e89cef9b7f36557984ffdc4b6d5ec10"
   },
   {
@@ -50,8 +50,8 @@
     "message_id": 8,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCGrrRQABraTQE8hFHvXwfMcTxO3QpQACqB5rGzmEWUvhgUu04G9ECAEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCGrrTirZPP_dx3MeDyMdxAzwUKz4AAIKH2sbOYRZS3TxzwkYt50XAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "146369a5c3b635c540691d8bc31ca86be86b1796f7ad8036fea6d2aaf1cc7494"
   },
   {
@@ -60,9 +60,9 @@
     "status": "sent",
     "message_id": 9,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCWrrRQTy36lCOhKDH60fXLJXiMfRAAKpHmsbOYRZS93wp5aXFpR5AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADCWrrTjHTZnvnCc1gL1IPxjWE6M-2AAJtpQACOYRZS6FE2bybwxBjPQQ",
+    "media_version": 3,
     "caption_sha256": "e57b6b7ff1c8372107b087eb8d38b69953fe8157ff49a87668e37f56a9397fc1"
   },
   {
@@ -71,9 +71,9 @@
     "status": "sent",
     "message_id": 10,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCmrrRQmWfbxiFyEMRzNkoUdg844YAAKqHmsbOYRZS-KzR4ds2EUEAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADCmrrTaWguk8VoiEsRMJkVeGzGk9lAAJepQACOYRZS69NnixcSZidPQQ",
+    "media_version": 3,
     "caption_sha256": "164f3b8882beb6a822cca67611e398e32d368c452b7c6adbb3d834aaa32364c2"
   },
   {
@@ -83,8 +83,8 @@
     "message_id": 11,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrRQ28mQ8_TPu0MSr1oei1PLRKAAKrHmsbOYRZS8DaN_r9lzeTAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrTjcUcYDDm-B5LWtaO7wXQmpuAAILH2sbOYRZS58-6AUliubeAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "0ae480b1a7ad63a2d67b96faed3f35cba8e091f4a71c709d0b8c04c7a3900bea"
   },
   {
@@ -94,8 +94,8 @@
     "message_id": 12,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrRRGFA0jjG0L8ouclQ_ldfIcRAAKsHmsbOYRZSzfJad8wVegzAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrTjzTsf6MoYzsQ4fAXOOMO6loAAIMH2sbOYRZS8yOoQABhIf2BgEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "724ff96b6120301ed9e0841bea6442425970f25f1c2d9bcfd77a47b731ea6377"
   },
   {
@@ -105,8 +105,8 @@
     "message_id": 13,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrRRXWQqperbKMP3tdZ_vBIa9gAAKtHmsbOYRZS1LDCRO5eHrAAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrTkIzzVQ35IigFzV7jp4iyICHAAINH2sbOYRZS6AkcQzaIpCKAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "995fb8e1a079a3b4801f79a33cb3c951525ddae74337b2ef0d91a6bae8a0578a"
   },
   {
@@ -116,8 +116,8 @@
     "message_id": 14,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrRRmCypd39tm07bbk-SWk_nLXAAKuHmsbOYRZS458aTFMe0ZwAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrTkcRoiauMTpTWbx0hGZn-v4qAAIOH2sbOYRZS0ugFi2qk2qTAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "fd6dc8664c709c175b70e6af7562c1bf65679007877480aea6cd6b9cd1329404"
   },
   {
@@ -127,8 +127,8 @@
     "message_id": 15,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrRR5GgkoKO5wsWNykgV-tTjBSAAKvHmsbOYRZS9RT8J5cQIwqAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrTk3PFf-vGWeM5HiBZ88AAUY7-AACDx9rGzmEWUumoydKMLs9aAEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "7af42854a85935944d71e5d9f830a79be35e290ecb6452f764fedf5ac9f7ee95"
   },
   {
@@ -137,9 +137,9 @@
     "status": "sent",
     "message_id": 16,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEGrrRSJgl6lR_zIRFll42j3I7-DUAAKwHmsbOYRZSyhcC1-dsKi3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADEGrrTlSopWYr0pYUdcg4DxRgwxf4AAJvpQACOYRZS4VSbTjm2bbfPQQ",
+    "media_version": 3,
     "caption_sha256": "959f16cbcb4509976fe8e51f4d31756c8c3bb510a5eeb2294eff0ec8eeb90675"
   },
   {
@@ -149,8 +149,8 @@
     "message_id": 17,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrRSeiMlObF368Af7TSwABvF9nKAACsR5rGzmEWUuSTHmKhHP2ywEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrTlq4eBhfHE_tr2cechy-6RWBAAIQH2sbOYRZS377C4a7TJrZAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "e1928017d7075d733d1b8ed15dc2d25a83d501449120451e658d375c02ef10cf"
   },
   {
@@ -160,8 +160,8 @@
     "message_id": 18,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrRSxm58MFaee_PlpJBqeAJJooAAKyHmsbOYRZSz0JI036PT70AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrTl-etxs5Gb4DN0nn9RZss-S4AAIRH2sbOYRZS1OFV3kO-XqgAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "ea624ec2a84c33a9c46d9541b7892efc4194763c925c2e9694030b5f863c92f8"
   },
   {
@@ -171,8 +171,8 @@
     "message_id": 19,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrRTG03AOz6oR2lFUGuu9Wri8DAAKzHmsbOYRZSy0Y7JGs0qb-AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrTmWmBQGHlyVOQUXdIUT4xdEFAAISH2sbOYRZSypv6QWEQ3j9AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "afadf1be06eb76c1193b44094ac93beba9b02af51c44e87b2a2f1035c01c3f15"
   },
   {
@@ -182,8 +182,8 @@
     "message_id": 20,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrRTbk7Rh2Gb-thRxu6UCSrWGRAAK0HmsbOYRZS6xaNKCb3-m1AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrTmoP8gwyr5yT-eyXydBTQeslAAITH2sbOYRZS8-PciPsNNSMAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "d18624df855f713b7c5c3ed7742c0aa2f7693d42e6e06c049e28df7ee6758c64"
   },
   {
@@ -193,8 +193,8 @@
     "message_id": 21,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrRTo_kw9xUzdKRUQbBO6m9KCmAAK1HmsbOYRZS6WbtfFEsyFQAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrTnCjiui_tnGJZPKI_bSjPWkIAAIUH2sbOYRZS3BKcs8q4k-BAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "d3f39738c914495c0566cda3b00a156d86d06132efb7143b595256a80eae00b3"
   },
   {
@@ -204,8 +204,8 @@
     "message_id": 22,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrRT_f7pUDPoDP_2ES_urHVtSEAAK2HmsbOYRZSwWWycA-Cl5AAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrTnaTUcbNFIW9ngsoVHgfq3pZAAIVH2sbOYRZS2E_pGWmvM7tAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "dd7b37816b6956cfad969870dfac58aeb699b646bf83a111bd68fbc642359ac3"
   },
   {
@@ -215,8 +215,8 @@
     "message_id": 23,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrRUNvnJ1JF9p8dWTX-44HTDaXAAK3HmsbOYRZS5Wtpn7z8aH9AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrTnv7BjlYAtPd6uNGTxVgVOyDAAIWH2sbOYRZS1EcDwvIUgWDAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "c1600e4034aa8c7bbcd035acb86e91cefdb23b7148d788d3b5b8f94ce0444b15"
   },
   {
@@ -225,9 +225,9 @@
     "status": "sent",
     "message_id": 24,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGGrrRUmiO4HOc5dEJNQBv9RHf9HDAAK4HmsbOYRZS6rsVYb0zDBhAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADGGrrToP9Evc_i9bMNIES4UBjHFG8AAJypQACOYRZS8fjMDu3xSI-PQQ",
+    "media_version": 3,
     "caption_sha256": "29bc6d94e1c59660cd15f459cf3bd5d78f5c2f1c50b04c75ef63f43cbc03021e"
   },
   {
@@ -237,8 +237,8 @@
     "message_id": 25,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrRU0jK5qU0uYfTpzErOGzvhgCAAK5HmsbOYRZS9bVJ1m9roh3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrTo7i9ceVm4slmbqYFUUVe68wAAIYH2sbOYRZS-amkDI2I3TAAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "ef957d2a675cd8a0d57f8cc13f36422f102ab346f267f2b4f9cbddc741c4a94d"
   },
   {
@@ -247,9 +247,9 @@
     "status": "sent",
     "message_id": 26,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGmrrRVFjtSzwbZtn7m7okS1kO-Z3AAK6HmsbOYRZS-rb7TfC9VxaAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADGmrrTpVcs8vK21ubS9lYRm0JBr5VAAJ1pQACOYRZS3nOB-2RZJW7PQQ",
+    "media_version": 3,
     "caption_sha256": "0066ddfb2fd35d0e0319d0f0888c36d18317e6c1c1fd8e07bb7155b5f5b3f7d3"
   },
   {
@@ -258,9 +258,9 @@
     "status": "sent",
     "message_id": 27,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADG2rrRVVopWy8BHXW4NLNH4zNQ0MQAAK7HmsbOYRZS9skkiGEiHNLAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADG2rrTpxnm8wlfNGcX2g7W3IH--r-AAJ2pQACOYRZS36-Jn_UAoq2PQQ",
+    "media_version": 3,
     "caption_sha256": "d90c699ea09a2ebfee0fc8eab36c6bb4b1d339def96605b4e67c74b1cf720b71"
   },
   {
@@ -269,9 +269,9 @@
     "status": "sent",
     "message_id": 28,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHGrrRVk0j2SwEn5PG1GDnJ_zRni0AAK8HmsbOYRZS5VziptOsIZ4AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADHGrrTqSztd0QnDucljAYd1_PvcYrAAJ3pQACOYRZSxloPmRNmckWPQQ",
+    "media_version": 3,
     "caption_sha256": "750fef45f937cc690b4e2390ed2ad62b7090347ca290b0431e0c364abc09aa7b"
   },
   {
@@ -281,8 +281,8 @@
     "message_id": 29,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrRV0i6bY8QupPAdreEgc3DVYKAAK9HmsbOYRZS5pUAAEoRjCq9QEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrTqkqW0eexE4oS9bIk59Owf2yAAIaH2sbOYRZS6CGCp6deC2xAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "ac4f491b211c046286f52ab35b8243669086d7374de14bbc0666cd615678ae21"
   },
   {
@@ -291,9 +291,9 @@
     "status": "sent",
     "message_id": 30,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHmrrRWE5rypzkING8dooD-7SPgwjAAK-HmsbOYRZSyM8XTyGn9-oAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADHmrrTrDSuW3_PHVJnm2ukrS731bRAAJ6pQACOYRZS37oMtu7q7p6PQQ",
+    "media_version": 3,
     "caption_sha256": "2652e6279f5c51349ef52716869a4db42e6f5914443bf64695c5a9deef2771b4"
   },
   {
@@ -302,9 +302,9 @@
     "status": "sent",
     "message_id": 31,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADH2rrRWZbeDrVZ1cF0geC4HtFT7EqAAK_HmsbOYRZS4MsRiZqIPMAAQEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADH2rrTrgqV7lNz9VoYAiXP6ORs1t1AAJ7pQACOYRZS3jvTDd01wniPQQ",
+    "media_version": 3,
     "caption_sha256": "504b364bf97c9679c2d9d8b5935341591e784e243b68c91469578b268f5c5cf3"
   },
   {
@@ -314,8 +314,8 @@
     "message_id": 32,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrRWpkXzJicpXubdMRrDz5_1znAALAHmsbOYRZS5GN1Ed6SsmIAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrTsKLyvBzKrATirSVbhEjTJM9AAIbH2sbOYRZS58L6ntOeznjAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "6fac483b0eea97218109d8cb29e750e89f8b13997d96aa48a7456d387387ef2a"
   },
   {
@@ -325,8 +325,8 @@
     "message_id": 33,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrRW4QzBlt4_lwSvi_f5nhKAJjAALBHmsbOYRZS68OQMcNLtKZAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrTsiDbVIlQW5bKjNvaCmiVCxNAAIcH2sbOYRZSyaT5Q_1mIadAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "a19d048704a7d16c101f9b5a7bc97c386c52f4cbdfe270d8aea89d9e5de8bc2c"
   },
   {
@@ -335,9 +335,9 @@
     "status": "sent",
     "message_id": 34,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCmrrRQmWfbxiFyEMRzNkoUdg844YAAKqHmsbOYRZS-KzR4ds2EUEAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADImrrTs_0oEtNrROnLZ-0WMKPHUA8AAKApQACOYRZS1ZVrA7-jfbwPQQ",
+    "media_version": 3,
     "caption_sha256": "13175e6c82074ef1e118143b99020c4eb71d6893cea9e2bcd7c749852b55e7fb"
   },
   {
@@ -347,8 +347,8 @@
     "message_id": 35,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrRQ28mQ8_TPu0MSr1oei1PLRKAAKrHmsbOYRZS8DaN_r9lzeTAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrTjcUcYDDm-B5LWtaO7wXQmpuAAILH2sbOYRZS58-6AUliubeAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "d2da5b06fda6107fbd60aef06584287dc5d40d3750bdb8f3f10dd1cb439a7767"
   },
   {
@@ -358,8 +358,8 @@
     "message_id": 36,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrRRGFA0jjG0L8ouclQ_ldfIcRAAKsHmsbOYRZSzfJad8wVegzAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrTjzTsf6MoYzsQ4fAXOOMO6loAAIMH2sbOYRZS8yOoQABhIf2BgEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "2763f79886d4abdb13a28de6b9fd25a8b6a54fe8363040063229ead75d8d4c3d"
   },
   {
@@ -369,8 +369,8 @@
     "message_id": 37,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrRRXWQqperbKMP3tdZ_vBIa9gAAKtHmsbOYRZS1LDCRO5eHrAAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrTkIzzVQ35IigFzV7jp4iyICHAAINH2sbOYRZS6AkcQzaIpCKAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "50e52cdde00546a967eb7d464f83c376c2a6625414c64df81da7cf7cb048e33e"
   },
   {
@@ -380,8 +380,8 @@
     "message_id": 38,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrRRmCypd39tm07bbk-SWk_nLXAAKuHmsbOYRZS458aTFMe0ZwAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrTkcRoiauMTpTWbx0hGZn-v4qAAIOH2sbOYRZS0ugFi2qk2qTAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "1b145a13d8b9d25c5a5d55246754f1c4c587689e5a964ecfc4ffa258aca67a3a"
   },
   {
@@ -391,8 +391,8 @@
     "message_id": 39,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrRR5GgkoKO5wsWNykgV-tTjBSAAKvHmsbOYRZS9RT8J5cQIwqAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrTk3PFf-vGWeM5HiBZ88AAUY7-AACDx9rGzmEWUumoydKMLs9aAEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "116fcac2aaa223667d30bcab8a5ba7201c33641cf506e57946ef865cfbc0d746"
   },
   {
@@ -401,9 +401,9 @@
     "status": "sent",
     "message_id": 40,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEGrrRSJgl6lR_zIRFll42j3I7-DUAAKwHmsbOYRZSyhcC1-dsKi3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADKGrrTvFlSlPj_XQs2F4jCu1pqHmRAAKDpQACOYRZS5AlvJqyZZ6APQQ",
+    "media_version": 3,
     "caption_sha256": "529755d9798d7175162d1db4a2f8899c783b8675c1d1d830fbac71941a222351"
   },
   {
@@ -413,8 +413,8 @@
     "message_id": 41,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrRSeiMlObF368Af7TSwABvF9nKAACsR5rGzmEWUuSTHmKhHP2ywEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrTlq4eBhfHE_tr2cechy-6RWBAAIQH2sbOYRZS377C4a7TJrZAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "01a5c7101d3f8cbde38e09668ff31ca50411cd175a62b8278c95f9570ea7815f"
   },
   {
@@ -424,8 +424,8 @@
     "message_id": 42,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrRSxm58MFaee_PlpJBqeAJJooAAKyHmsbOYRZSz0JI036PT70AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrTl-etxs5Gb4DN0nn9RZss-S4AAIRH2sbOYRZS1OFV3kO-XqgAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "20a3d17aee67fc3e06aa27035663fe4a1f4b561d6b8cfb55e2bebb2502a76da8"
   },
   {
@@ -435,8 +435,8 @@
     "message_id": 43,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrRTG03AOz6oR2lFUGuu9Wri8DAAKzHmsbOYRZSy0Y7JGs0qb-AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrTmWmBQGHlyVOQUXdIUT4xdEFAAISH2sbOYRZSypv6QWEQ3j9AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "1a3f183bd18e779d27f5c598d56d94f3d1d023ba263113d2cde4a9ad1fabb179"
   },
   {
@@ -446,8 +446,8 @@
     "message_id": 44,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrRTbk7Rh2Gb-thRxu6UCSrWGRAAK0HmsbOYRZS6xaNKCb3-m1AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrTmoP8gwyr5yT-eyXydBTQeslAAITH2sbOYRZS8-PciPsNNSMAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "c816d0227e68c0d65fabaf7f3ea0c44a31f4972a74cf70171fd210cb0c1194a2"
   },
   {
@@ -457,8 +457,8 @@
     "message_id": 45,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrRTo_kw9xUzdKRUQbBO6m9KCmAAK1HmsbOYRZS6WbtfFEsyFQAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrTnCjiui_tnGJZPKI_bSjPWkIAAIUH2sbOYRZS3BKcs8q4k-BAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "a37aa07bca6445d8f677af76aa7a9f6fbcbce8b7bd4d10ae9285b1f6005fc11b"
   },
   {
@@ -468,8 +468,8 @@
     "message_id": 46,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrRT_f7pUDPoDP_2ES_urHVtSEAAK2HmsbOYRZSwWWycA-Cl5AAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrTnaTUcbNFIW9ngsoVHgfq3pZAAIVH2sbOYRZS2E_pGWmvM7tAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "d17ccef8cbee7acd8a4808c9fe2e9eb4b4e837b282ee08db29951bb56e636d86"
   },
   {
@@ -479,8 +479,8 @@
     "message_id": 47,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrRUNvnJ1JF9p8dWTX-44HTDaXAAK3HmsbOYRZS5Wtpn7z8aH9AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrTnv7BjlYAtPd6uNGTxVgVOyDAAIWH2sbOYRZS1EcDwvIUgWDAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "52dfbce8138d48e74a5a25fba57072a56a07bd5d4134b0e408f9a24beefcb120"
   },
   {
@@ -489,9 +489,9 @@
     "status": "sent",
     "message_id": 48,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGGrrRUmiO4HOc5dEJNQBv9RHf9HDAAK4HmsbOYRZS6rsVYb0zDBhAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADMGrrTx4IrsmnLE8QznkEFrV4wIMwAAKGpQACOYRZS-O7aM2orCq9PQQ",
+    "media_version": 3,
     "caption_sha256": "0474007bfc7772b549a4cd739ab3a2723ae9fcdeb55e183c33bc4a0ff8586b66"
   },
   {
@@ -501,8 +501,8 @@
     "message_id": 49,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrRU0jK5qU0uYfTpzErOGzvhgCAAK5HmsbOYRZS9bVJ1m9roh3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrTo7i9ceVm4slmbqYFUUVe68wAAIYH2sbOYRZS-amkDI2I3TAAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "5b2293bc3a20c03eeba9545483885a1b8c5556de2ffb3c9e7f49016a0e7103c6"
   },
   {
@@ -511,9 +511,9 @@
     "status": "sent",
     "message_id": 50,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGmrrRVFjtSzwbZtn7m7okS1kO-Z3AAK6HmsbOYRZS-rb7TfC9VxaAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADMmrrTyyOcIe-YB7_jyHQuR4ocdsmAAKIpQACOYRZS-H4meIqgS5OPQQ",
+    "media_version": 3,
     "caption_sha256": "31242c576d30092da9080d419a49060b48b6bb7fbc77b127280454e81eb7c24d"
   },
   {
@@ -522,9 +522,9 @@
     "status": "sent",
     "message_id": 51,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADG2rrRVVopWy8BHXW4NLNH4zNQ0MQAAK7HmsbOYRZS9skkiGEiHNLAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADM2rrTzOwxP9SFFuvYWGj_BE2Oc_NAAKJpQACOYRZS2TwbleDY505PQQ",
+    "media_version": 3,
     "caption_sha256": "c178fe855839d37ac0254cb0bf79d6e1549b628c36a02884ab2be252f1f10509"
   },
   {
@@ -533,9 +533,9 @@
     "status": "sent",
     "message_id": 52,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHGrrRVk0j2SwEn5PG1GDnJ_zRni0AAK8HmsbOYRZS5VziptOsIZ4AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADNGrrTzqJbBOVNv5-Aa91TWXZDuNPAAKKpQACOYRZS_nQeXOlJRhKPQQ",
+    "media_version": 3,
     "caption_sha256": "363225d26c8391afc2d198cf98f1d5dcc1a2ca80eef9a43f2155393d80bf2912"
   },
   {
@@ -545,8 +545,8 @@
     "message_id": 53,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrRV0i6bY8QupPAdreEgc3DVYKAAK9HmsbOYRZS5pUAAEoRjCq9QEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrTqkqW0eexE4oS9bIk59Owf2yAAIaH2sbOYRZS6CGCp6deC2xAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "95559ad85beb14dec121026e0aec7b1b567098ec52d9c0b7ebfcdf0a01ffd9f2"
   },
   {
@@ -555,9 +555,9 @@
     "status": "sent",
     "message_id": 54,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHmrrRWE5rypzkING8dooD-7SPgwjAAK-HmsbOYRZSyM8XTyGn9-oAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADNmrrT0fdMn5FiBx-djtIMOACvXMHAAKLpQACOYRZS-LJ8HThiCvvPQQ",
+    "media_version": 3,
     "caption_sha256": "54535c34a7f4a091ffc8a8bdc50a9a4bb1f38a14b7eaafe32a8857b886410313"
   },
   {
@@ -566,9 +566,9 @@
     "status": "sent",
     "message_id": 55,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADH2rrRWZbeDrVZ1cF0geC4HtFT7EqAAK_HmsbOYRZS4MsRiZqIPMAAQEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADN2rrT06-EFYcWa8tjaghpvt4WjJ5AAKMpQACOYRZS0_mURnm8ZkWPQQ",
+    "media_version": 3,
     "caption_sha256": "6dd0960fc8147ce0c0fc47b09f83082d8cd187a1bc6b595c3824afa177b5b4d2"
   },
   {
@@ -578,8 +578,8 @@
     "message_id": 56,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrRWpkXzJicpXubdMRrDz5_1znAALAHmsbOYRZS5GN1Ed6SsmIAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrTsKLyvBzKrATirSVbhEjTJM9AAIbH2sbOYRZS58L6ntOeznjAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "3ae21dca6cfc8fdf77466798cb37cca01ab27fca7317f3c1ea0b304bf94c9a4f"
   },
   {
@@ -589,8 +589,8 @@
     "message_id": 57,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrRW4QzBlt4_lwSvi_f5nhKAJjAALBHmsbOYRZS68OQMcNLtKZAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrTsiDbVIlQW5bKjNvaCmiVCxNAAIcH2sbOYRZSyaT5Q_1mIadAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "46d477ddfd773d116ac1631f9c2303f56405da5146ccc0ded52579346cb444f8"
   },
   {
@@ -599,9 +599,9 @@
     "status": "sent",
     "message_id": 58,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADCmrrRQmWfbxiFyEMRzNkoUdg844YAAKqHmsbOYRZS-KzR4ds2EUEAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADOmrrT2AhJP4aBnlgFKcMsmZcZs-NAAKOpQACOYRZSwoo7iGOjMwXPQQ",
+    "media_version": 3,
     "caption_sha256": "58d4aaa87d968887e3838d24c840b512fe543e4da62575ab165f81b7c88016eb"
   },
   {
@@ -611,8 +611,8 @@
     "message_id": 59,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrRQ28mQ8_TPu0MSr1oei1PLRKAAKrHmsbOYRZS8DaN_r9lzeTAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADC2rrTjcUcYDDm-B5LWtaO7wXQmpuAAILH2sbOYRZS58-6AUliubeAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "b84610b55662a123f3762afbaa136b934b558c46fdfcee7936fdb563c30a0452"
   },
   {
@@ -622,8 +622,8 @@
     "message_id": 60,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrRRGFA0jjG0L8ouclQ_ldfIcRAAKsHmsbOYRZSzfJad8wVegzAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDGrrTjzTsf6MoYzsQ4fAXOOMO6loAAIMH2sbOYRZS8yOoQABhIf2BgEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "d24a66534215735151341516da72028e0bb583bf522544ec863b84d5249f871b"
   },
   {
@@ -633,8 +633,8 @@
     "message_id": 61,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrRRXWQqperbKMP3tdZ_vBIa9gAAKtHmsbOYRZS1LDCRO5eHrAAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDWrrTkIzzVQ35IigFzV7jp4iyICHAAINH2sbOYRZS6AkcQzaIpCKAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "b7c3a02caa014f63c6c8bc7518ed64c4464720f0f14b7d06e19c1f44b1670421"
   },
   {
@@ -644,8 +644,8 @@
     "message_id": 62,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrRRmCypd39tm07bbk-SWk_nLXAAKuHmsbOYRZS458aTFMe0ZwAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADDmrrTkcRoiauMTpTWbx0hGZn-v4qAAIOH2sbOYRZS0ugFi2qk2qTAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "05fb958348f15ad74fa6105f20a6e87811be6999d953f0f97cb34360a103fe25"
   },
   {
@@ -655,8 +655,8 @@
     "message_id": 63,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrRR5GgkoKO5wsWNykgV-tTjBSAAKvHmsbOYRZS9RT8J5cQIwqAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADD2rrTk3PFf-vGWeM5HiBZ88AAUY7-AACDx9rGzmEWUumoydKMLs9aAEAAwIAA3kAAz0E",
+    "media_version": 3,
     "caption_sha256": "11b34aef15799121c5eb345344adc88828e36a1c9eaceaf9894f5862c128f8c7"
   },
   {
@@ -665,9 +665,9 @@
     "status": "sent",
     "message_id": 64,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEGrrRSJgl6lR_zIRFll42j3I7-DUAAKwHmsbOYRZSyhcC1-dsKi3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADQGrrT4MgtZ8FJkbC20KCh3Rf0btNAAKRpQACOYRZS285t61SUF8BPQQ",
+    "media_version": 3,
     "caption_sha256": "46f6d818fae120cbf7b8f5c59aecaaffbd60aff87b30b5360ef0cc72e9ed8992"
   },
   {
@@ -677,8 +677,8 @@
     "message_id": 65,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrRSeiMlObF368Af7TSwABvF9nKAACsR5rGzmEWUuSTHmKhHP2ywEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEWrrTlq4eBhfHE_tr2cechy-6RWBAAIQH2sbOYRZS377C4a7TJrZAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "15ea12244dded9ced7bca73ddcb4b6c1e4e4df87c8f784978597282334060f32"
   },
   {
@@ -688,8 +688,8 @@
     "message_id": 66,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrRSxm58MFaee_PlpJBqeAJJooAAKyHmsbOYRZSz0JI036PT70AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADEmrrTl-etxs5Gb4DN0nn9RZss-S4AAIRH2sbOYRZS1OFV3kO-XqgAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "279ae6592df26d5604aed1311590ab2f2461b747e338e7df3256a523385b2c55"
   },
   {
@@ -699,8 +699,8 @@
     "message_id": 67,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrRTG03AOz6oR2lFUGuu9Wri8DAAKzHmsbOYRZSy0Y7JGs0qb-AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADE2rrTmWmBQGHlyVOQUXdIUT4xdEFAAISH2sbOYRZSypv6QWEQ3j9AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "3c5460349988c39a6f2afff3ebf2fe13c02b01f34cda263dba2f12b44b60a978"
   },
   {
@@ -710,8 +710,8 @@
     "message_id": 68,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrRTbk7Rh2Gb-thRxu6UCSrWGRAAK0HmsbOYRZS6xaNKCb3-m1AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFGrrTmoP8gwyr5yT-eyXydBTQeslAAITH2sbOYRZS8-PciPsNNSMAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "17aea4a035f685a4f6d21196b067fe6b4e0b37008d8385b320d1f2f7b08f4176"
   },
   {
@@ -721,8 +721,8 @@
     "message_id": 69,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrRTo_kw9xUzdKRUQbBO6m9KCmAAK1HmsbOYRZS6WbtfFEsyFQAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFWrrTnCjiui_tnGJZPKI_bSjPWkIAAIUH2sbOYRZS3BKcs8q4k-BAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "b9a51bef70a6b01efc694dfa30024db68faba258b53a404c277ced7f23c0e3a1"
   },
   {
@@ -732,8 +732,8 @@
     "message_id": 70,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrRT_f7pUDPoDP_2ES_urHVtSEAAK2HmsbOYRZSwWWycA-Cl5AAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADFmrrTnaTUcbNFIW9ngsoVHgfq3pZAAIVH2sbOYRZS2E_pGWmvM7tAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "e99a416dbd61ab117b825c748a57c86c4925edc282eea044575eb1bbf333b660"
   },
   {
@@ -743,8 +743,8 @@
     "message_id": 71,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrRUNvnJ1JF9p8dWTX-44HTDaXAAK3HmsbOYRZS5Wtpn7z8aH9AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADF2rrTnv7BjlYAtPd6uNGTxVgVOyDAAIWH2sbOYRZS1EcDwvIUgWDAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "005b26160fd07fde33afda4f25fbbe13cd1b08e90f7cc2018e60d1209f63fd0b"
   },
   {
@@ -753,9 +753,9 @@
     "status": "sent",
     "message_id": 72,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGGrrRUmiO4HOc5dEJNQBv9RHf9HDAAK4HmsbOYRZS6rsVYb0zDBhAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADSGrrT7A11Xkw1In6IjzylPNHcwQ0AAKfpQACOYRZSyH56lJfUF0iPQQ",
+    "media_version": 3,
     "caption_sha256": "26ed67492e93e917e734e9a0108fedf46d4a1458fdf2b1017aedcf221a29be78"
   },
   {
@@ -765,8 +765,8 @@
     "message_id": 73,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrRU0jK5qU0uYfTpzErOGzvhgCAAK5HmsbOYRZS9bVJ1m9roh3AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGWrrTo7i9ceVm4slmbqYFUUVe68wAAIYH2sbOYRZS-amkDI2I3TAAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "b68f617d3e2bf3bdc9e02d8ea5f3642eed76fb2d07799f2659e58e923adbeddf"
   },
   {
@@ -775,9 +775,9 @@
     "status": "sent",
     "message_id": 74,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADGmrrRVFjtSzwbZtn7m7okS1kO-Z3AAK6HmsbOYRZS-rb7TfC9VxaAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADSmrrT72FCq8YWHofTAOTou6oEBwtAAKipQACOYRZS1g5dbS09cgwPQQ",
+    "media_version": 3,
     "caption_sha256": "7af1e2548f997e49870487212bd9acaa2066b0d944e4c4943dc34a44b971e0a8"
   },
   {
@@ -786,9 +786,9 @@
     "status": "sent",
     "message_id": 75,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADG2rrRVVopWy8BHXW4NLNH4zNQ0MQAAK7HmsbOYRZS9skkiGEiHNLAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADS2rrT8Ri2zaEtCbZnmCtgpTHbEHGAAKkpQACOYRZS1AiGQ3ciA3wPQQ",
+    "media_version": 3,
     "caption_sha256": "5ca3b6900d90778b78321ac37513fbeef4479560c1a1e04a395bba077d153fc1"
   },
   {
@@ -797,9 +797,9 @@
     "status": "sent",
     "message_id": 76,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHGrrRVk0j2SwEn5PG1GDnJ_zRni0AAK8HmsbOYRZS5VziptOsIZ4AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADTGrrT8t5H2D-4tnB0NtYxY83Mc1EAAKmpQACOYRZSx70MOI8y_KvPQQ",
+    "media_version": 3,
     "caption_sha256": "5958ea8d5b46a225fde2b742216cd51306a7b3bf585a050bfc528e6a6def0386"
   },
   {
@@ -809,8 +809,8 @@
     "message_id": 77,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrRV0i6bY8QupPAdreEgc3DVYKAAK9HmsbOYRZS5pUAAEoRjCq9QEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHWrrTqkqW0eexE4oS9bIk59Owf2yAAIaH2sbOYRZS6CGCp6deC2xAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "ebfffe8bca539df64c1f5d6d8d2c93f87c67b3ded5852552e7f5e26dfc393377"
   },
   {
@@ -819,9 +819,9 @@
     "status": "sent",
     "message_id": 78,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADHmrrRWE5rypzkING8dooD-7SPgwjAAK-HmsbOYRZSyM8XTyGn9-oAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADTmrrT9iSxsuNwYAaUi0UhTwp938xAAKppQACOYRZSypv107CjKTQPQQ",
+    "media_version": 3,
     "caption_sha256": "1ddc896db500b1a28515b4f5873ded21fdf6b2a3eff7bbdf05b8f9836b68981a"
   },
   {
@@ -830,9 +830,9 @@
     "status": "sent",
     "message_id": 79,
     "channel": "@rza_school",
-    "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADH2rrRWZbeDrVZ1cF0geC4HtFT7EqAAK_HmsbOYRZS4MsRiZqIPMAAQEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_type": "animation",
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADT2rrT98gCR_JL5Jh5Myzu6wEN0C4AAKqpQACOYRZSz3tvJE1VEdqPQQ",
+    "media_version": 3,
     "caption_sha256": "62b8211a271270d73664c93ffaac852b96416415fc31b1b1a926e3d205e4f8b2"
   },
   {
@@ -842,8 +842,8 @@
     "message_id": 80,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrRWpkXzJicpXubdMRrDz5_1znAALAHmsbOYRZS5GN1Ed6SsmIAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIGrrTsKLyvBzKrATirSVbhEjTJM9AAIbH2sbOYRZS58L6ntOeznjAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "0de71b5b30b37876101357c75feddf53c59d78da761db916b934e60ab56bffbf"
   },
   {
@@ -853,8 +853,8 @@
     "message_id": 81,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrRW4QzBlt4_lwSvi_f5nhKAJjAALBHmsbOYRZS68OQMcNLtKZAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADIWrrTsiDbVIlQW5bKjNvaCmiVCxNAAIcH2sbOYRZSyaT5Q_1mIadAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "b9a2cdc3ab55633766c14b86d4cfeac38a9931a343bbba5fb3f148ddb7e0cd44"
   },
   {
@@ -864,8 +864,8 @@
     "message_id": 82,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADUmrrRJiafzvCSPs4zuxBauhqXgABFQACoR5rGzmEWUvcVNsmeHNS1QEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADUmrrTas9SiXXPFcaHFM54XHrkim0AAIFH2sbOYRZS72D0dmcWSv4AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "7b6329469208caed921dfee4840184f845a659ff47d40be223cd9899db39a10d"
   },
   {
@@ -875,8 +875,8 @@
     "message_id": 83,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADU2rrRJ39_ilqLAgYatbrXAZDmTl0AALLpAACOYRZS2ZbMgF8YXxOPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADU2rrTbWnHJufAAHrKikOvvw48-68fAACYKUAAjmEWUuYrs71ttsFmD0E",
+    "media_version": 3,
     "caption_sha256": "fd82884d62f3627d0047c26e1f2e4c580c1dac67c7beca298e9f100e98cdaf32"
   },
   {
@@ -886,8 +886,8 @@
     "message_id": 84,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADVGrrRjjRuFo7wMhKicSCbQ6Hbwz5AALlpAACOYRZS0XIksZBgxF6PQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADVGrrT_I7ov08-dRNxmDS0QFno_JnAAKupQACOYRZSxc1KCq_s-81PQQ",
+    "media_version": 3,
     "caption_sha256": "3ce04401f9f48ea8a4c3134fdaeabb63175257861cc6982a560e16cc78af4653"
   },
   {
@@ -897,8 +897,8 @@
     "message_id": 85,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADVWrrRj5RPIDhO6b2AAFymLWBTu2O9QACxB5rGzmEWUvCep1m7Pe7qwEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADVWrrT_c2h4d5r_xlSsTxcom6MwonAAIiH2sbOYRZS--6njoImhp-AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "c5c6787125e938039fa56e8c5c1c3f60ed35fb1a952ba1ddc384b7279d1bd2d8"
   },
   {
@@ -908,8 +908,8 @@
     "message_id": 86,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADVmrrRkLuCSmFFx3sL1COBMLPYkc2AALFHmsbOYRZS2gRkcagSdfkAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADVmrrT_3ohc2thE8acg5L7G39jEO1AAIjH2sbOYRZS8SFGXt6zMwFAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "9886210a92614783b902ad4fe06c1c0c3c2cb2352d6d04aaa9ee76413726313c"
   },
   {
@@ -919,8 +919,8 @@
     "message_id": 87,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADV2rrRkZiG6znT4c-CL7bJvEVhdpIAALGHmsbOYRZS2oDcjmAbmWvAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADV2rrUAO0a_uLnn6zXBrK__J76szcAAIkH2sbOYRZS3fmmB14pgv_AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "e85aced4cad9cd6e7837b521795558d53b7fd4d3b8d9a76d2f642ffb2a1701e4"
   },
   {
@@ -930,8 +930,8 @@
     "message_id": 88,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADWGrrRkxnVTxGIN5P7AZNzjxyg8c6AALnpAACOYRZS7u_As-oeneWPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADWGrrUArR7kdKlTPDrmmPOydk8thYAAKwpQACOYRZS_4BYiIp0YrhPQQ",
+    "media_version": 3,
     "caption_sha256": "c6dd62b208adfd6c56a2d328d5cd84a52143f0c81260424975494b57d658ea43"
   },
   {
@@ -941,8 +941,8 @@
     "message_id": 89,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADWWrrRlLI3cPbR5qtwvyMv7f7lDL1AALopAACOYRZS72QG-niE7AOPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADWWrrUBJ8AAF7uhmWl2ReFgHCZKSkSwACsqUAAjmEWUvpIvHyWOdPcz0E",
+    "media_version": 3,
     "caption_sha256": "b8a166a9ea8335ca1f372a08f3ad7227febe9ce60c78480f0c5d6c7485361fc0"
   },
   {
@@ -952,8 +952,8 @@
     "message_id": 90,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADWmrrRlc9AAFdxFEH_0BScMaojmk3RQACxx5rGzmEWUtB4X_Z4JSypgEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADWmrrUBeyBLOnWnBBvRoZws9aQxxKAAImH2sbOYRZS_6RqMK95Nz3AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "8561d911f759d1de4c11ffd90545656f79c6d43aa02f4c6d415841ba5a0780cb"
   },
   {
@@ -963,8 +963,8 @@
     "message_id": 91,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADW2rrRluYvZ2kqHs8oTrpM_dA2QauAALIHmsbOYRZS2QcEFFvHr2uAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADW2rrUB0NhEtHQTW6bANkbRlTnOPHAAInH2sbOYRZS4GnmA81YEjmAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "3b3df8244388f8ee2ea985d4f767cb11ba9b74b1630ba54eb7e60c9161bf5109"
   },
   {
@@ -974,8 +974,8 @@
     "message_id": 92,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADXGrrRl_mSsbSv2nAS6AT4ZNqPVvBAALKHmsbOYRZS7EhULtH6paZAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADXGrrUCN2h015pckoAq0bqvK2cxhWAAIoH2sbOYRZSwKkcvvyTmmpAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "c75a82456d434e19dec3c0d0b6ed4aa60d1cfcdd424076d8e1beee79870337cf"
   },
   {
@@ -985,8 +985,8 @@
     "message_id": 93,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADXWrrRmX7oBK0QPTKhXezoJ1JlXx6AALqpAACOYRZS4rreiB6I8ouPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADXWrrUCq7K0ubNZWrloVLVoKI63WvAAK0pQACOYRZS5bYbSXcxD2YPQQ",
+    "media_version": 3,
     "caption_sha256": "3cea47862c5c4d15574dc37eeaa94cee919238db1108bdcf01321fbada02b11d"
   },
   {
@@ -996,8 +996,8 @@
     "message_id": 94,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADXmrrRms0h1lwTi1nMI08hoyQLOB8AALrpAACOYRZS25WEwFqLWnTPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADXmrrUDHj9Iwd0OmDfcQ7EwzVILCpAAK1pQACOYRZS8XMdi1v6IR9PQQ",
+    "media_version": 3,
     "caption_sha256": "7f7519a8479000fc3628513a6331a3b3fca6b61e41ae5c509a251dabc1874d04"
   },
   {
@@ -1007,8 +1007,8 @@
     "message_id": 95,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADX2rrRnAB3OhyIP4KZN2-4RoK2drTAALLHmsbOYRZSzOwKqxDr3uYAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADX2rrUDySlruxWWDm7_treIFVTU_iAAIpH2sbOYRZSx3xBCgR9rNhAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "77b34115c9077b2613f3cdc773b6e9ed51664d625ad91fce0b89c06b0baf7019"
   },
   {
@@ -1018,8 +1018,8 @@
     "message_id": 96,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADYGrrRnTOUEcLylyxw_0jp5nvAjccAALMHmsbOYRZSzeUedJtLrXiAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADYGrrUEKK1CNBfXQxOTnVZOagio3kAAIqH2sbOYRZSwubD6gMug9SAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "6142789e4140e79becd89ff69611a2d452e8ea8b88fd81c77a19a8fff83caec2"
   },
   {
@@ -1029,8 +1029,8 @@
     "message_id": 97,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADYWrrRnjC-SNatUgjtjpQoNXM_lBYAALNHmsbOYRZS191rOL8llvAAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADYWrrUEeuSFsUmfRB_LjNkqSzP-f9AAIrH2sbOYRZSyw_mSHboKzZAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "fa1f00d7e0914f509624bf80d3fdc5eb4539b9ac596cde9a30ec12b9cb836ce8"
   },
   {
@@ -1040,8 +1040,8 @@
     "message_id": 98,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADYmrrRn4Vzfm9GaYR69Bb9Fei1yahAALspAACOYRZS0uWNLPCiUcqPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADYmrrUE_r1gR4DmOY6BpqAsJdusnlAAK2pQACOYRZSwnJp0hDwNX2PQQ",
+    "media_version": 3,
     "caption_sha256": "3812924e9b495c18ea3fae420b509fe6fce30aa40458fdbf2246948abc42366f"
   },
   {
@@ -1051,8 +1051,8 @@
     "message_id": 99,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADY2rrRoTkfmhdWAjfKuqmKi0OcLiBAALtpAACOYRZS9iyfWFhj13ZPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADY2rrUFYfolzcLPey9kWrjM5JGy5MAAK4pQACOYRZS3l0kei2uVNZPQQ",
+    "media_version": 3,
     "caption_sha256": "25379f4d51582c15316685025d220501cb01966f604fb7be637383f60e1c59f8"
   },
   {
@@ -1062,8 +1062,8 @@
     "message_id": 100,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZGrrRojR9E32Tkxx02WacBwXu80QAALPHmsbOYRZS3De3AX58t1WAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZGrrUFxUEf4NKxGFK9iSf8gizLBKAAIsH2sbOYRZS3anMAbvLYhoAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "95e9751b8290126da4faf4465b43f9073b4ee469347354a7b2cfadfc96dffca0"
   },
   {
@@ -1073,8 +1073,8 @@
     "message_id": 101,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZWrrRowSy63Pc2Am5PeNp25uFCUhAALQHmsbOYRZS_HqUNaEpH5oAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZWrrUGKGstCr2a4tY0fGK4ICxxcqAAItH2sbOYRZSz_dE4d6oB92AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "fdcaa78e23a7d30697aaaa96d59d3c36678aaaf21dfa9d44b26bba0ad7ea4d14"
   },
   {
@@ -1084,8 +1084,8 @@
     "message_id": 102,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZmrrRpFtwTKLN11ftzG3Pv-4aC0vAALRHmsbOYRZS8HNsgvTOX_-AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADZmrrUGjjj6dhMC2dIG5pXxCayXQBAAIvH2sbOYRZS8CohXIcZ_f7AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "a5165c0fde7954bf63bd5ff3b70c357c90f35cbd06964fdce7057161b64a1df7"
   },
   {
@@ -1095,8 +1095,8 @@
     "message_id": 103,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADZ2rrRpZ_56HW4NXREuaa1bV6r86NAALvpAACOYRZS3BQIGPtK4yuPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADZ2rrUG_Zp9ThlLTXAiqq7RZXSnWMAAK7pQACOYRZS6lg_rK7jcYKPQQ",
+    "media_version": 3,
     "caption_sha256": "90356c7a1a3424a9cd29b3345e7e045ea1cf72940a9f965926f242773c39a649"
   },
   {
@@ -1106,8 +1106,8 @@
     "message_id": 104,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADaGrrRpwCjd3eKzSAVW8I_Vs-wqJsAALwpAACOYRZSz0SMK_zyI7LPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADaGrrUHb4bMreO2jl4BWEFN-XtFt2AAK8pQACOYRZS9MywikE5hmoPQQ",
+    "media_version": 3,
     "caption_sha256": "5ce767fe8c1aafcafba29d21942f8906568e4c532acd47f4b56011b24405c08a"
   },
   {
@@ -1117,8 +1117,8 @@
     "message_id": 105,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADaWrrRqGRlipslmzVi7HJMHb8QZ6TAALSHmsbOYRZSyzWNH6CO_3JAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADaWrrUIGE4jmGicP_cablhZST9t8EAAIxH2sbOYRZS7SRD0ZKrHC9AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "e1f010ce048e2dbfdf355b1f232d2fee671f28a456d4387e94adf8bf2b680e47"
   },
   {
@@ -1128,8 +1128,8 @@
     "message_id": 106,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADamrrRqVzlekYiUNp1TIaA5ZF2FJOAALTHmsbOYRZS7C_GCRheNmnAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADamrrUIdn0q2MTmzEw3XmaPugW0tFAAIyH2sbOYRZS-pxLAHwf8kiAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "06eb8dc64afaf5a2e1ead3f4503183f2ab7ca48eac7ba819617a0331eecce271"
   },
   {
@@ -1139,8 +1139,8 @@
     "message_id": 107,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADa2rrRqnoa1Io3gHdCwABFbIv96R_RwAC1B5rGzmEWUtos1CLIcs1VAEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADa2rrUIyaBv3nyHiAZ-NU3cwopIpyAAIzH2sbOYRZS_lLX5bsB74PAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "7cf0004a1a10d14a6f5370b8e3f2020027b59d8b9ee236c5d5463e661b4575d0"
   },
   {
@@ -1150,8 +1150,8 @@
     "message_id": 108,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADbGrrRq9SrHrOtJbXOOKu2iSm5V0HAALzpAACOYRZS9sqpbV5GudIPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADbGrrUJPek-qB6rxwidmGV1mgJFTiAAK-pQACOYRZS2dCF07ouLHTPQQ",
+    "media_version": 3,
     "caption_sha256": "435bafa601cbe962ddd50c3b6b3078b54fee07b397d45361a21ecadedb46fe0d"
   },
   {
@@ -1161,8 +1161,8 @@
     "message_id": 109,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADbWrrR2dnv0zvkn0qtVT_4rIxuafhAAL5pAACOYRZS4FjOGiwO5NePQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADbWrrUJyFB1Kako9L22caqqw7IuRuAALApQACOYRZS7-b0Lgj3-a1PQQ",
+    "media_version": 3,
     "caption_sha256": "f19b6f27ffd12656fabb3c9d83f364fff265a578d6ef29b48359b1bc2877373b"
   },
   {
@@ -1172,8 +1172,8 @@
     "message_id": 110,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADbmrrR2tSyygsDMjS7jY4ZVigX4GRAALWHmsbOYRZS0rRs-yNUkIMAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADbmrrUKEJMZrWDD_jZEY0DFBbfR5dAAI2H2sbOYRZSxA3obIyGW_HAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "8f7e54349addbc4d8a2577ad50caeab55cd2524c14b626454f01aecbc7fd855b"
   },
   {
@@ -1183,8 +1183,8 @@
     "message_id": 111,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADb2rrR2-8mK-_cRLHIWQ38W8hL1plAALXHmsbOYRZSyA9d-dNAAHH-QEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADb2rrUKfm8btFbg2Cbf9unSFiAAH5AAM3H2sbOYRZS8Bd3ejbPxzRAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "1b91f11dacfbea37d1796eef8ae85492a8fa08c4c16650642a33dbf08afdfa52"
   },
   {
@@ -1194,8 +1194,8 @@
     "message_id": 112,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADcGrrR3SUuO176QABYsCCXTvsT2YMowAC2B5rGzmEWUuOeeuM83uVMAEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADcGrrUKw1o-REFcfJOYyrDLvRGbDLAAI4H2sbOYRZS_wsmoBAgyWQAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "9a7f14ef55ab3c0c04049ead500a2937bc2c2d9e866dc58fa30fcfc03a70e5bb"
   },
   {
@@ -1205,8 +1205,8 @@
     "message_id": 113,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADcWrrR3mJLc7ed-dSmStLVYPa3m1MAAL7pAACOYRZS7iwyvfwz7d2PQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADcWrrULQ-4uml3JlwlWDY2j9DJwV3AALDpQACOYRZS_s2P6HWxy90PQQ",
+    "media_version": 3,
     "caption_sha256": "d1c18e6de8f6a27aaf2eae1d9952f503647dffa282134e540d569d2778c662cb"
   },
   {
@@ -1216,8 +1216,8 @@
     "message_id": 114,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADcmrrR3-iN2VGsL9-o4gAAf1drBMeugAC_aQAAjmEWUvJ_VM7PraFHD0E",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADcmrrULu3p_Spf1IMA6TpC3AdFFauAALFpQACOYRZSxMki7erL_BHPQQ",
+    "media_version": 3,
     "caption_sha256": "9af3613bf3dac37a83b41474124741af71d24071407784e6985919d1fc27dc14"
   },
   {
@@ -1227,8 +1227,8 @@
     "message_id": 115,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADc2rrR4SFOVtKyhxd59JoOOgxhoYCAALZHmsbOYRZS80XGNBuxkHGAQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADc2rrUMEMhLgBQ1ywDp6NJlPsl_WKAAI5H2sbOYRZSzl7_PSYe8lmAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "0bd0868ffaf627dd7fbbcb965dc0b042b945987d61751b3c544cfc228db5386b"
   },
   {
@@ -1238,8 +1238,8 @@
     "message_id": 116,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADdGrrR4h0mMZNRJ_1DDToiAABdM9W_wAC2h5rGzmEWUt2_1qxnQM7OAEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADdGrrUMuSrzKO1S_3qjq6_-9S8J5UAAI7H2sbOYRZSyQpeRGIAdRpAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "7d2a14a7b349a52a0faa6d80686dfbeddb85f38be47966cf44549a3817c4e6c3"
   },
   {
@@ -1249,8 +1249,8 @@
     "message_id": 117,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADdWrrR4y_uWXcuaqbsooAARDnwrN2SgAC2x5rGzmEWUsBNqOPpEYVIgEAAwIAA3kAAz0E",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADdWrrUNI7Yanv1xotMO2FMdsQEHU5AAI8H2sbOYRZS-i1G6q3nBC9AQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "645d522e7f39bf7cd140b0a93e58f0231b2109026b0c4ef6a213002110a6547b"
   },
   {
@@ -1260,8 +1260,8 @@
     "message_id": 118,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADdmrrR5L6cV5LghafgwHmgc3x2XC0AAL_pAACOYRZSylzWrKUb9u4PQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADdmrrUNkNJuGUGYi1vnnW3xlJCGzrAALIpQACOYRZS5rbBDtU-BEJPQQ",
+    "media_version": 3,
     "caption_sha256": "37e2813000669abbad42221cf4202ba0c9c4910420dd6f2265515be9b796e2be"
   },
   {
@@ -1271,8 +1271,8 @@
     "message_id": 119,
     "channel": "@rza_school",
     "media_type": "animation",
-    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADd2rrR5h8z8HxtrApmhHAav-UirQNAAIBpQACOYRZS5CGyA2l1zwuPQQ",
-    "media_version": 2,
+    "media_file_id": "CgACAgIAAyEGAAMBCMEC_gADd2rrUOB_D64kmZhOhWR0-A_aGfytAALJpQACOYRZS2svcGB-SO8YPQQ",
+    "media_version": 3,
     "caption_sha256": "b9c1a6002a5f944629c00fa8be3915726eb3961791ba480dc8d261056cd443f3"
   },
   {
@@ -1282,8 +1282,8 @@
     "message_id": 120,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADeGrrR5z7lGRQpPAD3CSZTfAUCvOxAALcHmsbOYRZS6XflCSi2Aj9AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADeGrrUOZVpVuFhG_s4BytKwmHMChYAAI-H2sbOYRZS4BuyIwDdtkEAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "89540f1af33f6501b22ac5178346e2e655a715eb3ffb10427e61cb3c87999309"
   },
   {
@@ -1293,14 +1293,19 @@
     "message_id": 121,
     "channel": "@rza_school",
     "media_type": "photo",
-    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADeWrrR6C7xqMebAVltcBSqCBJcqIxAALdHmsbOYRZS3sDA7wagrY7AQADAgADeQADPQQ",
-    "media_version": 2,
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADeWrrUOyAFqZ7ka0jydjugH0mrzg9AAI_H2sbOYRZS2uhGzffLYtiAQADAgADeQADPQQ",
+    "media_version": 3,
     "caption_sha256": "07cb9d98308dcb9ccb695192ca986c55c4aa4f8e4c58dba10c3a41eaf46ac994"
   },
   {
     "file": "119-auto.txt",
     "sha256": "040cdbb3470648a9e08e4a891ad9c9fc90b0ec5e053218e206bc1bc219ec586c",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "channel": "@rza_school",
+    "message_id": 122,
+    "media_type": "photo",
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADemrrUJpghr6LutbJE0aWtywPpOQqAAI1H2sbOYRZS4QwWdC8Il4MAQADAgADeQADPQQ",
+    "media_version": 3,
+    "caption_sha256": "638518249bd5b895ed2512e8282708a1a6881024c32c0265f8eb5d69329f6734"
   }
 ]
