@@ -79,7 +79,8 @@
   {
     "file": "012-auto.txt",
     "sha256": "6b2c5e8894c8d7f7b13067c087eae267a1e3afebe7b6676e36638f0e39e23cca",
-    "status": "pending",
+    "status": "sent",
+    "message_id": 15,
     "channel": "@rza_school"
   }
 ]
