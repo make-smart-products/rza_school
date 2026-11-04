@@ -33,6 +33,7 @@ jobs:
         run: |
           go test ./...
           go build -o publisher .
+          bash .github/scripts/test-publish-batch.sh
       - name: Check required secret
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -42,15 +43,9 @@ jobs:
             exit 1
           fi
       - name: Prepare free course continuation
-        run: ./publisher -prepare -buffer 6
-      - name: Reserve next lesson and persist before sending
-        env:
-          TELEGRAM_CHANNEL: '@rza_school'
-          PREPARE_ONLY: ${{ inputs.prepare_only || false }}
+        run: ./publisher -prepare -buffer 10
+      - name: Save prepared lessons
         run: |
-          if [ "$PREPARE_ONLY" != "true" ]; then
-            ./publisher -reserve
-          fi
           git config user.name 'rza-publisher[bot]'
           git config user.email 'rza-publisher@users.noreply.github.com'
           git add posts/lessons
@@ -58,15 +53,17 @@ jobs:
             git add .publisher-state.json
           fi
           if ! git diff --cached --quiet; then
-            git commit -m 'Prepare course continuation and reserve next RZA lesson'
+            git commit -m 'Save prepared RZA lessons'
             git push origin HEAD:${{ github.event.repository.default_branch }}
           fi
-      - name: Publish reserved lesson
+      - name: Publish five lessons
         if: ${{ inputs.prepare_only != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: '@rza_school'
-        run: ./publisher -deliver
+          POSTS_PER_RUN: '5'
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: bash .github/scripts/publish-batch.sh
       - name: Save delivery result
         if: ${{ always() }}
         run: |
