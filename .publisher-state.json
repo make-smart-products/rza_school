@@ -1703,5 +1703,11 @@
     "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADnmrsz-x5GDk9PGB5p1CrrfDc8YiPAAJuHmsb7D1gS4mNUZ3SQt8eAQADAgADeQADPQQ",
     "media_version": 3,
     "caption_sha256": "dafddb2c43d6dde47f392ed93728dea03b177b9e562129024ce06d28730bfa83"
+  },
+  {
+    "file": "156-advanced.txt",
+    "sha256": "ce580687e28c38f094f36df2e2d11e0e9506c3feb12a59df7f1712d97939cf52",
+    "status": "pending",
+    "channel": "@rza_school"
   }
 ]
