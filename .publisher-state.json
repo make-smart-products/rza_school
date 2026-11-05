@@ -1575,7 +1575,12 @@
   {
     "file": "144-advanced.txt",
     "sha256": "b957bb35fbb5e177bf1d03dae14f72d7f7021a7767802608930c1e57f0d86ea1",
-    "status": "pending",
-    "channel": "@rza_school"
+    "status": "sent",
+    "message_id": 147,
+    "channel": "@rza_school",
+    "media_type": "photo",
+    "media_file_id": "AgACAgIAAyEGAAMBCMEC_gADk2rsY1e3g7nHk_52otmrmNx2bwJuAAI6G2sb7D1gS6BMkPoErLZKAQADAgADeQADPQQ",
+    "media_version": 3,
+    "caption_sha256": "8febac8160d85535728e49f91913c364ba19e21780e550a7750fceac9611487b"
   }
 ]
