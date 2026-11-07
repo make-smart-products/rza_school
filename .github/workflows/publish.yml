@@ -51,6 +51,7 @@ jobs:
           bash .github/scripts/test-publish-batch.sh
           python3 .github/scripts/test_resolve_batch.py
           python3 media/test_render.py
+          python3 .github/scripts/test_review_editorial.py
           python3 media/render.py --file posts/lessons/001-purpose.txt --output-dir media/generated > /dev/null
           python3 media/render.py --file posts/lessons/080-auto.txt --output-dir media/generated > /dev/null
       - name: Check required secret
@@ -63,6 +64,8 @@ jobs:
           fi
       - name: Prepare reviewed advanced series
         run: ./publisher -prepare
+      - name: Review queue and Telegram cards
+        run: python3 .github/scripts/review_editorial.py
       - name: Save prepared lessons
         run: |
           git config user.name 'rza-publisher[bot]'

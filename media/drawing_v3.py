@@ -299,6 +299,8 @@ def steps(draw,data,p):
 
 
 def draw_frame(data, progress=1):
+    if data.get('illustration') == 'helmet-technician':
+        return operation_card(data)
     image,draw=base(data); f=family(data)
     if f=='timing': timing(draw,data,progress)
     elif f=='events': events(draw,data,progress)
@@ -313,6 +315,25 @@ def draw_frame(data, progress=1):
     elif f=='wave': waveform(draw,data)
     elif f=='characteristic': characteristic(draw,data)
     else: steps(draw,data,progress)
+    return image
+
+
+def operation_card(data):
+    image, draw = base(data)
+    asset = Path(__file__).resolve().parents[1] / 'assets/relay-technician-helmet.jpg'
+    # Fit the illustration without cropping the hard hat or equipment.
+    with Image.open(asset) as original:
+        width = 820
+        height = round(original.height * width / original.width)
+        illustration = original.convert('RGB').resize((width, height), Image.Resampling.LANCZOS)
+    image.paste(illustration, ((W-width)//2, 248))
+    top = 248 + height + 20
+    for i, label in enumerate(data['nodes']):
+        y = top + i*76
+        draw.ellipse((52, y+3, 101, y+52), fill=TEAL)
+        text(draw, str(i+1), (52,y+7,49,43), 29, '#ffffff', True, 'center', minimum=29)
+        text(draw, label, (123,y,905,69), 33, INK, True, minimum=29)
+    text(draw, 'ЭКСПЛУАТАЦИЯ РЗА • 6–10 кВ', (52,1052,976,28), 23, MUTED, minimum=23)
     return image
 
 

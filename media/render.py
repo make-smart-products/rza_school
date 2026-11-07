@@ -10,6 +10,7 @@ from pathlib import Path
 from drawing_v3 import draw_frame, encode_animation, is_animated, W, H
 
 VERSION = 3
+CONTENT_DIR = Path(__file__).resolve().parents[1] / 'content'
 BG, PANEL, INK, MUTED, ACCENT, AMBER = '#081b2b', '#123047', '#f1f7fb', '#b5cbd8', '#31d7d0', '#ffca70'
 PLANS = [
     ('Измерительная цепочка', ['Силовая цепь', 'ТТ / ТН', 'Терминал', 'Команда'], 'Результат зависит от всей цепи измерения.'),
@@ -51,14 +52,23 @@ def decimal(value):
     return format(value, 'f').rstrip('0').rstrip('.').replace('.', ',') if '.' in format(value, 'f') else str(value)
 
 
+def editorial_sources():
+    references = (CONTENT_DIR / 'ADVANCED_SOURCES.md').read_text(encoding='utf-8')
+    return dict(re.findall(r'^- ([A-Z]+\d+) — \[[^\n]+?\]\((https://[^\s)]+)\)', references, re.M))
+
+
 def describe(name, source):
     number = int(re.match(r'\d+', Path(name).stem).group())
     data = {'number': number, 'source': source}
     if name.endswith('-advanced.txt'):
-        catalog=json.loads((Path(__file__).resolve().parents[1]/'content/advanced.json').read_text(encoding='utf-8'))
+        catalog=json.loads((CONTENT_DIR/'advanced.json').read_text(encoding='utf-8'))
         lesson=next((p for p in catalog if p['file']==name),None)
         if lesson is None or source!=lesson['body']: raise ValueError('Editorial source differs from reviewed catalog')
         data.update(kind='editorial',title=lesson['title'],nodes=lesson['nodes'],note=lesson['note'],source_ids=lesson['source_ids'])
+        if lesson.get('editorial_profile') == 'equipment':
+            sources = editorial_sources()
+            data['source_links'] = {key: sources[key] for key in lesson['source_ids']}
+            data['illustration'] = lesson.get('illustration')
         return data
     if source.startswith('Учебная задача: первичный и вторичный ток'):
         match = re.search(r'коэффициент K = I₁/I₂ = (\d+).*?I₂ = (\d+),(\d+) А', source, re.S)
@@ -112,10 +122,15 @@ def caption(data):
     formatted=['<b>'+html.escape(parts[0])+'</b>']
     for part in parts[1:]:
         escaped=html.escape(part)
-        escaped=re.sub(r'^(Дано|Найти|Решение|Вывод|Вопрос|Ответ|Разбор):',r'<b>\1:</b>',escaped)
+        escaped=re.sub(r'^(Дано|Найти|Решение|Вывод|Вопрос|Ответ|Разбор|Проверка на объекте):',r'<b>\1:</b>',escaped)
+        escaped=re.sub(r'^(Проектирование|Эксплуатация|Наладка)\.',r'<b>\1.</b>',escaped)
+        if part.startswith('Источники: ') and data.get('source_links'):
+            links = [f'<a href="{html.escape(url, quote=True)}">{html.escape(key)}</a>'
+                     for key, url in data['source_links'].items()]
+            escaped = 'Источники: ' + ', '.join(links)
         formatted.append(escaped)
     formatted_text='\n\n'.join(formatted)
-    if kind=='editorial':
+    if kind=='editorial' and not data.get('source_links'):
         formatted_text=formatted_text.replace('Источники:', '<a href="https://github.com/make-smart-products/rza_school/blob/main/content/ADVANCED_SOURCES.md">Источники:</a>')
     return text,formatted_text
 
@@ -131,7 +146,12 @@ def render(path,output):
     animation=is_animated(data)
     asset=output/(path.stem+('.mp4' if animation else '.png'))
     pipeline=Path(__file__).read_bytes()+(Path(__file__).parent/'drawing_v3.py').read_bytes()
-    if data['kind']=='editorial': pipeline+=(Path(__file__).resolve().parents[1]/'content/advanced.json').read_bytes()
+    if data['kind']=='editorial':
+        pipeline += (CONTENT_DIR/'advanced.json').read_bytes()
+        if data.get('source_links'):
+            pipeline += (CONTENT_DIR/'ADVANCED_SOURCES.md').read_bytes()
+        if data.get('illustration') == 'helmet-technician':
+            pipeline += (CONTENT_DIR.parent/'assets/relay-technician-helmet.jpg').read_bytes()
     pipeline_hash=hashlib.sha256(pipeline).hexdigest()
     metadata_path=output/(path.stem+'.json')
     source_hash=hashlib.sha256(source.encode()).hexdigest()

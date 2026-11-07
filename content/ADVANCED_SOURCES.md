@@ -14,3 +14,14 @@
 - A1 — [ABB: способы обеспечения селективности](https://new.abb.com/low-voltage/el/our-solutions/selectivity/basic-concepts/selectivity-techniques). Ток, время, энергия, зонное согласование и проверка характеристик.
 
 Серия не задаёт обязательные нормативные коэффициенты чувствительности, фиксированные интервалы или универсальную политику АПВ. Для ОЗЗ отдельно рассматриваются изолированная, компенсированная и резистивно заземлённая нейтрали. Для 0,4 кВ расчётные примеры используют TN-S; перенос в TT/IT требует отдельного обоснования.
+
+## Проектирование и эксплуатация РЗА
+
+- E1 — [SEL: материалы по расчёту ТТ для защит](https://selinc.com/engineering-services/protection/).
+- E2 — [ABB: техническое описание функций RET615](https://library.e.abb.com/public/cf48f8a6954640d89543eca0035de6f5/Guideform_specification_RET615_758383_ENb.pdf).
+- E3 — [SEL: руководство по функциям SEL-9L](https://selinc.com/api/download/140956/).
+- E4 — [Siemens: руководство SIPROTEC 7SJ66](https://cache.industry.siemens.com/dl/files/396/109743396/att_1156607/v1/7SJ66_Manual_AD_us.pdf).
+- E5 — [Siemens: руководство по защите шин SIPROTEC 7SS85](https://cache.industry.siemens.com/dl/files/351/109742351/att_1150444/v1/SIP5_7SS85_V09.60_Manual_C019-K_en.pdf).
+- E6 — [SEL: сквозные испытания с воспроизведением событий](https://selinc.com/events/on-demand-webinar/133622/).
+- E7 — [SEL: тепловая модель защиты двигателя](https://selinc.com/events/on-demand-webinar/138400/).
+- E8 — [SEL: документация и записи пусков двигателя](https://selinc.com/products/710-5/docs/).

@@ -12,7 +12,7 @@ class RenderTests(unittest.TestCase):
         from drawing_v3 import family
         root=Path(__file__).resolve().parents[1]
         lessons=json.loads((root/'content/advanced.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(lessons),40)
+        self.assertTrue(lessons)
         for lesson in lessons:
             data=describe(lesson['file'],lesson['body'])
             self.assertEqual(data['title'],lesson['title'])
@@ -20,7 +20,12 @@ class RenderTests(unittest.TestCase):
             self.assertEqual(family(data),'steps')
             plain,formatted=caption(data)
             self.assertIn(lesson['body'],plain)
-            self.assertIn('ADVANCED_SOURCES.md',formatted)
+            if lesson.get('editorial_profile')=='equipment':
+                self.assertIn('<b>Проверка на объекте:</b>',formatted)
+                for url in data['source_links'].values():
+                    self.assertIn(url,formatted)
+            else:
+                self.assertIn('ADVANCED_SOURCES.md',formatted)
             self.assertLessEqual(len(plain.encode('utf-16-le'))//2,1024)
             draw_frame(data)
         with self.assertRaises(ValueError):

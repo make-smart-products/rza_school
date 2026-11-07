@@ -33,10 +33,10 @@ func TestEditorialReplacementPreservesPublishedHistory(t *testing.T) {
 		t.Fatal("published history changed")
 	}
 	files, _ := filepath.Glob(filepath.Join(dir, "*.txt"))
-	if len(files) != 41 {
-		t.Fatalf("want history + 40 unique lessons, got %d", len(files))
-	}
 	lessons, _ := loadEditorial()
+	if len(files) != 1+len(lessons) {
+		t.Fatalf("want history + %d unique lessons, got %d files", len(lessons), len(files))
+	}
 	for _, p := range lessons {
 		_, h, err := queueText(dir, p.File)
 		if err != nil {
@@ -51,7 +51,7 @@ func TestEditorialReplacementPreservesPublishedHistory(t *testing.T) {
 		t.Fatal(err)
 	}
 	files, _ = filepath.Glob(filepath.Join(dir, "*.txt"))
-	if len(files) != 41 {
+	if len(files) != 1+len(lessons) {
 		t.Fatal("exhausted syllabus was recycled")
 	}
 }

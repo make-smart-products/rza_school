@@ -17,4 +17,6 @@ def decide_count(state, target):
 if __name__ == '__main__':
     path = Path('.publisher-state.json')
     state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else []
-    print(decide_count(state, int(os.environ.get('TARGET_TOTAL', '0'))))
+    published = {post['file'] for post in state}
+    available = sum(p.name not in published for p in Path('posts/lessons').glob('*.txt'))
+    print(min(available, decide_count(state, int(os.environ.get('TARGET_TOTAL', '0')))))
