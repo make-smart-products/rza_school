@@ -630,7 +630,8 @@
       "E1"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/160-electrician.jpg"
   },
   {
     "id": "equipment-161",
@@ -647,7 +648,8 @@
       "E2"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/161-electrician.jpg"
   },
   {
     "id": "equipment-162",
@@ -665,7 +667,8 @@
       "E6"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/162-electrician.jpg"
   },
   {
     "id": "equipment-163",
@@ -682,7 +685,8 @@
       "E3"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/163-electrician.jpg"
   },
   {
     "id": "equipment-164",
@@ -699,7 +703,8 @@
       "E4"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/164-electrician.jpg"
   },
   {
     "id": "equipment-165",
@@ -716,7 +721,8 @@
       "E5"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/165-electrician.jpg"
   },
   {
     "id": "equipment-166",
@@ -733,7 +739,8 @@
       "E5"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/166-electrician.jpg"
   },
   {
     "id": "equipment-167",
@@ -750,7 +757,8 @@
       "E7"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/167-electrician.jpg"
   },
   {
     "id": "equipment-168",
@@ -768,7 +776,8 @@
       "E8"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/168-electrician.jpg"
   },
   {
     "id": "equipment-169",
@@ -786,7 +795,8 @@
       "E6"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/169-electrician.jpg"
   },
   {
     "id": "equipment-170",
@@ -804,7 +814,8 @@
       "E6"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/170-electrician.jpg"
   },
   {
     "id": "equipment-171",
@@ -822,6 +833,7 @@
       "E8"
     ],
     "editorial_profile": "equipment",
-    "illustration": "helmet-technician"
+    "illustration": "cartoon-electrician",
+    "illustration_asset": "assets/illustrations/171-electrician.jpg"
   }
 ]

@@ -1,5 +1,6 @@
 """Review the actual queue before its first Telegram delivery in each run."""
 import json
+import hashlib
 import os
 from pathlib import Path
 import re
@@ -9,6 +10,7 @@ import unicodedata
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'media'))
 from render import caption, describe, editorial_sources, frame
+from drawing_v3 import illustration_path
 
 
 def words(text):
@@ -27,6 +29,17 @@ def review(queue, state, catalog):
     lessons = {entry['file']: entry for entry in catalog}
     history = []
     ready = []
+    artwork = {}
+    for lesson in catalog:
+        if lesson.get('editorial_profile') != 'equipment':
+            continue
+        if lesson.get('illustration') != 'cartoon-electrician':
+            raise ValueError(f"{lesson['file']}: нужна мультяшная иллюстрация энергетика")
+        asset = illustration_path(lesson)
+        digest = hashlib.sha256(asset.read_bytes()).hexdigest()
+        if digest in artwork:
+            raise ValueError(f"{lesson['file']}: изображение повторяет {artwork[digest]}")
+        artwork[digest] = lesson['file']
     for path in sorted(queue.glob('*.txt')):
         body = path.read_text(encoding='utf-8-sig').strip()
         lesson = lessons.get(path.name)
@@ -45,8 +58,8 @@ def review(queue, state, catalog):
             raise ValueError(f'{name}: неизвестные источники {sorted(unknown_sources)}')
         if lesson.get('editorial_profile') != 'equipment':
             raise ValueError(f'{name}: для новой публикации нужен профиль equipment')
-        if lesson.get('illustration') != 'helmet-technician':
-            raise ValueError(f'{name}: нужна иллюстрация с релейщиком в каске')
+        if lesson.get('illustration') != 'cartoon-electrician':
+            raise ValueError(f'{name}: нужна мультяшная иллюстрация энергетика')
         if not re.search(r'\n\n(?:Проектирование|Эксплуатация|Наладка)\. .+', body):
             raise ValueError(f'{name}: отсутствует инженерный разбор')
         if not re.search(r'\n\nПроверка на объекте: .{35,}', body):

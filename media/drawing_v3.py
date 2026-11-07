@@ -299,7 +299,7 @@ def steps(draw,data,p):
 
 
 def draw_frame(data, progress=1):
-    if data.get('illustration') == 'helmet-technician':
+    if data.get('illustration') in ['helmet-technician','cartoon-electrician']:
         return operation_card(data)
     image,draw=base(data); f=family(data)
     if f=='timing': timing(draw,data,progress)
@@ -318,9 +318,20 @@ def draw_frame(data, progress=1):
     return image
 
 
+def illustration_path(data):
+    root = Path(__file__).resolve().parents[1]
+    if data.get('illustration') == 'helmet-technician':
+        return root / 'assets/relay-technician-helmet.jpg'
+    relative = Path(data['illustration_asset'])
+    asset = (root / relative).resolve()
+    if not asset.is_relative_to(root/'assets/illustrations') or asset.suffix.lower() != '.jpg':
+        raise ValueError('Illustration must be a project JPG in assets/illustrations')
+    return asset
+
+
 def operation_card(data):
     image, draw = base(data)
-    asset = Path(__file__).resolve().parents[1] / 'assets/relay-technician-helmet.jpg'
+    asset = illustration_path(data)
     # Fit the illustration without cropping the hard hat or equipment.
     with Image.open(asset) as original:
         width = 820

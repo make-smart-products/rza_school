@@ -7,9 +7,9 @@ import re
 from decimal import Decimal
 from pathlib import Path
 
-from drawing_v3 import draw_frame, encode_animation, is_animated, W, H
+from drawing_v3 import draw_frame, encode_animation, is_animated, illustration_path, W, H
 
-VERSION = 3
+VERSION = 4
 CONTENT_DIR = Path(__file__).resolve().parents[1] / 'content'
 BG, PANEL, INK, MUTED, ACCENT, AMBER = '#081b2b', '#123047', '#f1f7fb', '#b5cbd8', '#31d7d0', '#ffca70'
 PLANS = [
@@ -69,6 +69,7 @@ def describe(name, source):
             sources = editorial_sources()
             data['source_links'] = {key: sources[key] for key in lesson['source_ids']}
             data['illustration'] = lesson.get('illustration')
+            data['illustration_asset'] = lesson.get('illustration_asset')
         return data
     if source.startswith('Учебная задача: первичный и вторичный ток'):
         match = re.search(r'коэффициент K = I₁/I₂ = (\d+).*?I₂ = (\d+),(\d+) А', source, re.S)
@@ -150,8 +151,8 @@ def render(path,output):
         pipeline += (CONTENT_DIR/'advanced.json').read_bytes()
         if data.get('source_links'):
             pipeline += (CONTENT_DIR/'ADVANCED_SOURCES.md').read_bytes()
-        if data.get('illustration') == 'helmet-technician':
-            pipeline += (CONTENT_DIR.parent/'assets/relay-technician-helmet.jpg').read_bytes()
+        if data.get('illustration') in ['helmet-technician','cartoon-electrician']:
+            pipeline += illustration_path(data).read_bytes()
     pipeline_hash=hashlib.sha256(pipeline).hexdigest()
     metadata_path=output/(path.stem+'.json')
     source_hash=hashlib.sha256(source.encode()).hexdigest()

@@ -27,6 +27,11 @@ class EditorialReviewTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'повтор'):
             review(self.queue,[{'file':archive}],[self.lesson])
 
+    def test_one_picture_cannot_be_reused_for_another_post(self):
+        other={**self.lesson,'file':'999-advanced.txt','title':'Another topic'}
+        with self.assertRaisesRegex(ValueError,'изображение повторяет'):
+            review(self.queue,[],[self.lesson,other])
+
     def test_unknown_source_missing_check_or_picture_block_delivery(self):
         cases = []
         unknown = copy.deepcopy(self.lesson)

@@ -138,7 +138,8 @@ def equipment(title, body, check, nodes, note, sources):
     items.append(dict(id=f'equipment-{number}', file=f'{number:03}-advanced.txt',
                       title=title, body=f'РЗА 6–10 кВ. {title}\n\n{body}\n\nПроверка на объекте: {check}',
                       nodes=nodes.split('|'), note=note, source_ids=sources.split(','),
-                      editorial_profile='equipment', illustration='helmet-technician'))
+                      editorial_profile='equipment', illustration='cartoon-electrician',
+                      illustration_asset=f'assets/illustrations/{number:03}-electrician.jpg'))
 
 
 equipment('Нагрузка вторичной цепи ТТ',
