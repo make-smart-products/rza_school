@@ -70,5 +70,17 @@
     "asset": "assets/illustrations/171-electrician.jpg",
     "prompt": "Use case: scientific-educational. Create a new high-quality clean 2D cartoon editorial illustration for an educational Telegram channel on operation of relay protection on 6–10 kV equipment. Landscape 3:2. Friendly competent adult energy technician with expressive cartoon face, white hard hat, navy and teal protective workwear, clear safety glasses. Crisp rounded linework, rich but restrained navy/teal/orange palette, softly shaded modern illustrated environment, polished educational animation-film feel, clearly cartoon rather than photographic. All real primary power compartments closed, test equipment is a deenergized training model. No text, no letters, no logos, no watermark. Keep the entire hard hat visible. Each illustration has a different pose, composition and equipment scenario. Scene: A cartoon power protection technician wearing a white hard hat compares two motor-start waveform charts on a wide monitor, a small industrial pump motor model on the desk, thoughtful pose with clipboard, unique wide side view.",
     "sha256": "47516e42261b3a402c119d4a91e33da7262307f6f1f5b866d6dbda6fe449dd4a"
+  },
+  {
+    "id": "172",
+    "asset": "assets/illustrations/172-electrician.jpg",
+    "prompt": "A polished 2D cartoon educational illustration, landscape 3:2, for operation of protective relays on 6–10 kV equipment. Friendly adult energy technician with white hard hat, clear safety glasses and navy-teal workwear. Crisp rounded outlines and warm orange highlights. No letters, labels, logos or watermark. Primary power equipment remains closed. Depict a deenergized training bench. Scene about station DC insulation monitoring: technician stands on the right examining a small battery-backed DC distribution training cabinet with an amber insulation-monitor warning indicator and two insulated colored rails. He holds a clipboard with a simple ground symbol diagram, thoughtful pose, indoor relay room.",
+    "sha256": "c667a2bc2f29e86da20b456f63c1d6bb2c15d8a303a325808fe72d80abedb53d"
+  },
+  {
+    "id": "173",
+    "asset": "assets/illustrations/173-electrician.jpg",
+    "prompt": "A polished 2D cartoon educational illustration, landscape 3:2, for operation of protective relays on 6–10 kV equipment. Friendly adult energy technician with white hard hat, clear safety glasses and navy-teal workwear. Crisp rounded outlines and warm orange highlights. No letters, labels, logos or watermark. Primary power equipment remains closed. Depict a deenergized training bench. Scene about relay output DC breaking capacity: technician seated on the left comparing a small transparent relay contact model with a protected inductive trip coil under clear cover on a workbench. A tablet shows two different current decay curves. Distinct oblique overhead composition, no sparks or dangerous action.",
+    "sha256": "49ff5f9307a64f9d917a232312f39422353989fe2bd190ada41c2775d074b81f"
   }
 ]

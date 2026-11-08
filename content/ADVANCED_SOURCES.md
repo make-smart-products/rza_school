@@ -25,3 +25,6 @@
 - E6 — [SEL: сквозные испытания с воспроизведением событий](https://selinc.com/events/on-demand-webinar/133622/).
 - E7 — [SEL: тепловая модель защиты двигателя](https://selinc.com/events/on-demand-webinar/138400/).
 - E8 — [SEL: документация и записи пусков двигателя](https://selinc.com/products/710-5/docs/).
+
+- E9 — [SEL: Measuring and Improving DC Control Circuits](https://cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/6081_MeasuringImproving_Web.pdf). Изоляция оперативных цепей и коммутация постоянного тока.
+- E10 — [SEL: подавление дуги и защита выходных контактов](https://selinc.com/products/9502/). Условия применения устройств для индуктивных цепей DC.
