@@ -1,6 +1,5 @@
 {
-  "last_batch_started_at": 1794141416.4617877,
-  "last_batch_size": 2,
-  "exhausted": true,
-  "exhausted_at": "2026-11-08T12:37:07.507809+00:00"
+  "last_batch_started_at": 1794343260.988831,
+  "last_batch_size": 6,
+  "exhausted": false
 }
