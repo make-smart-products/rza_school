@@ -1,5 +1,6 @@
 {
   "last_batch_started_at": 1794343260.988831,
   "last_batch_size": 6,
-  "exhausted": false
+  "exhausted": true,
+  "exhausted_at": "2026-11-10T20:41:36.510447+00:00"
 }
