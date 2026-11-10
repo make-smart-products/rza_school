@@ -28,3 +28,13 @@
 
 - E9 — [SEL: Measuring and Improving DC Control Circuits](https://cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/6081_MeasuringImproving_Web.pdf). Изоляция оперативных цепей и коммутация постоянного тока.
 - E10 — [SEL: подавление дуги и защита выходных контактов](https://selinc.com/products/9502/). Условия применения устройств для индуктивных цепей DC.
+
+## Двухстороннее питание ВЛ 110 кВ
+
+- H1 — [SEL: основы защиты линий](https://selinc.com/events/on-demand-webinar/130590).
+- H2 — [SEL: местное и дальнее резервирование, подпитка и нагрузка](https://cms-cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/7236_CaseStudyAppConsiderations_YS_20251013_Web.pdf).
+- H3 — [SEL: особенности выбора дистанционных уставок](https://cms-cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/7005_SettingsConsiderations_BK_20210920_Web2.pdf).
+- H4 — [SEL: разрешающие и блокирующие схемы, слабая подпитка](https://selinc.com/api/download/132549/).
+- H5 — [SEL: дифференциальная защита линии и дистанционный резерв](https://selinc.com/products/311l/).
+
+Численные данные серии — учебные модели. Полный выбор уставок требует расчётной схемы, данных линии и измерительных трансформаторов, выбранных терминалов, режимов источников и правил согласования объекта.

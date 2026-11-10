@@ -344,7 +344,7 @@ def operation_card(data):
         draw.ellipse((52, y+3, 101, y+52), fill=TEAL)
         text(draw, str(i+1), (52,y+7,49,43), 29, '#ffffff', True, 'center', minimum=29)
         text(draw, label, (123,y,905,69), 33, INK, True, minimum=29)
-    text(draw, 'ЭКСПЛУАТАЦИЯ РЗА • 6–10 кВ', (52,1052,976,28), 23, MUTED, minimum=23)
+    text(draw, 'ЭКСПЛУАТАЦИЯ РЗА • ' + data.get('voltage_class','6–10 кВ'), (52,1052,976,28), 23, MUTED, minimum=23)
     return image
 
 

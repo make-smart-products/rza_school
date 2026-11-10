@@ -82,5 +82,41 @@
     "asset": "assets/illustrations/173-electrician.jpg",
     "prompt": "A polished 2D cartoon educational illustration, landscape 3:2, for operation of protective relays on 6–10 kV equipment. Friendly adult energy technician with white hard hat, clear safety glasses and navy-teal workwear. Crisp rounded outlines and warm orange highlights. No letters, labels, logos or watermark. Primary power equipment remains closed. Depict a deenergized training bench. Scene about relay output DC breaking capacity: technician seated on the left comparing a small transparent relay contact model with a protected inductive trip coil under clear cover on a workbench. A tablet shows two different current decay curves. Distinct oblique overhead composition, no sparks or dangerous action.",
     "sha256": "49ff5f9307a64f9d917a232312f39422353989fe2bd190ada41c2775d074b81f"
+  },
+  {
+    "id": "174",
+    "asset": "assets/illustrations/174-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses stands between two miniature closed substation models connected by a long overhead transmission-line training model. He points to a fault-location marker on the middle of the line. Clean classroom bench, frontal wide composition.",
+    "sha256": "c525146b5daa6130750e3e9a04deaaf5d25922cff97b46800e608defbd94e369"
+  },
+  {
+    "id": "175",
+    "asset": "assets/illustrations/175-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses studies a training model with two source cabinets and a third adjacent line section, using a tablet showing converging colored arrows. Distinct seated side view in a relay laboratory.",
+    "sha256": "69f7465015e2f4ab23e906baf4da7b7870e3832aff73b5335b77b10835ba8d93"
+  },
+  {
+    "id": "176",
+    "asset": "assets/illustrations/176-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses compares a miniature current transformer and voltage transformer at a commissioning bench, holding a calculator. Closed transmission relay panel behind, close diagonal composition.",
+    "sha256": "6f3dfd626085c2adaf4e72c750083463a3801d7073ad2d98f558420a02f4b8de"
+  },
+  {
+    "id": "177",
+    "asset": "assets/illustrations/177-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses studies three colored phase-current traces on a laptop next to a safe zero-sequence training model. Over-shoulder composition with clear helmet, relay lab.",
+    "sha256": "b7dfbf86ac50389a5bf64ec91cf44190a9624076c0a908ab5d3fd202c0278b03"
+  },
+  {
+    "id": "178",
+    "asset": "assets/illustrations/178-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses observes two protection relays on opposite sides of a test desk connected by optical cable. A dimmed cabinet and a bright cabinet convey weak and strong sources. Technician on right holding a test checklist.",
+    "sha256": "f9e22e5fcbb1ee80a30c568190c49f0c48bc9769c207c199221455766f5e3d59"
+  },
+  {
+    "id": "179",
+    "asset": "assets/illustrations/179-electrician.jpg",
+    "prompt": "Create one polished educational 2D cartoon editorial illustration, landscape 3:2. Crisp rounded linework, coherent navy/teal/orange palette, friendly competent adult energy worker. High-voltage primary equipment is closed or shown as a deenergized scale training model. No text, letters, numbers, brand logos or watermark. Preserve full helmet and natural anatomy. All six images must have distinct compositions and equipment scenarios. A cartoon energy technician with white hard hat, teal-navy workwear and safety glasses compares two clearly different trajectory plots on a wide monitor, with closed 110 kV substation visible through a window. Thoughtful standing pose, distinctive rear three-quarter angle.",
+    "sha256": "dc89006e3d066d64db734e3d362a7e3c09b92c4f26634c78759028c7e2c3a281"
   }
 ]

@@ -70,6 +70,7 @@ def describe(name, source):
             data['source_links'] = {key: sources[key] for key in lesson['source_ids']}
             data['illustration'] = lesson.get('illustration')
             data['illustration_asset'] = lesson.get('illustration_asset')
+            data['voltage_class'] = lesson.get('voltage_class','6–10 кВ')
         return data
     if source.startswith('Учебная задача: первичный и вторичный ток'):
         match = re.search(r'коэффициент K = I₁/I₂ = (\d+).*?I₂ = (\d+),(\d+) А', source, re.S)
